@@ -30,10 +30,14 @@
 
 <p>Members of The League follow the standards put forward by the <a href="http://www.php-fig.org/">PHP-FIG</a>, follow the best practices detailed by <a href="http://www.phptherightway.com/">PHP The Right Way</a> and distribute all code through <a href="http://getcomposer.org/">Composer</a>.</p>
 
+<p>This site is not done, obviously looks gross and has some work to do to explain its goals, so don't judge us yet. Somebody put a link on Reddit and people started flipping out, which isn't helpful.</p>
+
 <h2>
 <a name="packages" class="anchor" href="#packages"><span class="octicon octicon-link"></span></a>Packages</h2>
 
 <ul>
+<li>
+<a href="https://github.com/php-loep/color-extractor">color-extractor</a> - Extract hex codes from images.</li>
 <li>
 <a href="https://github.com/php-loep/Geotools">geotools</a> - Geotools is a PHP geo-related library, built atop Geocoder and React libraries.</li>
 <li>
@@ -50,51 +54,7 @@
 <a href="https://github.com/php-loep/statsd">statsd</a> - A library for working with StatsD in PHP.</li>
 <li>
 <a href="https://github.com/php-loep/twitter">twitter (WIP)</a> - A high quality Twitter API library, ported from <a href="https://code.google.com/p/python-twitter/">python-twitter</a>.</li>
-</ul><h2>
-<a name="rules" class="anchor" href="#rules"><span class="octicon octicon-link"></span></a>Rules</h2>
-
-<p>We accept any packages into the group as long as they solve a valid problem, and follow the following rules:</p>
-
-<ol>
-<li>Use PSR-2, with <code>League\</code> as the PSR-0 namespace.</li>
-<li>List on Packagist, with the <code>league\</code> vendor namespace.</li>
-<li>Shove code in a <code>src/</code> folder.</li>
-<li>Write unit tests. Aim for at least 80% coverage for v1.0.</li>
-<li>DocBlock all the things.</li>
-<li>
-<a href="http://semver.org/">SemVer</a> must be used to manage version numbers.</li>
-<li>An extensiive README.
-
-<ul>
-<li>Installation. <a href="https://github.com/sebastianbergmann/phpunit/#composer">Example</a>
-</li>
-<li>Usage. <a href="https://github.com/Seldaek/monolog">Example</a>
-</li>
-<li>Requirements</li>
-<li>Contribution instructions (link to a CONTRIBUTING.md)</li>
-<li>Framework Integration (Service Providers for Silex and/or Laravel 4 at minimum)</li>
-<li>Author</li>
-<li>License (<a href="http://opensource.org/licenses/MIT">MIT</a> or <a href="http://www.dbad-license.org/">DBAD</a>)</li>
-<li>Acknowledgements</li>
-</ul>
-</li>
-<li>Include Travis-CI widget in README.</li>
-<li>Include Packagist widgets. <a href="https://github.com/Seldaek/monolog">Example</a>.</li>
-<li>List Phil Sturgeon and Alex Bilbie as a maintainer on Packagist, to avoid "hit by a bus" scenarios.</li>
-</ol><h2>
-<a name="support" class="anchor" href="#support"><span class="octicon octicon-link"></span></a>Support</h2>
-
-<p>The League hangs out in <a>#php-loep</a> on <a href="http://webchat.freenode.net/?channels=php-loep">Freenode IRC</a>, so hopefully there will be a member or a user who can help.</p>
-
-<p>If nobody is on IRC to help you, or you don't know how IRC works, throw up an issue on GitHub. <em>Please do not email any of the League directly!</em>. There are multiple developers per project, so emailing directly is not only a bad idea for you, but its rude because we've asked you not to. Issues get answered as soon as possible. <strong>League members are allowed holidays</strong>.</p>
-
-<p>Finally, League members are not responsible for helping you integrate our packages with your favorite framework. You have three options for integration:</p>
-
-<ol>
-<li>Use your framework documentation or forums to find a simple integration method.</li>
-<li>Send a pull request to the package to add a Service Provider (Silex and Laravel 4 has these).</li>
-<li>Make (or find) a glue package, for example: "cakephp-monga" would be a simple package which lists "monga" as a dependency and wraps the API, or config, or whatever it needs to be CakePHP specific.</li>
-</ol>
+</ul><p>More are coming, but we aren't ready yet.</p>
       </section>
     </div>
 
