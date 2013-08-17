@@ -1,2 +1,1 @@
-php-loep.github.com
-===================
+[thephpleague.com](http://thephpleague.com)
