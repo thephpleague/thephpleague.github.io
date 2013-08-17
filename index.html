@@ -24,11 +24,17 @@
 			<aside class="row">
 
 				<p class="col-lg-6 col-md-offset-3 lead">
-					<strong>The League of Extraordinary Packages</strong> has one driving mission: to develop useful and usable PHP packages of the highest quality possible that solve real problems. We're using modern tools, standards and practices to distribute, test and strengthen the code.
+					<strong>The League of Extraordinary Packages</strong> has one driving mission: to develop useful and usable PHP packages of the highest quality possible that solve real problems, that are either not being solved in PHP already, or are not following our determined rules for quality. We're using modern tools, standards and practices to distribute, test and strengthen the code.
 				</p>
 
 				<p class="col-lg-6 col-md-offset-3 lead">
-					Members of The League follow the standards put forward by the <a href="http://www.php-fig.org/">PHP-FIG</a>, follow the best practices detailed by <a href="http://www.phptherightway.com/">PHP The Right Way</a> and distribute all code through <a href="http://getcomposer.org">Composer</a>.
+					Members of The League follow the standards put forward by the <a href="http://www.php-fig.org/">PHP-FIG</a>, follow the best practices detailed by <a href="http://www.phptherightway.com/">PHP The "Right" Way</a> and distribute all code through <a href="http://getcomposer.org">Composer</a>.
+				</p>
+
+				<p class="col-lg-6 col-md-offset-3 lead">
+					While some packages have been adopted (and we are still ok with adopting more), the real 
+					goal is not to become a "review board" whose task it is to give out shiny medals for 
+					well developed packages. The League have taken on some packages who had a great inital idea, but were not following our rules for "high quality", and as such have turned them from a cowboy-coded static messes, into unit tested, standards compiant code. We will continue to help packages do this, and are open to adopting more.
 				</p>
 	
 
@@ -47,6 +53,20 @@
 					</h2>
 
 					<ul class="media-list">
+
+						<li class="media">
+							<a class="pull-left" href="https://github.com/MatTheCat">
+								<img class="media-object" src="https://0.gravatar.com/avatar/05651f9274b9713888a4bd6864221c36?s=64&d=https%3A%2F%2Fidenticons.github.com%2F4960cd162ff387f58b728e43181a4b12.png" alt="Photo of Mathieu (@MatTheCat)">
+							</a>
+							<div class="media-body">
+								<h4 class="media-heading">
+									<a href="https://github.com/php-loep/color-extractor">Color Extractor</a>
+								</h4>
+
+								<p>Extract colors from an image like a human would do.</p>
+								<p>Package development lead by Mathieu (<a href="https://github.com/MatTheCat">@MatTheCat</a>)</p>
+							</div>
+						</li>
 
 						<li class="media">
 							<a class="pull-left" href="https://github.com/toin0u">
@@ -147,20 +167,6 @@
 							</div>
 						</li>
 
-						<li class="media">
-							<a class="pull-left" href="https://github.com/MatTheCat">
-								<img class="media-object" src="https://0.gravatar.com/avatar/05651f9274b9713888a4bd6864221c36?s=64&d=https%3A%2F%2Fidenticons.github.com%2F4960cd162ff387f58b728e43181a4b12.png" alt="Photo of Mathieu (@MatTheCat)">
-							</a>
-							<div class="media-body">
-								<h4 class="media-heading">
-									<a href="https://github.com/php-loep/color-extractor">Color Extractor</a>
-								</h4>
-
-								<p>Extract colors from an image like a human would do.</p>
-								<p>Package development lead by Mathieu (<a href="https://github.com/MatTheCat">@MatTheCat</a>)</p>
-							</div>
-						</li>
-
 					</ul>
 
 					<h3>Our Work-In-Progress Packages</h3>
@@ -202,13 +208,12 @@
 					<p>We accept any packages into the group as long as they solve a valid problem, and follow the following rules:</p>
 
 					<ol>
-						<li>Use PSR-2, with <code>League\</code> as the PSR-0 namespace.</li>
-						<li>List on Packagist, with the <code>league\</code> vendor namespace.</li>
+						<li>Follow <a href="http://www.php-fig.org/psr/2/" target="_blank">PSR-2</a>, we use <code>League\</code> as our <a href="http://www.php-fig.org/psr/0/" target="_blank">PSR-0</a> namespace.</li>
+						<li>List on Packagist, we list with <code>league\</code> as the endor namespace.</li>
 						<li>Shove code in a <code>src/</code> folder.</li>
 						<li>Write unit tests. Aim for at least 80% coverage for v1.0.</li>
 						<li>DocBlock all the things.</li>
-						<li>
-							<a href="http://semver.org/">SemVer</a> must be used to manage version numbers.</li>
+						<li><a href="http://semver.org/">SemVer</a> must be used to manage version numbers.</li>
 						<li>An extensiive README.
 							<ul>
 								<li>Installation. <a href="https://github.com/sebastianbergmann/phpunit/#composer">Example</a></li>
@@ -230,9 +235,9 @@
 
 					<p class="lead">
 						Brought to you with love by
-						<a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.thephpleague.com%2F&region=follow_link&screen_name=alexbilbie&tw_p=followbutton&variant=2.0">@alexbilbie</a>
+						<a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.thephpleague.com%2F&amp;region=follow_link&amp;screen_name=alexbilbie&amp;tw_p=followbutton&amp;variant=2.0">@alexbilbie</a>
 						and
-						<a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.thephpleague.com%2F&region=follow_link&screen_name=philsturgeon&tw_p=followbutton&variant=2.0">@philsturgeon</a>
+						<a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.thephpleague.com%2F&amp;region=follow_link&amp;screen_name=philsturgeon&amp;tw_p=followbutton&amp;variant=2.0">@philsturgeon</a>
 					</p>
 
 				</div>
