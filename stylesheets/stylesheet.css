@@ -30,6 +30,7 @@ header {
 		margin-top: 40px;
 		color: white;
 		text-align: justify;
+		display: block;
 	}
 
 section {
@@ -52,4 +53,14 @@ code {
 
 hr {
 	border-top: 1px solid #222;
+}
+
+@media (max-width: 480px) {
+	header h2 {
+		width: 350px;
+	}
+
+	section {
+		margin-top: 100px;
+	}
 }
