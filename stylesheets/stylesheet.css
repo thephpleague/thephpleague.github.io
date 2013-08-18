@@ -6,32 +6,28 @@ body {
 	background: #000000 url(../images/bg.jpg) no-repeat top center scroll;
 }
 
-header {
-	height: 800px;
+header h1 {
+	height: 274px;
+	width: 264px;
+	background: url(../images/logo.png) no-repeat;
+	text-indent: -9999px;
+	margin: 145px auto 0px;
+	display: block;
 }
 
-	header h1 {
-		height: 274px;
-		width: 264px;
-		background: url(../images/logo.png) no-repeat;
-		text-indent: -9999px;
-		margin: 145px auto 0px;
-	}
+header h2 {
+	width: 400px;
+	color: #FFF;
+	text-align: center;
+	margin: 40px auto 0px;
+	font-size: 50px;
+}
 
-	header h2 {
-		width: 400px;
-		color: #FFF;
-		text-align: center;
-		margin: 40px auto 0px;
-		font-size: 50px;
-	}
-
-	header aside {
+aside {
 		margin-top: 40px;
 		color: white;
 		text-align: justify;
-		display: block;
-	}
+}
 
 section {
 	color: #ccc;
@@ -51,16 +47,12 @@ code {
 	color: #444;
 }
 
-hr {
-	border-top: 1px solid #222;
+ol li + li {
+	margin-top: 6px;
 }
 
 @media (max-width: 480px) {
 	header h2 {
 		width: 350px;
-	}
-
-	section {
-		margin-top: 150px;
 	}
 }
