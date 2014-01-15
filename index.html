@@ -1,9 +1,12 @@
+---
+title: The League of Extraordinary Packages
+---
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>The League of Extraordinary Packages</title>
+    <title>{{ page.title }}</title>
     <meta name="description" content="The League of Extraordinary Packages has one driving mission, to track down and develop PHP packages of the highest quality possible, using modern tools, standards and practices to distribute, test and strengthen the code.">
     <meta property="og:title" content="The League of Extraordinary Packages" />
     <meta property="og:type" content="website" />
@@ -43,86 +46,13 @@
                     <h3><span>Project</span> Lead</h3>
                 </div>
             </li>
+{% for package in site.data.packages %}
             <li>
-                <div class="name"><a href="https://github.com/php-loep/color-extractor">Color Extractor</a></div>
-                <div class="description">Extract colors from an image</div>
-                <div class="project_lead"><a href="https://github.com/MatTheCat">Mathieu Lechat</a></div>
+                <div class="name"><a href="https://github.com/php-loep/{{ package.repo }}">{{ package.name }}</a>{% unless package.complete %}*{% endunless %}</div>
+                <div class="description">{{ package.description }}</div>
+                <div class="project_lead"><a href="https://github.com/{{ package.author.username }}">{{ package.author.name }}</a></div>
             </li>
-            <li>
-                <div class="name"><a href="https://github.com/php-loep/di">DI</a></div>
-                <div class="description">Ultra-fast dependency injection container</div>
-                <div class="project_lead"><a href="https://github.com/dongilbert">Don Gilbert</a></div>
-            </li>
-            <li>
-                <div class="name"><a href="https://github.com/php-loep/Geotools">Geotools</a></div>
-                <div class="description">Perform geo-related tasks</div>
-                <div class="project_lead"><a href="https://github.com/toin0u">Antoine Corcy</a></div>
-            </li>
-            <li>
-                <div class="name"><a href="https://github.com/php-loep/fractal">Fractal</a></div>
-                <div class="description">Presentation layer and embed manager for RESTful API responses</div>
-                <div class="project_lead"><a href="https://github.com/philsturgeon">Phil Sturgeon</a></div>
-            </li>
-            <li>
-                <div class="name"><a href="https://github.com/php-loep/flysystem">Flysystem</a></div>
-                <div class="description">Abstraction for local and remote filesystems.</div>
-                <div class="project_lead"><a href="https://github.com/FrenkyNet">Frank de Jonge</a></div>
-            </li>
-            <li>
-                <div class="name"><a href="https://github.com/php-loep/monga">Monga</a></div>
-                <div class="description">Simple and swift MongoDB abstraction</div>
-                <div class="project_lead"><a href="https://github.com/FrenkyNet">Frank de Jonge</a></div>
-            </li>
-            <li>
-                <div class="name"><a href="https://github.com/php-loep/oauth1">OAuth 1 Client</a></div>
-                <div class="description">Integrate with OAuth 1.0 providers</div>
-                <div class="project_lead"><a href="https://github.com/bencorlett">Ben Corlett</a></div>
-            </li>
-            <li>
-                <div class="name"><a href="https://github.com/php-loep/oauth2">OAuth 2 Server</a></div>
-                <div class="description">Build a OAuth 2.0 server</div>
-                <div class="project_lead"><a href="https://github.com/alexbilbie">Alex Bilbie</a></div>
-            </li>
-            <li>
-                <div class="name"><a href="https://github.com/php-loep/oauth2-client">OAuth 2 Client</a>*</div>
-                <div class="description">Integrate with OAuth 2.0 providers</div>
-                <div class="project_lead"><a href="https://github.com/alexbilbie">Alex Bilbie</a></div>
-            </li>
-            <li>
-                <div class="name"><a href="https://github.com/php-loep/Plates">Plates</a></div>
-                <div class="description">Native PHP template system</div>
-                <div class="project_lead"><a href="https://github.com/reinink">Jonathan Reinink</a></div>
-            </li>
-            <li>
-                <div class="name"><a href="https://github.com/php-loep/phpunit-coverage-listener">PHPUnit Coverage Listener</a></div>
-                <div class="description">Report code coverage statistics to third-party services</div>
-                <div class="project_lead"><a href="https://github.com/toopay">Taufan Aditya</a></div>
-            </li>
-            <li>
-                <div class="name"><a href="https://github.com/php-loep/shunt">Shunt</a></div>
-                <div class="description">Execute SSH commands on remote machines</div>
-                <div class="project_lead"><a href="https://github.com/toopay">Taufan Aditya</a></div>
-            </li>
-            <li>
-                <div class="name"><a href="https://github.com/php-loep/StackAttack">StackAttack</a>*</div>
-                <div class="description">StackPHP Middleware based on Rack::Attack</div>
-                <div class="project_lead"><a href="https://github.com/dongilbert">Don Gilbert</a></div>
-            </li>
-            <li>
-                <div class="name"><a href="https://github.com/php-loep/StackRobots">StackRobots</a></div>
-                <div class="description">A robots.txt StackPHP Middleware</div>
-                <div class="project_lead"><a href="https://github.com/dongilbert">Don Gilbert</a></div>
-            </li>
-            <li>
-                <div class="name"><a href="https://github.com/php-loep/statsd">Statsd</a></div>
-                <div class="description">Library for working with StatsD in PHP</div>
-                <div class="project_lead"><a href="https://github.com/marcqualie">Marc Qualie</a></div>
-            </li>
-            <li>
-                <div class="name"><a href="https://github.com/php-loep/twitter">Twitter Client</a>*</div>
-                <div class="description">A high quality Twitter API library</div>
-                <div class="project_lead"><a href="https://github.com/mfrost503">Matt Frost</a></div>
-            </li>
+{% endfor %}
         </ul>
         <div class="work_in_progress">* a work-in-progress package</div>
     </div>

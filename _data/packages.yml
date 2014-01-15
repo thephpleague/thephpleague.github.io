@@ -1,0 +1,127 @@
+- name: Color Extractor
+  repo: color-extractor
+  complete: true
+  description: Extract colors from an image
+  author:
+    name: Mathieu Lechat
+    username: MatTheCat
+
+- name: DI
+  repo: di
+  complete: true
+  description: Ultra-fast dependency injection container
+  author:
+    name: Don Gilbert
+    username: dongilbert
+
+- name: Geotools
+  repo: Geotools
+  complete: true
+  description: Perform geo-related tasks
+  author:
+    name: Antoine Corcy
+    username: toin0u
+
+- name: Fractal
+  repo: fractal
+  complete: true
+  description: Presentation layer and embed manager for RESTful API responses
+  author:
+    name: Phil Sturgeon
+    username: philsturgeon
+
+- name: Flysystem
+  repo: flysystem
+  complete: true
+  description: Abstraction for local and remote filesystems
+  author:
+    name: Frank de Jonge
+    username: FrenkyNet
+
+- name: Monga
+  repo: monga
+  complete: true
+  description: Simple and swift MongoDB abstraction
+  author:
+    name: Frank de Jonge
+    username: FrenkyNet
+
+- name: OAuth 1 Client
+  repo: oauth1
+  complete: true
+  description: Integrate with OAuth 1.0 providers
+  author:
+    name: Ben Corlett
+    username: bencorlett
+
+- name: OAuth 2 Server
+  repo: oauth2
+  complete: true
+  description: Build a OAuth 2.0 server
+  author:
+    name: Alex Bilbie
+    username: alexbilbie
+
+- name: OAuth 2 Client
+  repo: oauth2-client
+  complete: false
+  description: Integrate with OAuth 2.0 providers
+  author:
+    name: Alex Bilbie
+    username: alexbilbie
+
+- name: Plates
+  repo: Plates
+  complete: true
+  description: Native PHP template system
+  author:
+    name: Jonathan Reinink
+    username: reinink
+
+- name: PHPUnit Coverage Listener
+  repo: phpunit-coverage-listener
+  complete: true
+  description: Report code coverage statistics to third-party services
+  author:
+    name: Taufan Aditya
+    username: toopay
+
+- name: Shunt
+  repo: shunt
+  complete: true
+  description: Execute SSH commands on remote machines
+  author:
+    name: Taufan Aditya
+    username: toopay
+
+- name: StackAttack
+  repo: StackAttack
+  complete: false
+  description: StackPHP Middleware based on Rack::Attack
+  author:
+    name: Don Gilbert
+    username: dongilbert
+
+- name: StackRobots
+  repo: StackRobots
+  complete: true
+  description: A robots.txt StackPHP Middleware
+  author:
+    name: Don Gilbert
+    username: dongilbert
+
+- name: Statsd
+  repo: statsd
+  complete: true
+  description: Library for working with StatsD in PHP
+  author:
+    name: Marc Qualie
+    username: marcqualie
+
+- name: Twitter Client
+  repo: twitter
+  complete: false
+  description: A high quality Twitter API library
+  author:
+    name: Matt Frost
+    username: mfrost503
