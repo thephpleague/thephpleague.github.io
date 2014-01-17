@@ -1,5 +1,6 @@
 - name: Color Extractor
   repo: color-extractor
+  website: https://github.com/php-loep/color-extractor
   complete: true
   description: Extract colors from an image
   author:
@@ -8,6 +9,7 @@
 
 - name: DI
   repo: di
+  website: https://github.com/php-loep/di
   complete: true
   description: Ultra-fast dependency injection container
   author:
@@ -16,6 +18,7 @@
 
 - name: Geotools
   repo: Geotools
+  website: https://github.com/php-loep/Geotools
   complete: true
   description: Perform geo-related tasks
   author:
@@ -24,6 +27,7 @@
 
 - name: Fractal
   repo: fractal
+  website: https://github.com/php-loep/fractal
   complete: true
   description: Presentation layer and embed manager for RESTful API responses
   author:
@@ -32,6 +36,7 @@
 
 - name: Flysystem
   repo: flysystem
+  website: https://github.com/php-loep/flysystem
   complete: true
   description: Abstraction for local and remote filesystems
   author:
@@ -40,6 +45,7 @@
 
 - name: Monga
   repo: monga
+  website: https://github.com/php-loep/monga
   complete: true
   description: Simple and swift MongoDB abstraction
   author:
@@ -48,6 +54,7 @@
 
 - name: OAuth 1 Client
   repo: oauth1
+  website: https://github.com/php-loep/oauth1
   complete: true
   description: Integrate with OAuth 1.0 providers
   author:
@@ -56,6 +63,7 @@
 
 - name: OAuth 2 Server
   repo: oauth2
+  website: https://github.com/php-loep/oauth2
   complete: true
   description: Build a OAuth 2.0 server
   author:
@@ -64,6 +72,7 @@
 
 - name: OAuth 2 Client
   repo: oauth2-client
+  website: https://github.com/php-loep/oauth2-client
   complete: false
   description: Integrate with OAuth 2.0 providers
   author:
@@ -72,6 +81,7 @@
 
 - name: Plates
   repo: Plates
+  website: http://platesphp.com
   complete: true
   description: Native PHP template system
   author:
@@ -80,6 +90,7 @@
 
 - name: PHPUnit Coverage Listener
   repo: phpunit-coverage-listener
+  website: https://github.com/php-loep/phpunit-coverage-listener
   complete: true
   description: Report code coverage statistics to third-party services
   author:
@@ -88,6 +99,7 @@
 
 - name: Shunt
   repo: shunt
+  website: https://github.com/php-loep/shunt
   complete: true
   description: Execute SSH commands on remote machines
   author:
@@ -96,6 +108,7 @@
 
 - name: StackAttack
   repo: StackAttack
+  website: https://github.com/php-loep/StackAttack
   complete: false
   description: StackPHP Middleware based on Rack::Attack
   author:
@@ -104,6 +117,7 @@
 
 - name: StackRobots
   repo: StackRobots
+  website: https://github.com/php-loep/StackRobots
   complete: true
   description: A robots.txt StackPHP Middleware
   author:
@@ -112,6 +126,7 @@
 
 - name: Statsd
   repo: statsd
+  website: https://github.com/php-loep/statsd
   complete: true
   description: Library for working with StatsD in PHP
   author:
@@ -120,6 +135,7 @@
 
 - name: Twitter Client
   repo: twitter
+  website: https://github.com/php-loep/twitter
   complete: false
   description: A high quality Twitter API library
   author:
