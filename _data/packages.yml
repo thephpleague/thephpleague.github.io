@@ -29,7 +29,7 @@
   repo: fractal
   website: https://github.com/php-loep/fractal
   complete: true
-  description: Presentation layer and embed manager for RESTful API responses
+  description: Presentation layer for RESTful API responses
   author:
     name: Phil Sturgeon
     username: philsturgeon
