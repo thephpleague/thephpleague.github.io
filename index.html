@@ -48,7 +48,7 @@ title: The League of Extraordinary Packages
             </li>
 {% for package in site.data.packages %}
             <li>
-                <div class="name"><a href="https://github.com/php-loep/{{ package.repo }}">{{ package.name }}</a>{% unless package.complete %}*{% endunless %}</div>
+                <div class="name"><a href="{{ package.website }}">{{ package.name }}</a>{% unless package.complete %}*{% endunless %}</div>
                 <div class="description">{{ package.description }}</div>
                 <div class="project_lead"><a href="https://github.com/{{ package.author.username }}">{{ package.author.name }}</a></div>
             </li>
