@@ -479,6 +479,13 @@ table {
 
 html {
   background-color: #19242f; }
+  @media screen and (max-width: 549px) {
+    html {
+      overflow-x: hidden; } }
+
+@media screen and (max-width: 549px) {
+  body {
+    overflow-x: hidden; } }
 
 ::-moz-selection {
   background: #69bbdc;
@@ -529,7 +536,8 @@ html {
     .all_packages {
       padding: 0 15px;
       text-align: center;
-      font-size: 0; }
+      font-size: 0;
+      line-height: 0; }
       .all_packages img {
         margin: 25px 0;
         display: inline-block; }
@@ -554,7 +562,7 @@ html {
           width: 47%;
           margin: 0 3% 0 0;
           padding: 8px 15px 8px 0; } }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 850px) {
     .all_packages {
       padding: 35px 0 35px 300px; }
       .all_packages img {
@@ -579,7 +587,7 @@ header {
       font-family: "Museo 100";
       color: #ff4143;
       font-size: 44px;
-      line-height: 100%; }
+      line-height: 90%; }
     header .logo .tagline {
       font-family: "Museo Sans 500";
       color: #69bbdc;
@@ -587,6 +595,7 @@ header {
       line-height: 100%;
       text-transform: uppercase; }
   header .league {
+    position: relative;
     display: block;
     width: 210px;
     height: 46px;
@@ -596,9 +605,30 @@ header {
     font-size: 12px;
     line-height: 120%;
     text-decoration: none;
-    background: #d6dadb url(../img/star_icon.png) no-repeat 10px 13px;
+    background: #d6dadb;
     border-radius: 5px; }
+    header .league:hover:before {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+      -webkit-transition-duration: 1s;
+      -moz-transition-duration: 1s;
+      transition-duration: 1s;
+      -webkit-transition-property: -webkit-transform;
+      -moz-transition-property: -moz-transform;
+      transition-property: transform; }
     header .league:before {
+      content: "";
+      position: absolute;
+      left: 10px;
+      top: 13px;
+      display: block;
+      width: 21px;
+      height: 20px;
+      background: url(../img/star_icon.png) no-repeat; }
+    header .league:after {
       content: "";
       position: absolute;
       top: -8px;
@@ -611,78 +641,115 @@ header {
       border-bottom: 8px solid #d6dadb; }
     header .league:hover {
       background-color: white; }
-      header .league:hover:before {
+      header .league:hover:after {
         border-bottom-color: white; }
   @media screen and (max-width: 549px) {
     header {
       padding: 85px 10px 25px 10px; }
       header .logo {
         text-align: center;
-        font-size: 0; }
+        font-size: 0;
+        line-height: 0; }
         header .logo .icon {
-          display: block; }
-        header .logo .name {
-          display: inline-block;
-          margin: 5px 0 0 0; }
-        header .logo .tagline {
           display: block;
-          margin: 5px 0 0 0; }
+          margin: 0 0 10px 0; }
+        header .logo .name {
+          display: block;
+          margin: 0 0 10px 0; }
+        header .logo .tagline {
+          display: block; }
       header .league {
         position: absolute;
         left: 50%;
         top: 15px;
         margin: 0 0 0 -105px; } }
-  @media (min-width: 550px) and (max-width: 849px) {
+  @media screen and (min-width: 550px) {
     header {
-      height: 75px; }
+      max-width: 1000px;
+      padding: 20px 250px 10px 30px; }
       header .logo {
-        position: absolute;
-        left: 30px;
-        top: 20px; }
-        header .logo img {
-          float: left;
-          display: block;
-          margin: 0 5px 0 0; }
+        font-size: 0;
+        line-height: 0; }
+        header .logo .icon {
+          position: relative;
+          top: 5px;
+          display: inline-block;
+          margin: 0 7px 0 0; }
         header .logo .name {
-          float: left; }
+          margin: 0 7px 0 0; }
         header .logo .tagline {
-          float: left;
-          margin: 24px 0 0 10px; }
+          display: inline-block;
+          margin: 7px 0; }
       header .league {
         position: absolute;
-        left: 750px;
-        top: 15px; } }
-  @media screen and (min-width: 800px) {
+        right: 15px;
+        top: 15px;
+        margin: 0 0 0 -105px; } }
+  @media screen and (min-width: 850px) {
     header {
-      height: 75px; }
-      header .logo {
-        position: absolute;
-        left: 45px;
-        top: 20px; }
-        header .logo img {
-          float: left;
-          display: block;
-          margin: 0 5px 0 0; }
-        header .logo .name {
-          float: left; }
-        header .logo .tagline {
-          float: left;
-          margin: 24px 0 0 10px; }
-      header .league {
-        position: absolute;
-        left: 750px;
-        top: 15px; } }
+      padding-left: 45px; } }
+
+#menu {
+  display: none;
+  position: absolute;
+  top: -9999px;
+  left: -9999px; }
+  @media screen and (max-width: 549px) {
+    #menu {
+      display: block; }
+      #menu:checked ~ label[for="menu"] .closed {
+        display: none; }
+      #menu:checked ~ label[for="menu"] .open {
+        display: block; }
+      #menu:checked ~ main {
+        right: 0; } }
+
+label[for="menu"] {
+  display: none;
+  padding: 15px;
+  font-family: "Museo Sans 500";
+  color: #454a4f;
+  font-size: 18px;
+  line-height: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  background: #b9bdc1;
+  cursor: pointer; }
+  label[for="menu"]:hover {
+    background: #abb0b5; }
+  label[for="menu"] .closed {
+    display: block; }
+  label[for="menu"] .open {
+    display: none; }
+  @media screen and (max-width: 549px) {
+    label[for="menu"] {
+      display: block; } }
 
 main {
   overflow: hidden;
-  background-color: #eff0f1; }
+  position: relative;
+  background: #eff0f1;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: right;
+  -moz-transition-property: right;
+  transition-property: right; }
+  @media screen and (max-width: 549px) {
+    main {
+      width: 200%;
+      right: 100%;
+      background-size: 50% 1px;
+      background-repeat: repeat-y;
+      background-image: -webkit-linear-gradient( #2b3d50 100%, #2b3d50 100%);
+      background-image: linear-gradient( #2b3d50 100%, #2b3d50 100%); } }
   @media (min-width: 550px) and (max-width: 849px) {
     main {
       background-size: 200px 1px;
       background-repeat: repeat-y;
       background-image: -webkit-linear-gradient( #2b3d50 100%, #2b3d50 100%);
       background-image: linear-gradient( #2b3d50 100%, #2b3d50 100%); } }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 850px) {
     main {
       background-size: 250px 1px;
       background-repeat: repeat-y;
@@ -702,38 +769,43 @@ main {
       margin: 0;
       padding: 0; }
       main menu ul li a {
-        padding: 8px 0 6px 0;
+        padding: 8px 3px 6px 0;
         display: block;
         font-family: "Museo 300";
         color: #6abcdd;
         line-height: 100%;
         font-weight: normal;
-        text-decoration: none; }
+        text-decoration: none;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-property: padding;
+        -moz-transition-property: padding;
+        transition-property: padding; }
         main menu ul li a:hover {
-          color: #a8d8eb; }
+          color: #a8d8eb;
+          padding: 8px 0 6px 3px; }
       main menu ul li.selected {
         background: #22303f; }
     @media screen and (max-width: 549px) {
       main menu {
-        overflow: hidden;
-        background: #2b3d50;
-        padding: 25px 15px; }
+        float: left;
+        width: 50%;
+        padding: 10px 0; }
         main menu h2 {
-          margin: 0;
-          font-size: 14px;
+          margin: 35px 15px 5px 15px;
+          font-size: 12px;
           text-align: center; }
-        main menu ul {
-          margin: 5px 0 15px 0; }
-          main menu ul:last-child {
-            margin-bottom: 0; }
+        main menu ul li {
+          padding: 0 15px; }
           main menu ul li a {
-            font-size: 14px;
+            font-size: 17px;
             text-align: center; } }
     @media (min-width: 550px) and (max-width: 849px) {
       main menu {
         float: left;
         width: 200px;
-        padding: 0 0 30px 0; }
+        padding: 10px 0 30px 0; }
         main menu h2 {
           margin: 35px 20px 5px 30px;
           font-size: 12px; }
@@ -741,14 +813,14 @@ main {
           padding: 0 20px 0 30px; }
           main menu ul li a {
             font-size: 16px; } }
-    @media screen and (min-width: 800px) {
+    @media screen and (min-width: 850px) {
       main menu {
         float: left;
         width: 250px;
-        padding: 0 0 50px 0; }
+        padding: 15px 0 50px 0; }
         main menu h2 {
           margin: 35px 25px 5px 45px;
-          font-size: 14px; }
+          font-size: 13px; }
         main menu ul li {
           padding: 0 25px 0 45px; }
           main menu ul li a {
@@ -790,20 +862,27 @@ main {
       border: solid #dcdddd 1px; }
     @media screen and (max-width: 549px) {
       main article {
+        float: left;
+        width: 50%;
         margin: 0 0 30px 0;
-        padding: 0 15px; } }
+        padding: 0 15px; }
+        main article h1 {
+          margin: 30px 0 15px 0;
+          font-size: 40px; }
+        main article h2 {
+          margin: 30px 0 10px 0;
+          font-size: 22px; } }
     @media (min-width: 550px) and (max-width: 849px) {
       main article {
         margin: 0 0 30px 0;
-        padding: 0 30px;
-        font-size: 16px; }
+        padding: 0 30px; }
         main article h1 {
           margin: 30px 0 15px 0;
           font-size: 50px; }
         main article h2 {
           margin: 30px 0 10px 0;
           font-size: 22px; } }
-    @media screen and (min-width: 800px) {
+    @media screen and (min-width: 850px) {
       main article {
         margin: 0 0 50px 0;
         padding: 0 50px;
@@ -836,7 +915,7 @@ footer {
   @media (min-width: 550px) and (max-width: 849px) {
     footer {
       padding: 25px 0 25px 30px; } }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 850px) {
     footer {
       padding: 25px 0 25px 45px; } }
 

@@ -6,6 +6,19 @@
 html
 {
     background-color: #19242f;
+
+    @include respond_max(549px)
+    {
+        overflow-x: hidden;
+    }
+}
+
+body
+{
+    @include respond_max(549px)
+    {
+        overflow-x: hidden;
+    }
 }
 
 ::-moz-selection {
@@ -83,6 +96,7 @@ html
         padding: 0 15px;
         text-align: center;
         font-size: 0;
+        line-height: 0;
 
         img
         {
@@ -132,7 +146,7 @@ html
         }
     }
 
-    @include respond_min(800px)
+    @include respond_min(850px)
     {
 
         padding: 35px 0 35px 300px;
@@ -174,7 +188,7 @@ header
             font-family: "Museo 100";
             color: #ff4143;
             font-size: 44px;
-            line-height: 100%;
+            line-height: 90%;
         }
 
         .tagline
@@ -189,6 +203,7 @@ header
 
     .league
     {
+        position: relative;
         display: block;
         width: 210px;
         height: 46px;
@@ -198,10 +213,32 @@ header
         font-size: 12px;
         line-height: 120%;
         text-decoration: none;
-        background: #d6dadb url(../img/star_icon.png) no-repeat 10px 13px;
+        background: #d6dadb;
         border-radius: 5px;
 
+        &:hover {
+
+            &:before
+            {
+                @include transform(rotate(360deg));
+                @include transition-duration(1.0s);
+                @include transition-property (transform);
+            }
+        }
+
         &:before
+        {
+            content: "";
+            position: absolute;
+            left: 10px;
+            top: 13px;
+            display: block;
+            width: 21px;
+            height: 20px;
+            background: url(../img/star_icon.png) no-repeat;
+        }
+
+        &:after
         {
             content: "";
             position: absolute;
@@ -219,7 +256,7 @@ header
         {
             background-color: white;
 
-            &:before
+            &:after
             {
                 border-bottom-color: white;
             }
@@ -234,22 +271,23 @@ header
         {
             text-align: center;
             font-size: 0;
+            line-height: 0;
 
             .icon
             {
                 display: block;
+                margin: 0 0 10px 0;
             }
 
             .name
             {
-                display: inline-block;
-                margin: 5px 0 0 0;
+                display: block;
+                margin: 0 0 10px 0;
             }
 
             .tagline
             {
                 display: block;
-                margin: 5px 0 0 0;
             }
         }
 
@@ -262,85 +300,135 @@ header
         }
     }
 
-    @include respond_min_max(550px, 849px)
+    @include respond_min(550px)
     {
-        height: 75px;
+        max-width: 1000px;
+        padding: 20px 250px 10px 30px;
 
         .logo
         {
-            position: absolute;
-            left: 30px;
-            top: 20px;
+            font-size: 0;
+            line-height: 0;
 
-            img
+            .icon
             {
-                float: left;
-                display: block;
-                margin: 0 5px 0 0;
+                position: relative;
+                top: 5px;
+                display: inline-block;
+                margin: 0 7px 0 0;
             }
 
             .name
             {
-                float: left;
+                margin: 0 7px 0 0;
             }
 
             .tagline
             {
-                float: left;
-                margin: 24px 0 0 10px;
+                display: inline-block;
+                margin: 7px 0;
             }
         }
 
         .league
         {
             position: absolute;
-            left: 750px;
+            right: 15px;
             top: 15px;
+            margin: 0 0 0 -105px;
         }
     }
 
-    @include respond_min(800px)
+    @include respond_min(850px)
     {
-        height: 75px;
+        padding-left: 45px;
+    }
+}
 
-        .logo
+#menu
+{
+    display: none;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+
+    @include respond_max(549px)
+    {
+        display: block;
+
+        &:checked
         {
-            position: absolute;
-            left: 45px;
-            top: 20px;
-
-            img
+            ~ label[for="menu"]
             {
-                float: left;
-                display: block;
-                margin: 0 5px 0 0;
+                .closed
+                {
+                    display: none;
+                }
+
+                .open
+                {
+                    display: block;
+                }
             }
 
-            .name
+            ~ main
             {
-                float: left;
-            }
-
-            .tagline
-            {
-                float: left;
-                margin: 24px 0 0 10px;
+                right: 0;
             }
         }
+    }
+}
 
-        .league
-        {
-            position: absolute;
-            left: 750px;
-            top: 15px;
-        }
+label[for="menu"]
+{
+    display: none;
+    padding: 15px;
+    font-family: "Museo Sans 500";
+    color: darken(#eff0f1, 65%);
+    font-size: 18px;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    background: darken(#eff0f1, 20%);
+    cursor: pointer;
+
+    &:hover
+    {
+        background: darken(#eff0f1, 25%);
+    }
+
+    .closed
+    {
+        display: block;
+    }
+
+    .open
+    {
+        display: none;
+    }
+
+    @include respond_max(549px)
+    {
+        display: block;
     }
 }
 
 main
 {
     overflow: hidden;
-    background-color: #eff0f1;
+    position: relative;
+    background: #eff0f1;
+    @include transition-duration(.2s);
+    @include transition-property (right);
+
+    @include respond_max(549px)
+    {
+        width: 200%;
+        right: 100%;
+        background-size: 50% 1px;
+        background-repeat: repeat-y;
+        @include background-image(linear-gradient(#2b3d50 100%, #2b3d50 100%));
+    }
 
     @include respond_min_max(550px, 849px)
     {
@@ -349,7 +437,7 @@ main
         @include background-image(linear-gradient(#2b3d50 100%, #2b3d50 100%));
     }
 
-    @include respond_min(800px)
+    @include respond_min(850px)
     {
         background-size: 250px 1px;
         background-repeat: repeat-y;
@@ -380,17 +468,20 @@ main
             {
                 a
                 {
-                    padding: 8px 0 6px 0;
+                    padding: 8px 3px 6px 0;
                     display: block;
                     font-family: "Museo 300";
                     color: #6abcdd;
                     line-height: 100%;
                     font-weight: normal;
                     text-decoration: none;
+                    @include transition-duration(.2s);
+                    @include transition-property (padding);
 
                     &:hover
                     {
                         color: lighten(#6abcdd, 15%);
+                        padding: 8px 0 6px 3px;
                     }
                 }
 
@@ -403,31 +494,26 @@ main
 
         @include respond_max(549px)
         {
-            overflow: hidden;
-            background: #2b3d50;
-            padding: 25px 15px;
+            float: left;
+            width: 50%;
+            padding: 10px 0;
 
             h2
             {
-                margin: 0;
-                font-size: 14px;
+                margin: 35px 15px 5px 15px;
+                font-size: 12px;
                 text-align: center;
             }
 
             ul
             {
-                margin: 5px 0 15px 0;
-
-                &:last-child
-                {
-                    margin-bottom: 0;
-                }
-
                 li
                 {
+                    padding: 0 15px;
+
                     a
                     {
-                        font-size: 14px;
+                        font-size: 17px;
                         text-align: center;
                     }
                 }
@@ -438,7 +524,7 @@ main
         {
             float: left;
             width: 200px;
-            padding: 0 0 30px 0;
+            padding: 10px 0 30px 0;
 
             h2
             {
@@ -460,16 +546,16 @@ main
             }
         }
 
-        @include respond_min(800px)
+        @include respond_min(850px)
         {
             float: left;
             width: 250px;
-            padding: 0 0 50px 0;
+            padding: 15px 0 50px 0;
 
             h2
             {
                 margin: 35px 25px 5px 45px;
-                font-size: 14px;
+                font-size: 13px;
             }
 
             ul
@@ -546,16 +632,29 @@ main
 
         @include respond_max(549px)
         {
+            float: left;
+            width: 50%;
+
             margin: 0 0 30px 0;
             padding: 0 15px;
+
+            h1
+            {
+                margin: 30px 0 15px 0;
+                font-size: 40px;
+            }
+
+            h2
+            {
+                margin: 30px 0 10px 0;
+                font-size: 22px;
+            }
         }
 
         @include respond_min_max(550px, 849px)
         {
             margin: 0 0 30px 0;
             padding: 0 30px;
-
-            font-size: 16px;
 
             h1
             {
@@ -570,7 +669,7 @@ main
             }
         }
 
-        @include respond_min(800px)
+        @include respond_min(850px)
         {
             margin: 0 0 50px 0;
             padding: 0 50px;
@@ -628,7 +727,7 @@ footer
         padding: 25px 0 25px 30px;
     }
 
-    @include respond_min(800px)
+    @include respond_min(850px)
     {
         padding: 25px 0 25px 45px;
     }

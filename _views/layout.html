@@ -25,7 +25,9 @@
 <body>
 
 <section class="all_packages">
-    <img src="{{ site.url }}/{{ theme_path("img/loep_logo.png") }}" alt="The League of Extraordinary Packages">
+    <a href="http://thephpleague.com/">
+        <img src="{{ site.url }}/{{ theme_path("img/loep_logo.png") }}" width="195" height="200" alt="The League of Extraordinary Packages">
+    </a>
     <h2>Our Packages:</h2>
     <ul>
     </ul>
@@ -35,20 +37,22 @@
     <a class="logo" href="/">
         {% if theme_path_exists("img/logo.png") %}
             <span class="icon">
-                <img src="{{ site.url }}/{{ theme_path("img/logo.png") }}" alt="{{ site.title }} - {{ site.tagline }}">
+                <img src="{{ site.url }}/{{ theme_path("img/logo.png") }}" width="50" height="40" alt="{{ site.title }} - {{ site.tagline }}">
             </span>
         {% endif %}
-        <span class="name">
-            {{ site.title }}
-        </span>
-        <span class="tagline">
-            {{ site.tagline }}
-        </span>
+        <span class="name">{{ site.title }}</span>
+        <span class="tagline">{{ site.tagline }}</span>
     </a>
     <a href="http://thephpleague.com/" class="league">
         Presented by The League of Extraordinary Packages
     </a>
 </header>
+
+<input type="checkbox" id="menu">
+<label for="menu" onclick>
+    <div class="closed">&#9776; Menu</div>
+    <div class="open">&#9776; Hide Menu</div>
+</label>
 
 <main>
     <menu>
