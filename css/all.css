@@ -478,11 +478,7 @@ table {
   box-sizing: border-box; }
 
 html {
-  background-color: #eff0f1;
-  background-repeat: repeat-y;
-  background-size: 250px 250px;
-  background-image: -webkit-linear-gradient( #2b3d50 100%, #2b3d50 100%);
-  background-image: linear-gradient( #2b3d50 100%, #2b3d50 100%); }
+  background-color: #19242f; }
 
 ::-moz-selection {
   background: #69bbdc;
@@ -497,11 +493,7 @@ html {
 .all_packages {
   display: none;
   position: relative;
-  padding: 35px 0 35px 300px;
   background: #ffffff; }
-  .all_packages img {
-    position: absolute;
-    left: 50px; }
   .all_packages h2 {
     margin: 0 0 15px 0;
     -webkit-font-smoothing: antialiased;
@@ -513,15 +505,9 @@ html {
     text-transform: uppercase; }
   .all_packages ul {
     list-style: none;
-    max-width: 950px;
     margin: 0;
-    padding: 0;
-    overflow: hidden; }
+    padding: 0; }
     .all_packages ul li {
-      float: left;
-      width: 47%;
-      margin: 0 3% 0 0;
-      padding: 8px 15px 8px 0;
       border-top: #929292 dotted 1px; }
       .all_packages ul li:nth-child(odd) {
         clear: both; }
@@ -539,41 +525,68 @@ html {
         font-size: 14px;
         line-height: 100%;
         text-decoration: none; }
+  @media screen and (max-width: 549px) {
+    .all_packages {
+      padding: 0 15px;
+      text-align: center;
+      font-size: 0; }
+      .all_packages img {
+        margin: 25px 0;
+        display: inline-block; }
+      .all_packages ul {
+        padding: 0 0 25px 0;
+        overflow: hidden; }
+        .all_packages ul li {
+          padding: 8px 0; }
+          .all_packages ul li span {
+            margin: 5px 0 0 0;
+            display: block; } }
+  @media (min-width: 550px) and (max-width: 849px) {
+    .all_packages {
+      padding: 35px 0 35px 300px; }
+      .all_packages img {
+        position: absolute;
+        left: 50px; }
+      .all_packages ul {
+        overflow: hidden; }
+        .all_packages ul li {
+          float: left;
+          width: 47%;
+          margin: 0 3% 0 0;
+          padding: 8px 15px 8px 0; } }
+  @media screen and (min-width: 800px) {
+    .all_packages {
+      padding: 35px 0 35px 300px; }
+      .all_packages img {
+        position: absolute;
+        left: 50px; }
+      .all_packages ul {
+        max-width: 850px;
+        overflow: hidden; }
+        .all_packages ul li {
+          float: left;
+          width: 47%;
+          margin: 0 3% 0 0;
+          padding: 8px 15px 8px 0; } }
 
 header {
-  position: relative;
-  height: 75px;
-  background-color: #19242f; }
+  position: relative; }
   header .logo {
-    position: absolute;
-    left: 50px;
-    top: 20px;
-    display: block; }
-    header .logo img {
-      float: left;
-      display: block;
-      margin: 0 5px 0 0; }
+    display: block;
+    text-decoration: none; }
     header .logo .name {
-      float: left;
       -webkit-font-smoothing: antialiased;
       font-family: "Museo 100";
       color: #ff4143;
       font-size: 44px;
-      line-height: 100%;
-      text-decoration: none; }
+      line-height: 100%; }
     header .logo .tagline {
-      float: left;
-      margin: 24px 0 0 10px;
       font-family: "Museo Sans 500";
       color: #69bbdc;
       font-size: 12px;
       line-height: 100%;
-      text-transform: uppercase;
-      text-decoration: none; }
+      text-transform: uppercase; }
   header .league {
-    position: absolute;
-    left: 750px;
-    top: 15px;
     display: block;
     width: 210px;
     height: 46px;
@@ -600,82 +613,232 @@ header {
       background-color: white; }
       header .league:hover:before {
         border-bottom-color: white; }
+  @media screen and (max-width: 549px) {
+    header {
+      padding: 85px 10px 25px 10px; }
+      header .logo {
+        text-align: center;
+        font-size: 0; }
+        header .logo .icon {
+          display: block; }
+        header .logo .name {
+          display: inline-block;
+          margin: 5px 0 0 0; }
+        header .logo .tagline {
+          display: block;
+          margin: 5px 0 0 0; }
+      header .league {
+        position: absolute;
+        left: 50%;
+        top: 15px;
+        margin: 0 0 0 -105px; } }
+  @media (min-width: 550px) and (max-width: 849px) {
+    header {
+      height: 75px; }
+      header .logo {
+        position: absolute;
+        left: 30px;
+        top: 20px; }
+        header .logo img {
+          float: left;
+          display: block;
+          margin: 0 5px 0 0; }
+        header .logo .name {
+          float: left; }
+        header .logo .tagline {
+          float: left;
+          margin: 24px 0 0 10px; }
+      header .league {
+        position: absolute;
+        left: 750px;
+        top: 15px; } }
+  @media screen and (min-width: 800px) {
+    header {
+      height: 75px; }
+      header .logo {
+        position: absolute;
+        left: 45px;
+        top: 20px; }
+        header .logo img {
+          float: left;
+          display: block;
+          margin: 0 5px 0 0; }
+        header .logo .name {
+          float: left; }
+        header .logo .tagline {
+          float: left;
+          margin: 24px 0 0 10px; }
+      header .league {
+        position: absolute;
+        left: 750px;
+        top: 15px; } }
 
-menu {
-  float: left;
-  width: 250px;
-  margin: 0;
-  padding: 0 0 50px 0; }
-  menu h2 {
-    margin: 35px 0 5px 45px;
-    font-family: "Museo 300";
-    color: #d6dadb;
-    font-size: 14px;
-    line-height: 100%;
-    font-weight: normal;
-    text-transform: uppercase; }
-  menu ul {
-    list-style: none;
+main {
+  overflow: hidden;
+  background-color: #eff0f1; }
+  @media (min-width: 550px) and (max-width: 849px) {
+    main {
+      background-size: 200px 1px;
+      background-repeat: repeat-y;
+      background-image: -webkit-linear-gradient( #2b3d50 100%, #2b3d50 100%);
+      background-image: linear-gradient( #2b3d50 100%, #2b3d50 100%); } }
+  @media screen and (min-width: 800px) {
+    main {
+      background-size: 250px 1px;
+      background-repeat: repeat-y;
+      background-image: -webkit-linear-gradient( #2b3d50 100%, #2b3d50 100%);
+      background-image: linear-gradient( #2b3d50 100%, #2b3d50 100%); } }
+  main menu {
     margin: 0;
     padding: 0; }
-    menu ul li a {
-      padding: 8px 0 6px 45px;
-      display: block;
+    main menu h2 {
       font-family: "Museo 300";
-      color: #6abcdd;
-      font-size: 18px;
+      color: #d6dadb;
       line-height: 100%;
       font-weight: normal;
-      text-decoration: none; }
-      menu ul li a:hover {
-        color: #a8d8eb; }
-    menu ul li.selected a {
-      background: #22303f; }
-
-article {
-  width: auto;
-  margin: 0 0 50px 0;
-  padding: 0 50px;
-  max-width: 950px;
-  overflow: hidden;
-  font-family: "Museo 300";
-  color: #2b3d50;
-  font-size: 18px;
-  line-height: 160%;
-  font-weight: normal; }
-  article h1 {
-    margin: 50px 0 30px 0;
-    -webkit-font-smoothing: antialiased;
-    font-family: "Museo 100";
-    color: #ff4143;
-    font-size: 70px;
-    line-height: 100%;
-    font-weight: normal; }
-  article h2 {
-    margin: 40px 0 15px 0;
-    -webkit-font-smoothing: antialiased;
+      text-transform: uppercase; }
+    main menu ul {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      main menu ul li a {
+        padding: 8px 0 6px 0;
+        display: block;
+        font-family: "Museo 300";
+        color: #6abcdd;
+        line-height: 100%;
+        font-weight: normal;
+        text-decoration: none; }
+        main menu ul li a:hover {
+          color: #a8d8eb; }
+      main menu ul li.selected {
+        background: #22303f; }
+    @media screen and (max-width: 549px) {
+      main menu {
+        overflow: hidden;
+        background: #2b3d50;
+        padding: 25px 15px; }
+        main menu h2 {
+          margin: 0;
+          font-size: 14px;
+          text-align: center; }
+        main menu ul {
+          margin: 5px 0 15px 0; }
+          main menu ul:last-child {
+            margin-bottom: 0; }
+          main menu ul li a {
+            font-size: 14px;
+            text-align: center; } }
+    @media (min-width: 550px) and (max-width: 849px) {
+      main menu {
+        float: left;
+        width: 200px;
+        padding: 0 0 30px 0; }
+        main menu h2 {
+          margin: 35px 20px 5px 30px;
+          font-size: 12px; }
+        main menu ul li {
+          padding: 0 20px 0 30px; }
+          main menu ul li a {
+            font-size: 16px; } }
+    @media screen and (min-width: 800px) {
+      main menu {
+        float: left;
+        width: 250px;
+        padding: 0 0 50px 0; }
+        main menu h2 {
+          margin: 35px 25px 5px 45px;
+          font-size: 14px; }
+        main menu ul li {
+          padding: 0 25px 0 45px; }
+          main menu ul li a {
+            font-size: 18px; } }
+  main article {
+    overflow: hidden;
     font-family: "Museo 300";
-    color: #ff4143;
-    font-size: 30px;
-    line-height: 100%;
+    color: #2b3d50;
+    line-height: 160%;
     font-weight: normal; }
-  article a {
-    color: #6abcdd;
-    text-decoration: underline; }
-    article a:hover {
-      color: #2f9fcc; }
-  article li {
-    margin: 5px 0; }
-  article p > code,
-  article li > code {
+    main article h1 {
+      -webkit-font-smoothing: antialiased;
+      font-family: "Museo 100";
+      color: #ff4143;
+      line-height: 100%;
+      font-weight: normal; }
+    main article h2 {
+      -webkit-font-smoothing: antialiased;
+      font-family: "Museo 300";
+      color: #ff4143;
+      line-height: 100%;
+      font-weight: normal; }
+    main article a {
+      color: #6abcdd;
+      text-decoration: underline; }
+      main article a:hover {
+        color: #2f9fcc; }
+    main article li {
+      margin: 5px 0; }
+    main article p > code,
+    main article li > code {
+      display: inline-block;
+      padding: 3px 5px;
+      font-family: Consolas, Monaco, 'Andale Mono', monospace;
+      font-size: 17px;
+      line-height: 100%;
+      border-radius: 2px;
+      background: #f5f6f7;
+      border: solid #dcdddd 1px; }
+    @media screen and (max-width: 549px) {
+      main article {
+        margin: 0 0 30px 0;
+        padding: 0 15px; } }
+    @media (min-width: 550px) and (max-width: 849px) {
+      main article {
+        margin: 0 0 30px 0;
+        padding: 0 30px;
+        font-size: 16px; }
+        main article h1 {
+          margin: 30px 0 15px 0;
+          font-size: 50px; }
+        main article h2 {
+          margin: 30px 0 10px 0;
+          font-size: 22px; } }
+    @media screen and (min-width: 800px) {
+      main article {
+        margin: 0 0 50px 0;
+        padding: 0 50px;
+        max-width: 950px;
+        font-size: 18px; }
+        main article h1 {
+          margin: 50px 0 30px 0;
+          font-size: 70px; }
+        main article h2 {
+          margin: 30px 0 15px 0;
+          font-size: 30px; } }
+
+footer {
+  font-family: "Museo Sans 500";
+  color: #69bbdc;
+  font-size: 12px;
+  line-height: 175%; }
+  footer span {
     display: inline-block;
-    padding: 3px 5px;
-    font-family: Consolas, Monaco, 'Andale Mono', monospace;
-    font-size: 17px;
-    line-height: 100%;
-    border-radius: 2px;
-    background: #f5f6f7;
-    border: solid #dcdddd 1px; }
+    margin: 0 5px 0 0; }
+    footer span a {
+      color: #92cee6;
+      text-decoration: underline; }
+      footer span a:hover {
+        color: #bce0ef; }
+  @media screen and (max-width: 549px) {
+    footer {
+      padding: 25px 15px;
+      text-align: center; } }
+  @media (min-width: 550px) and (max-width: 849px) {
+    footer {
+      padding: 25px 0 25px 30px; } }
+  @media screen and (min-width: 800px) {
+    footer {
+      padding: 25px 0 25px 45px; } }
 
 /**
  * prism.js default theme for JavaScript, CSS and HTML
@@ -697,8 +860,15 @@ pre[class*="language-"] {
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
-  font-size: 16px;
   line-height: 140%; }
+  @media (min-width: 550px) and (max-width: 849px) {
+    code[class*="language-"],
+    pre[class*="language-"] {
+      font-size: 14px; } }
+  @media screen and (min-width: 800px) {
+    code[class*="language-"],
+    pre[class*="language-"] {
+      font-size: 16px; } }
 
 /* Code blocks */
 pre[class*="language-"] {

@@ -5,10 +5,7 @@
 
 html
 {
-    background-color: #eff0f1;
-    background-repeat: repeat-y;
-    background-size: 250px 250px;
-    @include background-image(linear-gradient(#2b3d50 100%, #2b3d50 100%));
+    background-color: #19242f;
 }
 
 ::-moz-selection {
@@ -27,14 +24,7 @@ html
 {
     display: none;
     position: relative;
-    padding: 35px 0 35px 300px;
     background: #ffffff;
-
-    img
-    {
-        position: absolute;
-        left: 50px;
-    }
 
     h2
     {
@@ -51,17 +41,11 @@ html
     ul
     {
         list-style: none;
-        max-width: 950px;
         margin: 0;
         padding: 0;
-        overflow: hidden;
 
         li
         {
-            float: left;
-            width: 47%;
-            margin: 0 3% 0 0;
-            padding: 8px 15px 8px 0;
             border-top: #929292 dotted 1px;
 
             &:nth-child(odd)
@@ -93,57 +77,118 @@ html
             }
         }
     }
+
+    @include respond_max(549px)
+    {
+        padding: 0 15px;
+        text-align: center;
+        font-size: 0;
+
+        img
+        {
+            margin: 25px 0;
+            display: inline-block;
+        }
+
+        ul
+        {
+            padding: 0 0 25px 0;
+            overflow: hidden;
+
+            li
+            {
+                padding: 8px 0;
+
+                span
+                {
+                    margin: 5px 0 0 0;
+                    display: block;
+                }
+            }
+        }
+    }
+
+    @include respond_min_max(550px, 849px)
+    {
+        padding: 35px 0 35px 300px;
+
+        img
+        {
+            position: absolute;
+            left: 50px;
+        }
+
+        ul
+        {
+            overflow: hidden;
+
+            li
+            {
+                float: left;
+                width: 47%;
+                margin: 0 3% 0 0;
+                padding: 8px 15px 8px 0;
+            }
+        }
+    }
+
+    @include respond_min(800px)
+    {
+
+        padding: 35px 0 35px 300px;
+
+        img
+        {
+            position: absolute;
+            left: 50px;
+        }
+
+        ul
+        {
+            max-width: 850px;
+            overflow: hidden;
+
+            li
+            {
+                float: left;
+                width: 47%;
+                margin: 0 3% 0 0;
+                padding: 8px 15px 8px 0;
+            }
+        }
+    }
 }
 
 header
 {
     position: relative;
-    height: 75px;
-    background-color: #19242f;
 
     .logo
     {
-        position: absolute;
-        left: 50px;
-        top: 20px;
         display: block;
-
-        img
-        {
-            float: left;
-            display: block;
-            margin: 0 5px 0 0;
-        }
+        text-decoration: none;
 
         .name
         {
-            float: left;
             -webkit-font-smoothing: antialiased;
             font-family: "Museo 100";
             color: #ff4143;
             font-size: 44px;
             line-height: 100%;
-            text-decoration: none;
         }
 
         .tagline
         {
-            float: left;
-            margin: 24px 0 0 10px;
             font-family: "Museo Sans 500";
             color: #69bbdc;
             font-size: 12px;
             line-height: 100%;
             text-transform: uppercase;
-            text-decoration: none;
         }
     }
 
     .league
     {
-        position: absolute;
-        left: 750px;
-        top: 15px;
         display: block;
         width: 210px;
         height: 46px;
@@ -180,124 +225,411 @@ header
             }
         }
     }
-}
 
-menu
-{
-    float: left;
-    width: 250px;
-    margin: 0;
-    padding: 0 0 50px 0;
-
-    h2
+    @include respond_max(549px)
     {
-        margin: 35px 0 5px 45px;
-        font-family: "Museo 300";
-        color: #d6dadb;
-        font-size: 14px;
-        line-height: 100%;
-        font-weight: normal;
-        text-transform: uppercase;
+        padding: 85px 10px 25px 10px;
+
+        .logo
+        {
+            text-align: center;
+            font-size: 0;
+
+            .icon
+            {
+                display: block;
+            }
+
+            .name
+            {
+                display: inline-block;
+                margin: 5px 0 0 0;
+            }
+
+            .tagline
+            {
+                display: block;
+                margin: 5px 0 0 0;
+            }
+        }
+
+        .league
+        {
+            position: absolute;
+            left: 50%;
+            top: 15px;
+            margin: 0 0 0 -105px;
+        }
     }
 
-    ul
+    @include respond_min_max(550px, 849px)
     {
-        list-style: none;
+        height: 75px;
+
+        .logo
+        {
+            position: absolute;
+            left: 30px;
+            top: 20px;
+
+            img
+            {
+                float: left;
+                display: block;
+                margin: 0 5px 0 0;
+            }
+
+            .name
+            {
+                float: left;
+            }
+
+            .tagline
+            {
+                float: left;
+                margin: 24px 0 0 10px;
+            }
+        }
+
+        .league
+        {
+            position: absolute;
+            left: 750px;
+            top: 15px;
+        }
+    }
+
+    @include respond_min(800px)
+    {
+        height: 75px;
+
+        .logo
+        {
+            position: absolute;
+            left: 45px;
+            top: 20px;
+
+            img
+            {
+                float: left;
+                display: block;
+                margin: 0 5px 0 0;
+            }
+
+            .name
+            {
+                float: left;
+            }
+
+            .tagline
+            {
+                float: left;
+                margin: 24px 0 0 10px;
+            }
+        }
+
+        .league
+        {
+            position: absolute;
+            left: 750px;
+            top: 15px;
+        }
+    }
+}
+
+main
+{
+    overflow: hidden;
+    background-color: #eff0f1;
+
+    @include respond_min_max(550px, 849px)
+    {
+        background-size: 200px 1px;
+        background-repeat: repeat-y;
+        @include background-image(linear-gradient(#2b3d50 100%, #2b3d50 100%));
+    }
+
+    @include respond_min(800px)
+    {
+        background-size: 250px 1px;
+        background-repeat: repeat-y;
+        @include background-image(linear-gradient(#2b3d50 100%, #2b3d50 100%));
+    }
+
+    menu
+    {
         margin: 0;
         padding: 0;
 
-        li
+        h2
         {
-            a
-            {
-                padding: 8px 0 6px 45px;
-                display: block;
-                font-family: "Museo 300";
-                color: #6abcdd;
-                font-size: 18px;
-                line-height: 100%;
-                font-weight: normal;
-                text-decoration: none;
+            font-family: "Museo 300";
+            color: #d6dadb;
+            line-height: 100%;
+            font-weight: normal;
+            text-transform: uppercase;
+        }
 
-                &:hover
-                {
-                    color: lighten(#6abcdd, 15%);
-                }
-            }
+        ul
+        {
+            list-style: none;
+            margin: 0;
+            padding: 0;
 
-            &.selected
+            li
             {
                 a
+                {
+                    padding: 8px 0 6px 0;
+                    display: block;
+                    font-family: "Museo 300";
+                    color: #6abcdd;
+                    line-height: 100%;
+                    font-weight: normal;
+                    text-decoration: none;
+
+                    &:hover
+                    {
+                        color: lighten(#6abcdd, 15%);
+                    }
+                }
+
+                &.selected
                 {
                     background: #22303f;
                 }
             }
         }
-    }
-}
 
-article
-{
-    width: auto;
-    margin: 0 0 50px 0;
-    padding: 0 50px;
-    max-width: 950px;
-    overflow: hidden;
-
-    font-family: "Museo 300";
-    color: #2b3d50;
-    font-size: 18px;
-    line-height: 160%;
-    font-weight: normal;
-
-    h1
-    {
-        margin: 50px 0 30px 0;
-        -webkit-font-smoothing: antialiased;
-        font-family: "Museo 100";
-        color: #ff4143;
-        font-size: 70px;
-        line-height: 100%;
-        font-weight: normal;
-    }
-
-    h2
-    {
-        margin: 40px 0 15px 0;
-        -webkit-font-smoothing: antialiased;
-        font-family: "Museo 300";
-        color: #ff4143;
-        font-size: 30px;
-        line-height: 100%;
-        font-weight: normal;
-    }
-
-    a
-    {
-        color: #6abcdd;
-        text-decoration: underline;
-
-        &:hover
+        @include respond_max(549px)
         {
-            color: darken(#6abcdd, 15%);
+            overflow: hidden;
+            background: #2b3d50;
+            padding: 25px 15px;
+
+            h2
+            {
+                margin: 0;
+                font-size: 14px;
+                text-align: center;
+            }
+
+            ul
+            {
+                margin: 5px 0 15px 0;
+
+                &:last-child
+                {
+                    margin-bottom: 0;
+                }
+
+                li
+                {
+                    a
+                    {
+                        font-size: 14px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        @include respond_min_max(550px, 849px)
+        {
+            float: left;
+            width: 200px;
+            padding: 0 0 30px 0;
+
+            h2
+            {
+                margin: 35px 20px 5px 30px;
+                font-size: 12px;
+            }
+
+            ul
+            {
+                li
+                {
+                    padding: 0 20px 0 30px;
+
+                    a
+                    {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+        @include respond_min(800px)
+        {
+            float: left;
+            width: 250px;
+            padding: 0 0 50px 0;
+
+            h2
+            {
+                margin: 35px 25px 5px 45px;
+                font-size: 14px;
+            }
+
+            ul
+            {
+                li
+                {
+                    padding: 0 25px 0 45px;
+
+                    a
+                    {
+                        font-size: 18px;
+                    }
+                }
+            }
         }
     }
 
-    li
+    article
     {
-        margin: 5px 0;
-    }
+        overflow: hidden;
 
-    p > code,
-    li > code
+
+        font-family: "Museo 300";
+        color: #2b3d50;
+        line-height: 160%;
+        font-weight: normal;
+
+        h1
+        {
+            -webkit-font-smoothing: antialiased;
+            font-family: "Museo 100";
+            color: #ff4143;
+            line-height: 100%;
+            font-weight: normal;
+        }
+
+        h2
+        {
+            -webkit-font-smoothing: antialiased;
+            font-family: "Museo 300";
+            color: #ff4143;
+            line-height: 100%;
+            font-weight: normal;
+        }
+
+        a
+        {
+            color: #6abcdd;
+            text-decoration: underline;
+
+            &:hover
+            {
+                color: darken(#6abcdd, 15%);
+            }
+        }
+
+        li
+        {
+            margin: 5px 0;
+        }
+
+        p > code,
+        li > code
+        {
+            display: inline-block;
+            padding: 3px 5px;
+            font-family: Consolas, Monaco, 'Andale Mono', monospace;
+            font-size: 17px;
+            line-height: 100%;
+            border-radius: 2px;
+            background: #f5f6f7;
+            border: solid #dcdddd 1px;
+        }
+
+        @include respond_max(549px)
+        {
+            margin: 0 0 30px 0;
+            padding: 0 15px;
+        }
+
+        @include respond_min_max(550px, 849px)
+        {
+            margin: 0 0 30px 0;
+            padding: 0 30px;
+
+            font-size: 16px;
+
+            h1
+            {
+                margin: 30px 0 15px 0;
+                font-size: 50px;
+            }
+
+            h2
+            {
+                margin: 30px 0 10px 0;
+                font-size: 22px;
+            }
+        }
+
+        @include respond_min(800px)
+        {
+            margin: 0 0 50px 0;
+            padding: 0 50px;
+            max-width: 950px;
+
+            font-size: 18px;
+
+            h1
+            {
+                margin: 50px 0 30px 0;
+                font-size: 70px;
+            }
+
+            h2
+            {
+                margin: 30px 0 15px 0;
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+footer
+{
+    font-family: "Museo Sans 500";
+    color: #69bbdc;
+    font-size: 12px;
+    line-height: 175%;
+
+    span
     {
         display: inline-block;
-        padding: 3px 5px;
-        font-family: Consolas, Monaco, 'Andale Mono', monospace;
-        font-size: 17px;
-        line-height: 100%;
-        border-radius: 2px;
-        background: #f5f6f7;
-        border: solid #dcdddd 1px;
+        margin: 0 5px 0 0;
+
+        a
+        {
+            color: lighten(#69bbdc, 10%);
+            text-decoration: underline;
+
+            &:hover
+            {
+                color: lighten(#69bbdc, 20%);
+            }
+        }
+    }
+
+    @include respond_max(549px)
+    {
+        padding: 25px 15px;
+        text-align: center;
+    }
+
+    @include respond_min_max(550px, 849px)
+    {
+        padding: 25px 0 25px 30px;
+    }
+
+    @include respond_min(800px)
+    {
+        padding: 25px 0 25px 45px;
     }
 }

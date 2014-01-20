@@ -23,8 +23,17 @@ pre[class*="language-"] {
     -ms-hyphens: none;
     hyphens: none;
 
-    font-size: 16px;
     line-height: 140%;
+
+    @include respond_min_max(550px, 849px)
+    {
+        font-size: 14px;
+    }
+
+    @include respond_min(800px)
+    {
+        font-size: 16px;
+    }
 }
 
 /* Code blocks */

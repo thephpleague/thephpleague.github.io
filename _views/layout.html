@@ -4,6 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if theme_path_exists("img/favicon.ico") %}
+        <link rel="icon" type="image/x-icon" href="{{ site.url }}/{{ theme_path("img/favicon.ico") }}" />
+    {% endif %}
+    {% if theme_path_exists("img/apple-touch-icon-precomposed.png") %}
+        <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/{{ theme_path("img/apple-touch-icon-precomposed.png") }}">
+    {% endif %}
     {% if page.url == '/' %}
         <title>{{ site.title }} - {{ site.tagline }}</title>
     {% else %}
@@ -28,7 +34,9 @@
 <header>
     <a class="logo" href="/">
         {% if theme_path_exists("img/logo.png") %}
-            <img src="{{ site.url }}/{{ theme_path("img/logo.png") }}" alt="{{ site.title }} - {{ site.tagline }}">
+            <span class="icon">
+                <img src="{{ site.url }}/{{ theme_path("img/logo.png") }}" alt="{{ site.title }} - {{ site.tagline }}">
+            </span>
         {% endif %}
         <span class="name">
             {{ site.title }}
@@ -42,22 +50,29 @@
     </a>
 </header>
 
-<menu>
-    {% for name, links in site.menu %}
-        <h2>{{ name }}</h2>
-        <ul>
-            {% for name, url in links %}
-                <li {% if page.url == url or page.url ~ '/' == url %}class="selected"{% endif %}>
-                    <a href="{{ url }}">{{ name }}</a>
-                </li>
-            {% endfor %}
-        </ul>
-    {% endfor %}
-</menu>
+<main>
+    <menu>
+        {% for name, links in site.menu %}
+            <h2>{{ name }}</h2>
+            <ul>
+                {% for name, url in links %}
+                    <li {% if page.url == url or page.url ~ '/' == url %}class="selected"{% endif %}>
+                        <a href="{{ url }}">{{ name }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    </menu>
+    <article>
+        {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
+    </article>
+</main>
 
-<article>
-    {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
-</article>
+<footer>
+    <span>&copy; Copyright The League of Extraordinary Packages.</span>
+    <span>Site design by <a href="http://reinink.ca">Jonathan Reinink</a>.</span>
+    <span>Powered by <a href="https://sculpin.io">Sculpin</a>.</span>
+</footer>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="{{ site.url }}/{{ theme_path("js/scripts.js") }}"></script>
