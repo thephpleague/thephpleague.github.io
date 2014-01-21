@@ -2,17 +2,19 @@
 
 ## Introduction
 
-The following document explains how to quickly generate fully responsive, branded project website for The PHP League. These website are created using [Sculpin](https://sculpin.io/), and are designed to be hosted on GitHub Pages.
+The following document explains how to quickly generate fully responsive, branded project websites for The PHP League. These website are created using [Sculpin](https://sculpin.io/), and are designed to be hosted on [GitHub Pages](http://pages.github.com/).
 
 ## Repository setup
 
-These websites are to be created as new "orphaned" branches within the existing project repository. This keeps the project files and public website neatly in one spot. The Sculpin source files will be placed in the `gh-pages-sculpin` branch, and the published files in the standard GitHub Pages branch, `gh-pages`.
+The website source code should be kept in new "orphaned" branches within the existing project repository. This keeps the project files and public website neatly in one spot. The Sculpin source files will be placed in a `gh-pages-sculpin` branch, and the published files in the standard GitHub Pages branch, `gh-pages`.
 
 ## Install Sculpin
 
 Before doing anything, start by [installing Sculpin](https://sculpin.io/download/). Consider dropping it in your `bin` folder to simply run it as `sculpin`. Sculpin works very similar to Composer.
 
 ## Project setup
+
+To create a new website for your project, following these instructions.
 
 ~~~bash
 # Go to your project's root folder.
@@ -30,8 +32,8 @@ git checkout --orphan gh-pages-sculpin
 git rm -rf .
 
 # Run the boilerplate setup script.
-# This will simply create some default files and
-# folders (required by Sculpin) in the current folder.
+# This will simply create some default files and folders
+# (required by Sculpin) in the current folder.
 curl -sS https://raw.github.com/php-loep/php-loep.github.com/project-website-theme/boilerplate.php | php
 
 # Install the League's theme.
