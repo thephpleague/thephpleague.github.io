@@ -1,0 +1,208 @@
+# Project Websites
+
+## Introduction
+
+The following document explains how to quickly generate fully responsive, branded project website for The PHP League. These website are created using [Sculpin](https://sculpin.io/), and are designed to be hosted on GitHub Pages.
+
+## Repository setup
+
+These websites are to be created as new "orphaned" branches within the existing project repository. This keeps the project files and public website neatly in one spot. The Sculpin source files will be placed in the `gh-pages-sculpin` branch, and the published files in the standard GitHub Pages branch, `gh-pages`.
+
+## Install Sculpin
+
+Before doing anything, start by [installing Sculpin](https://sculpin.io/download/). Consider dropping it in your `bin` folder to simply run it as `sculpin`. Sculpin works very similar to Composer.
+
+
+## Project setup
+
+~~~bash
+# Go to your project's root folder.
+# This guide assumes that you already have GIT
+# initialized for this project in this folder.
+cd your-project-folder
+
+# Create new branch for the Sculpin source files.
+# Note, the gh-pages-sculpin branch won't appear
+# in the list of branches until you make your
+# first commit.
+git checkout --orphan gh-pages-sculpin
+
+# Remove all files from the old working tree.
+git rm -rf .
+
+# Run the boilerplate setup script.
+# This will simply create some default files and
+# folders (required by Sculpin) in the current folder.
+curl -sS https://raw.github.com/php-loep/php-loep.github.com/project-website-theme/boilerplate.php | php
+
+# Install the League's theme.
+# If you do not have Sculpin installed yet, do that now.
+# In the future, simply run "sculpin update" to get
+# the most current version of the League's theme.
+sculpin install
+
+# Set some project details.
+# These can be changed at any time, so to start just
+# set the title and tagline.
+vim app/config/sculpin_site.yml
+
+# Preview the website by starting the Sculpin
+# development server.
+# It will be available at http://localhost:8000.
+# Quit the server with CONTROL-C.
+sculpin generate --watch --server
+~~~
+
+## How to build
+
+### Development server
+
+Start by enabling the development server. Once started, the website will be available at [http://localhost:8000](http://localhost:8000). Stop the server by pressing `CONTROL-C`.
+
+~~~bash
+# Go to your project's root folder.
+cd your-project-folder
+
+# Make sure you're on the gh-pages-sculpin branch.
+# Note, the gh-pages-sculpin branch won't appear
+# in the list of branches until you make your
+# first commit.
+git checkout gh-pages-sculpin
+
+# Start the Sculpin development server.
+sculpin generate --watch --server
+~~~
+
+### Project settings
+
+Set your project specific settings in the `app/config/sculpin_site.yml` file. This includes the project `title`, `tagline`, `description`, `google_analytics_tracking_id` and `menu`. Note that all links in the menu must fall under a section. Examples exist to get you started.
+
+### Project pages
+
+To add pages to your website, simply create Markdown files within the `source` directory. Note that the filename will become it's URL. For example, `simple-example.md` becomes `http://your-domain.com/simple-example/`. You can set the page `<title>` at the top of the file. Here is a simple example page:
+
+~~~markdown
+---
+layout: layout
+title: Simple example
+---
+
+Simple example
+==============
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+~~~
+
+When showing PHP code examples, but sure to use the `~~~.language-php` Markdown code block syntax.
+
+### Project icons
+
+If you wish to customize your website with a logo icon and Favicon, simply add these files to your `source/img` path:
+
+- `apple-touch-icon-precomposed.png`
+- `favicon.ico`
+- `logo.png` (must be `50 x 40px`)
+
+### Domain name
+
+To use a custom domain name (ie. `your-project.thephpleague.com`), create a file in the `source` folder called `CNAME` and put your domain in that file. For example:
+
+~~~
+your-project.thephpleague.com
+~~~
+
+Next, set your domain DNS settings as per the GitHub Pages [documentation](https://help.github.com/articles/setting-up-a-custom-domain-with-pages#setting-up-dns).
+
+### Committing changes
+
+When ready, commit your changes to the `gh-pages-sculpin` branch.
+
+~~~markdown
+git add -A
+git commit .
+git push origin gh-pages-sculpin
+~~~
+
+
+## How to publish
+
+### The first time
+
+To publish your website, you must create a production ready version of your static site. This will be hosted on the `gh-pages` branch. To make this easy to do, we'll actually setup another GIT instance within the `output_prod` folder. This may seem odd at first, but it basically allows you to work on two branches simultaneously.
+
+~~~bash
+# Go to your project's root folder.
+cd your-project-folder
+
+# Create the output_prod folder.
+mkdir output_prod
+
+# Go to the output_prod folder.
+cd output_prod
+
+# Clone your existing project repository into this folder.
+# Be sure to update the repository URL for your project.
+git clone https://github.com/php-loep/your-project.git .
+
+# Create new branch for the website files.
+# Note, the gh-pages branch won't appear
+# in the list of branches until you make your
+# first commit.
+git checkout --orphan gh-pages
+
+# Remove all files from the old working tree.
+git rm -rf .
+
+# Go back to your project's root folder.
+cd ..
+
+# Make sure you have the most current version of
+# the League's theme.
+sculpin update
+
+# Generate the published website.
+sculpin generate --env=prod
+
+# Go back to the output_prod folder.
+cd output_prod
+
+# Make sure you're on the gh-pages branch.
+git status
+
+# Commit changes and push live.
+git add -A
+git commit .
+git push origin gh-pages
+~~~
+
+### After the first time
+
+~~~bash
+# Go to your project's root folder.
+cd your-project-folder
+
+# Remove all previously published files.
+rm -rf output_prod/*
+
+# Make sure you have the most current version of
+# the League's theme.
+sculpin update
+
+# Generate the published website.
+sculpin generate --env=prod
+
+# Go to the output_prod folder.
+cd output_prod
+
+# Make sure you're on the gh-pages branch.
+git status
+
+# Commit changes and push live.
+git add -A
+git commit .
+git push origin gh-pages
+~~~
+
+## Need help?
+
+If you need help, please contact [Jonathan Reinink](https://twitter.com/reinink).
