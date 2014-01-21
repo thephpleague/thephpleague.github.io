@@ -216,8 +216,8 @@ header
         background: #d6dadb;
         border-radius: 5px;
 
-        &:hover {
-
+        &:hover
+        {
             &:before
             {
                 @include transform(rotate(360deg));
@@ -476,7 +476,7 @@ main
                     font-weight: normal;
                     text-decoration: none;
                     @include transition-duration(.2s);
-                    @include transition-property (padding);
+                    @include transition-property (all);
 
                     &:hover
                     {
@@ -515,6 +515,11 @@ main
                     {
                         font-size: 17px;
                         text-align: center;
+
+                        &:hover
+                        {
+                            padding: 8px 3px 6px 0;
+                        }
                     }
                 }
             }
@@ -576,7 +581,6 @@ main
     article
     {
         overflow: hidden;
-
 
         font-family: "Museo 300";
         color: #2b3d50;

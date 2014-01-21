@@ -779,9 +779,9 @@ main {
         -webkit-transition-duration: 0.2s;
         -moz-transition-duration: 0.2s;
         transition-duration: 0.2s;
-        -webkit-transition-property: padding;
-        -moz-transition-property: padding;
-        transition-property: padding; }
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        transition-property: all; }
         main menu ul li a:hover {
           color: #a8d8eb;
           padding: 8px 0 6px 3px; }
@@ -800,7 +800,9 @@ main {
           padding: 0 15px; }
           main menu ul li a {
             font-size: 17px;
-            text-align: center; } }
+            text-align: center; }
+            main menu ul li a:hover {
+              padding: 8px 3px 6px 0; } }
     @media (min-width: 550px) and (max-width: 849px) {
       main menu {
         float: left;
@@ -919,18 +921,15 @@ footer {
     footer {
       padding: 25px 0 25px 45px; } }
 
-/**
- * prism.js default theme for JavaScript, CSS and HTML
- * Based on dabblet (http://dabblet.com)
- * @author Lea Verou
- */
 code[class*="language-"],
 pre[class*="language-"] {
   color: #2b3d50;
   font-family: Consolas, Monaco, 'Andale Mono', monospace;
+  line-height: 140%;
   direction: ltr;
   text-align: left;
   white-space: pre;
+  word-wrap: normal;
   word-spacing: normal;
   -moz-tab-size: 4;
   -o-tab-size: 4;
@@ -938,8 +937,7 @@ pre[class*="language-"] {
   -webkit-hyphens: none;
   -moz-hyphens: none;
   -ms-hyphens: none;
-  hyphens: none;
-  line-height: 140%; }
+  hyphens: none; }
   @media (min-width: 550px) and (max-width: 849px) {
     code[class*="language-"],
     pre[class*="language-"] {
@@ -949,10 +947,8 @@ pre[class*="language-"] {
     pre[class*="language-"] {
       font-size: 16px; } }
 
-/* Code blocks */
 pre[class*="language-"] {
   padding: 1em;
-  margin: .5em 0;
   overflow: auto; }
 
 :not(pre) > code[class*="language-"],

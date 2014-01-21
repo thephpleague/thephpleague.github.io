@@ -1,17 +1,13 @@
-/**
- * prism.js default theme for JavaScript, CSS and HTML
- * Based on dabblet (http://dabblet.com)
- * @author Lea Verou
- */
-
 code[class*="language-"],
 pre[class*="language-"] {
 
     color: #2b3d50;
     font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    line-height: 140%;
     direction: ltr;
     text-align: left;
     white-space: pre;
+    word-wrap: normal;
     word-spacing: normal;
 
     -moz-tab-size: 4;
@@ -22,8 +18,6 @@ pre[class*="language-"] {
     -moz-hyphens: none;
     -ms-hyphens: none;
     hyphens: none;
-
-    line-height: 140%;
 
     @include respond_min_max(550px, 849px)
     {
@@ -36,10 +30,8 @@ pre[class*="language-"] {
     }
 }
 
-/* Code blocks */
 pre[class*="language-"] {
     padding: 1em;
-    margin: .5em 0;
     overflow: auto;
 }
 
@@ -55,7 +47,6 @@ pre[class*="language-"] {
     {
         color: #ff4143;
     }
-
 
     .this,
     .keyword
