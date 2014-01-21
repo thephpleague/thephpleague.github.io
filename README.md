@@ -12,7 +12,6 @@ These websites are to be created as new "orphaned" branches within the existing 
 
 Before doing anything, start by [installing Sculpin](https://sculpin.io/download/). Consider dropping it in your `bin` folder to simply run it as `sculpin`. Sculpin works very similar to Composer.
 
-
 ## Project setup
 
 ~~~bash
@@ -112,6 +111,8 @@ your-project.thephpleague.com
 ~~~
 
 Next, set your domain DNS settings as per the GitHub Pages [documentation](https://help.github.com/articles/setting-up-a-custom-domain-with-pages#setting-up-dns).
+
+Finally, if you haven't done so yet, be sure to update your [package's website address](https://github.com/php-loep/php-loep.github.com/blob/master/_data/packages.yml) on the main League website.
 
 ### Committing changes
 
