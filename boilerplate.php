@@ -90,7 +90,7 @@ if (!is_file($dir . '/source/simple-example.md')) {
              . "---\n"
              . "\n"
              . "Simple example\n"
-             . "============";
+             . "==============";
 
     file_put_contents($dir . '/source/simple-example.md', $content);
 }
