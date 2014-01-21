@@ -114,6 +114,10 @@ Next, set your domain DNS settings as per the GitHub Pages [documentation](https
 
 Finally, if you haven't done so yet, be sure to update your [package's website address](https://github.com/php-loep/php-loep.github.com/blob/master/_data/packages.yml) on the main League website.
 
+### Google Analytics
+
+A Google Analytics account has been created specifically for The PHP League. Ideally, all project websites are setup within this account. That allows all members to view the statistics of each participating project, as well as the main website. To gain access to this account, or to generate a new tracking ID for your project, please contact [Jonathan Reinink](https://twitter.com/reinink).
+
 ### Committing changes
 
 When ready, commit your changes to the `gh-pages-sculpin` branch.
