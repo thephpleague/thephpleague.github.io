@@ -149,7 +149,7 @@ sculpin update
 # Generate the published website.
 sculpin generate --env=prod
 
-# Go back to the output_prod folder.
+# Go to the output_prod folder.
 cd output_prod
 
 # Commit changes and push live.
