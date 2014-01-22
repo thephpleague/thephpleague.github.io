@@ -34,7 +34,7 @@ git rm -rf .
 # Run the boilerplate setup script.
 # This will simply create some default files and folders
 # (required by Sculpin) in the current folder.
-curl -sS https://raw.github.com/php-loep/php-loep.github.com/project-website-theme/boilerplate.php | php
+curl -sS https://raw.github.com/thephpleague/thephpleague.github.com/project-website-theme/boilerplate.php | php
 
 # Install the League's theme.
 # If you do not have Sculpin installed yet, do that now.
@@ -114,7 +114,7 @@ your-project.thephpleague.com
 
 Next, set your domain DNS settings as per the GitHub Pages [documentation](https://help.github.com/articles/setting-up-a-custom-domain-with-pages#setting-up-dns).
 
-Finally, if you haven't done so yet, be sure to update your [package's website address](https://github.com/php-loep/php-loep.github.com/blob/master/_data/packages.yml) on the main League website.
+Finally, if you haven't done so yet, be sure to update your [package's website address](https://github.com/thephpleague/thephpleague.github.com/blob/master/_data/packages.yml) on the main League website.
 
 ### Google Analytics
 
@@ -149,7 +149,7 @@ cd output_prod
 
 # Clone your existing project repository into this folder.
 # Be sure to update the repository URL for your project.
-git clone https://github.com/php-loep/your-project.git .
+git clone https://github.com/thephpleague/your-project.git .
 
 # Create new branch for the website files.
 # Note, the gh-pages branch won't appear
