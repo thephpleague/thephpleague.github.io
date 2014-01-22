@@ -133,28 +133,23 @@ git push origin gh-pages-sculpin
 
 ## How to publish
 
-### The first time
-
 To publish your website, you must create a production ready version of your static site. This will be hosted on the `gh-pages` branch. To make this easy to do, we'll actually setup another GIT instance within the `output_prod` folder. This may seem odd at first, but it basically allows you to work on two branches simultaneously.
 
 ~~~bash
 # Go to your project's root folder.
 cd your-project-folder
 
-# Create the output_prod folder.
-mkdir output_prod
+# Remove the output_prod folder (if it exists).
+rm -rf output_prod
+
+# Clone your existing project repository into this folder.
+# Be sure to update the repository URL for your project.
+git clone https://github.com/thephpleague/YOUR-PROJECT.git output_prod
 
 # Go to the output_prod folder.
 cd output_prod
 
-# Clone your existing project repository into this folder.
-# Be sure to update the repository URL for your project.
-git clone https://github.com/thephpleague/your-project.git .
-
 # Create new branch for the website files.
-# Note, the gh-pages branch won't appear
-# in the list of branches until you make your
-# first commit.
 git checkout --orphan gh-pages
 
 # Remove all files from the old working tree.
@@ -173,41 +168,20 @@ sculpin generate --env=prod
 # Go back to the output_prod folder.
 cd output_prod
 
-# Make sure you're on the gh-pages branch.
-git status
-
 # Commit changes and push live.
+# You do not have to change the commit message.
+# The gh-pages branch will only ever have one commit.
 git add -A
-git commit .
-git push origin gh-pages
-~~~
+git commit -m "Publish"
+git push --force origin gh-pages
 
-### After the first time
+# Go back to your project's root folder.
+cd ..
 
-~~~bash
-# Go to your project's root folder.
-cd your-project-folder
-
-# Remove all previously published files.
-rm -rf output_prod/*
-
-# Make sure you have the most current version of
-# the League's theme.
-sculpin update
-
-# Generate the published website.
-sculpin generate --env=prod
-
-# Go to the output_prod folder.
-cd output_prod
-
-# Make sure you're on the gh-pages branch.
-git status
-
-# Commit changes and push live.
-git add -A
-git commit .
-git push origin gh-pages
+# Remove the output_prod folder.
+# You'll have less issues if you simply repeat these
+# steps in their entirety next time you public.
+rm -rf output_prod
 ~~~
 
 ## Need help?
