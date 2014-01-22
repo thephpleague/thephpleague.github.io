@@ -180,7 +180,7 @@ cd ..
 
 # Remove the output_prod folder.
 # You'll have less issues if you simply repeat these
-# steps in their entirety next time you public.
+# steps in their entirety next time you publish.
 rm -rf output_prod
 ~~~
 
