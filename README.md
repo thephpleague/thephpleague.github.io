@@ -142,22 +142,6 @@ cd your-project-folder
 # Remove the output_prod folder (if it exists).
 rm -rf output_prod
 
-# Clone your existing project repository into this folder.
-# Be sure to update the repository URL for your project.
-git clone https://github.com/thephpleague/YOUR-PROJECT.git output_prod
-
-# Go to the output_prod folder.
-cd output_prod
-
-# Create new branch for the website files.
-git checkout --orphan gh-pages
-
-# Remove all files from the old working tree.
-git rm -rf .
-
-# Go back to your project's root folder.
-cd ..
-
 # Make sure you have the most current version of
 # the League's theme.
 sculpin update
@@ -169,11 +153,14 @@ sculpin generate --env=prod
 cd output_prod
 
 # Commit changes and push live.
+# Be sure to update the repository URL for your project.
 # You do not have to change the commit message.
 # The gh-pages branch will only ever have one commit.
+git init
+git remote add origin https://github.com/thephpleague/YOUR-PROJECT.git
 git add -A
 git commit -m "Publish"
-git push --force origin gh-pages
+git push --force origin HEAD:gh-pages
 
 # Go back to your project's root folder.
 cd ..
