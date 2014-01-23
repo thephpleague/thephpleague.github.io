@@ -53,8 +53,8 @@
     username: FrenkyNet
 
 - name: OAuth 1 Client
-  repo: oauth1
-  website: https://github.com/thephpleague/oauth1
+  repo: oauth1-client
+  website: https://github.com/thephpleague/oauth1-client
   complete: true
   description: Integrate with OAuth 1.0 providers
   author:
@@ -62,8 +62,8 @@
     username: bencorlett
 
 - name: OAuth 2 Server
-  repo: oauth2
-  website: https://github.com/thephpleague/oauth2
+  repo: oauth2-server
+  website: https://github.com/thephpleague/oauth2-server
   complete: true
   description: Build a OAuth 2.0 server
   author:
@@ -80,7 +80,7 @@
     username: alexbilbie
 
 - name: Plates
-  repo: Plates
+  repo: plates
   website: http://platesphp.com
   complete: true
   description: Native PHP template system
@@ -107,8 +107,8 @@
     username: toopay
 
 - name: StackAttack
-  repo: StackAttack
-  website: https://github.com/thephpleague/StackAttack
+  repo: stack-attack
+  website: https://github.com/thephpleague/stack-attack
   complete: false
   description: StackPHP Middleware based on Rack::Attack
   author:
@@ -116,8 +116,8 @@
     username: dongilbert
 
 - name: StackRobots
-  repo: StackRobots
-  website: https://github.com/thephpleague/StackRobots
+  repo: stack-robots
+  website: https://github.com/thephpleague/stack-robots
   complete: true
   description: A robots.txt StackPHP Middleware
   author:
