@@ -3,6 +3,19 @@
 /*
  * This file is used to quickly generate boilerplate project
  * websites for The League of Extraordinary Packages.
+ *
+ * The following files and folders will be created:
+ *
+ *     sculpin.json
+ *     /app
+ *       /config
+ *           sculpin_kernel.yml
+ *           sculpin_site.yml
+ *     /source
+ *       /img
+ *       index.md
+ *       installation.md
+ *       simple-example.md
  */
 
 $dir = getcwd();
@@ -74,6 +87,11 @@ if (!is_file($dir . '/source/index.md')) {
              . "\n"
              . "Introduction\n"
              . "============\n"
+             . "\n"
+             . "<ul class=\"quick_links\">\n"
+             . "    <li><a class=\"github\" href=\"https://github.com/thephpleague/YOUR-PROJECT\">View Source</a></li>\n"
+             . "    <li><a class=\"twitter\" href=\"https://twitter.com/YOUR-USERNAME\">Follow Author</a></li>\n"
+             . "</ul>\n"
              . "\n"
              . "## Subtitle\n"
              . "\n"
