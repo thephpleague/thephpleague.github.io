@@ -17,8 +17,8 @@
     username: dongilbert
 
 - name: Geotools
-  repo: Geotools
-  website: https://github.com/thephpleague/Geotools
+  repo: geotools
+  website: https://github.com/thephpleague/geotools
   complete: true
   description: Perform geo-related tasks
   author:
