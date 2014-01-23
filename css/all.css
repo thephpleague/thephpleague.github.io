@@ -606,7 +606,7 @@ header {
     line-height: 120%;
     text-decoration: none;
     background: #d6dadb;
-    border-radius: 5px; }
+    border-radius: 4px; }
     header .league:hover:before {
       -webkit-transform: rotate(360deg);
       -moz-transform: rotate(360deg);
@@ -839,6 +839,8 @@ main {
       color: #ff4143;
       line-height: 100%;
       font-weight: normal; }
+      main article h1 + .quick_links {
+        margin-top: -10px; }
     main article h2 {
       -webkit-font-smoothing: antialiased;
       font-family: "Museo 300";
@@ -862,6 +864,28 @@ main {
       border-radius: 2px;
       background: #f5f6f7;
       border: solid #dcdddd 1px; }
+    main article .quick_links {
+      list-style: none;
+      margin: 25px 0;
+      padding: 0;
+      font-size: 0; }
+      main article .quick_links li {
+        display: inline-block;
+        margin: 0 10px 0 0; }
+        main article .quick_links li a {
+          display: block;
+          height: 38px;
+          text-indent: -9999px;
+          border-radius: 4px;
+          background: #c2c2c2 url(../img/quick_links.png) no-repeat; }
+          main article .quick_links li a:hover {
+            background-color: #6abcdd; }
+          main article .quick_links li a.github {
+            width: 142px;
+            background-position: 0 0; }
+          main article .quick_links li a.twitter {
+            width: 158px;
+            background-position: -142px 0; }
     @media screen and (max-width: 549px) {
       main article {
         float: left;

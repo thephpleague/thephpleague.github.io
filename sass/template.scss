@@ -214,7 +214,7 @@ header
         line-height: 120%;
         text-decoration: none;
         background: #d6dadb;
-        border-radius: 5px;
+        border-radius: 4px;
 
         &:hover
         {
@@ -594,6 +594,11 @@ main
             color: #ff4143;
             line-height: 100%;
             font-weight: normal;
+
+            +.quick_links
+            {
+                margin-top: -10px;
+            }
         }
 
         h2
@@ -632,6 +637,47 @@ main
             border-radius: 2px;
             background: #f5f6f7;
             border: solid #dcdddd 1px;
+        }
+
+        .quick_links
+        {
+            list-style: none;
+            margin: 25px 0;
+            padding: 0;
+            font-size: 0;
+
+            li
+            {
+                display: inline-block;
+                margin: 0 10px 0 0;
+
+                a
+                {
+                    display: block;
+                    height: 38px;
+
+                    text-indent: -9999px;
+                    border-radius: 4px;
+                    background: #c2c2c2 url(../img/quick_links.png) no-repeat;
+
+                    &:hover
+                    {
+                        background-color: #6abcdd;
+                    }
+
+                    &.github
+                    {
+                        width: 142px;
+                        background-position: 0 0;
+                    }
+
+                    &.twitter
+                    {
+                        width: 158px;
+                        background-position: -142px 0;
+                    }
+                }
+            }
         }
 
         @include respond_max(549px)
