@@ -7,6 +7,7 @@
  * The following files and folders will be created:
  *
  *     sculpin.json
+ *     .gitignore
  *     /app
  *       /config
  *           sculpin_kernel.yml
@@ -77,6 +78,15 @@ if (!is_file($dir . '/sculpin.json')) {
              . "}";
 
     file_put_contents($dir . '/sculpin.json', $content);
+}
+
+if (!is_file($dir . '/.gitignore')) {
+
+    $content = "/.sculpin/\n"
+             . "/output_*/\n"
+             . "/source/themes/";
+
+    file_put_contents($dir . '/.gitignore', $content);
 }
 
 if (!is_file($dir . '/source/index.md')) {
