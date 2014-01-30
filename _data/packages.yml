@@ -36,7 +36,7 @@
 
 - name: Flysystem
   repo: flysystem
-  website: https://github.com/thephpleague/flysystem
+  website: http://flysystem.thephpleague.com/
   complete: true
   description: Abstraction for local and remote filesystems
   author:
