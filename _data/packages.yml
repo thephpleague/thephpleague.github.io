@@ -7,15 +7,6 @@
     name: Mathieu Lechat
     username: MatTheCat
 
-- name: DI
-  repo: di
-  website: https://github.com/thephpleague/di
-  complete: true
-  description: Ultra-fast dependency injection container
-  author:
-    name: Don Gilbert
-    username: dongilbert
-
 - name: Geotools
   repo: geotools
   website: https://github.com/thephpleague/geotools
@@ -27,9 +18,9 @@
 
 - name: Fractal
   repo: fractal
-  website: https://github.com/thephpleague/fractal
+  website: http://fractal.thephpleague.com
   complete: true
-  description: Presentation layer for RESTful API responses
+  description: Output complex, flexible, RESTful data structures.
   author:
     name: Phil Sturgeon
     username: philsturgeon
