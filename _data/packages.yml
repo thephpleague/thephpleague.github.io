@@ -1,4 +1,13 @@
-- name: Color Extractor
+- name: DI
+  repo: di
+  website: https://github.com/thephpleague/di
+  complete: true
+  description: Ultra-fast dependency injection container
+  author:
+    name: Don Gilbert
+    username: dongilbert
+ 
+ - name: Color Extractor
   repo: color-extractor
   website: https://github.com/thephpleague/color-extractor
   complete: true
@@ -20,7 +29,7 @@
   repo: fractal
   website: http://fractal.thephpleague.com
   complete: true
-  description: Output complex, flexible, RESTful data structures.
+  description: Output complex, flexible, RESTful data structures
   author:
     name: Phil Sturgeon
     username: philsturgeon
