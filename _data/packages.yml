@@ -65,7 +65,7 @@
   repo: oauth2-server
   website: https://github.com/thephpleague/oauth2-server
   complete: true
-  description: Build a OAuth 2.0 server
+  description: Build an OAuth 2.0 server
   author:
     name: Alex Bilbie
     username: alexbilbie
