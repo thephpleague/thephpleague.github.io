@@ -18,7 +18,7 @@
 
 - name: CSV
   repo: csv
-  website: https://github.com/thephpleague/csv
+  website: http://csv.thephpleague.com/
   complete: true
   description: CSV data manipulation made easy in PHP
   author:
