@@ -1,12 +1,3 @@
-- name: DI
-  repo: di
-  website: https://github.com/thephpleague/di
-  complete: true
-  description: Ultra-fast dependency injection container
-  author:
-    name: Don Gilbert
-    username: dongilbert
- 
 - name: Color Extractor
   repo: color-extractor
   website: https://github.com/thephpleague/color-extractor
