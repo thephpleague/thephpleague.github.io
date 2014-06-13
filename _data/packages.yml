@@ -16,6 +16,15 @@
     name: Nyamagana Butera Ignace
     username: nyamsprod
 
+- name: Event
+  repo: event
+  website: http://github.com/thephpleague/event
+  complete: true
+  description: Event package
+  author:
+    name: Frank de Jonge
+    username: FrenkyNet
+
 - name: Geotools
   repo: geotools
   website: https://github.com/thephpleague/geotools
