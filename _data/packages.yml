@@ -150,3 +150,12 @@
   author:
     name: Matt Frost
     username: mfrost503
+    
+- name: URL
+  repo: url
+  website: http://url.thephpleague.com/
+  complete: true
+  description: URL manipulation made easy in PHP
+  author:
+    name: Nyamagana Butera Ignace
+    username: nyamsprod
