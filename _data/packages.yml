@@ -58,8 +58,8 @@
   complete: true
   description: Simple and swift MongoDB abstraction
   author:
-    name: Frank de Jonge
-    username: FrenkyNet
+    name: Seeking Lead
+    username: thephpleague
 
 - name: OAuth 1 Client
   repo: oauth1-client
@@ -142,15 +142,6 @@
     name: Marc Qualie
     username: marcqualie
 
-- name: Twitter Client
-  repo: twitter
-  website: https://github.com/thephpleague/twitter
-  complete: false
-  description: A high quality Twitter API library
-  author:
-    name: Matt Frost
-    username: mfrost503
-    
 - name: URL
   repo: url
   website: http://url.thephpleague.com/
