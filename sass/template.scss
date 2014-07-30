@@ -405,6 +405,11 @@
                     a
                     {
                         color: #ff4043;
+
+                        &:hover
+                        {
+                            color: #c33637;
+                        }
                     }
 
                     code
@@ -601,6 +606,17 @@
             font-family: "Museo 300";
             font-size: 18px;
             line-height: 140%;
+        }
+
+        a
+        {
+            color: white;
+            text-decoration: underline;
+
+            &:hover
+            {
+                color: lighten(#ff7173, 15%);
+            }
         }
     }
 
