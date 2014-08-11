@@ -25,6 +25,15 @@
     name: Frank de Jonge
     username: FrenkyNet
 
+- name: Factory Muffin
+  repo: factory-muffin
+  website: http://thephpleague.com/factory-muffin/
+  complete: true
+  description: Enables rapid creation of objects for testing purposes
+  author:
+    name: Scott Robertson
+    username: scottrobertson
+
 - name: Geotools
   repo: geotools
   website: https://github.com/thephpleague/geotools
