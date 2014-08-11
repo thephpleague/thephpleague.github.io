@@ -27,7 +27,7 @@
 
 - name: Factory Muffin
   repo: factory-muffin
-  website: http://thephpleague.com/factory-muffin/
+  website: http://factory-muffin.thephpleague.com/
   complete: true
   description: Enables the rapid creation of objects for testing
   author:
