@@ -29,7 +29,7 @@
   repo: factory-muffin
   website: http://thephpleague.com/factory-muffin/
   complete: true
-  description: Enables rapid creation of objects for testing purposes
+  description: Enables the rapid creation of objects for testing
   author:
     name: Scott Robertson
     username: scottrobertson
