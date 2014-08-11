@@ -34,14 +34,14 @@
     name: Scott Robertson
     username: scottrobertson
 
-- name: Geotools
-  repo: geotools
-  website: https://github.com/thephpleague/geotools
+- name: Flysystem
+  repo: flysystem
+  website: http://flysystem.thephpleague.com/
   complete: true
-  description: Perform geo-related tasks
+  description: Abstraction for local and remote filesystems
   author:
-    name: Antoine Corcy
-    username: toin0u
+    name: Frank de Jonge
+    username: FrenkyNet
 
 - name: Fractal
   repo: fractal
@@ -52,14 +52,14 @@
     name: Phil Sturgeon
     username: philsturgeon
 
-- name: Flysystem
-  repo: flysystem
-  website: http://flysystem.thephpleague.com/
+- name: Geotools
+  repo: geotools
+  website: https://github.com/thephpleague/geotools
   complete: true
-  description: Abstraction for local and remote filesystems
+  description: Perform geo-related tasks
   author:
-    name: Frank de Jonge
-    username: FrenkyNet
+    name: Antoine Corcy
+    username: toin0u
 
 - name: Monga
   repo: monga
