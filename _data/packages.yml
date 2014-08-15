@@ -67,8 +67,7 @@
   complete: true
   description: Simple and swift MongoDB abstraction
   author:
-    name: Seeking Lead
-    username: thephpleague
+    seeking: https://groups.google.com/forum/#!forum/thephpleague
 
 - name: OAuth 1 Client
   repo: oauth1-client
