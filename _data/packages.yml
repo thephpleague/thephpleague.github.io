@@ -9,7 +9,7 @@
 
 - name: CSV
   repo: csv
-  website: http://csv.thephpleague.com/
+  website: http://csv.thephpleague.com
   complete: true
   description: CSV data manipulation made easy in PHP
   author:
@@ -27,7 +27,7 @@
 
 - name: Factory Muffin
   repo: factory-muffin
-  website: http://factory-muffin.thephpleague.com/
+  website: http://factory-muffin.thephpleague.com
   complete: true
   description: Enables the rapid creation of objects for testing
   author:
@@ -36,7 +36,7 @@
 
 - name: Flysystem
   repo: flysystem
-  website: http://flysystem.thephpleague.com/
+  website: http://flysystem.thephpleague.com
   complete: true
   description: Abstraction for local and remote filesystems
   author:
@@ -81,7 +81,7 @@
 
 - name: OAuth 2 Server
   repo: oauth2-server
-  website: https://github.com/thephpleague/oauth2-server
+  website: http://oauth2.thephpleague.com
   complete: true
   description: Build an OAuth 2.0 server
   author:
@@ -153,7 +153,7 @@
 
 - name: URL
   repo: url
-  website: http://url.thephpleague.com/
+  website: http://url.thephpleague.com
   complete: true
   description: URL manipulation made easy in PHP
   author:
