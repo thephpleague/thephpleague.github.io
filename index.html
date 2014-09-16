@@ -18,11 +18,48 @@ title: The League of Extraordinary Packages
 <body>
 
 <div class="introduction">
+    <div class="toolbar">
+        <div class="center">
+            <ul class="menu">
+                <li>
+                    <a href="#packages">Our Packages</a>
+                </li>
+                <li>
+                    <a href="#quality">Quality</a>
+                </li>
+                <li>
+                    <a href="#why">Why?</a>
+                </li>
+                <li>
+                    <a href="#contribute">Contribute</a>
+                </li>
+            </ul>
+            <ul class="links_and_languages">
+                <li class="github">
+                    <a href="https://github.com/thephpleague">GitHub</a>
+                </li>
+                <li class="twitter">
+                    <a href="https://twitter.com/thephpleague">Twitter</a>
+                </li>
+                <li class="languages">
+                    <span>Language: <strong>{{ site.data.languages.current }}</strong></span>
+                    <ul>
+                        {% for language in site.data.languages.available %}
+                            <li>
+                                <a href="{{ language.website }}">{{ language.name }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
     <div class="center">
         <a href="" class="logo">
             <img src="img/logo.png" alt="The League of Extraordinary Packages" width="270" height="279">
         </a>
         <h1>The League of Extraordinary Packages is a group of developers who have banded together to build solid, well tested PHP packages using modern coding standards.</h1>
+        <span class="stars">&#9733;&#9733;&#9733;</span>
         <ul class="features">
             <li>We comply to the standards of the <a href="http://www.php-fig.org/">PHP-FIG</a>.</li>
             <li>We adhere to the best-practices put forward by <a href="http://www.phptherightway.com/">PHP The "Right" Way</a>.</li>
@@ -31,7 +68,7 @@ title: The League of Extraordinary Packages
     </div>
 </div>
 
-<div class="packages">
+<div class="packages" id="packages">
     <div class="center">
         <h2>Our Packages</h2>
         <ul>
@@ -70,7 +107,7 @@ title: The League of Extraordinary Packages
     </div>
 </div>
 
-<div class="quality">
+<div class="quality" id="quality">
     <div class="center">
         <div class="column one">
             <h2>Our Definition of Quality</h2>
@@ -90,7 +127,7 @@ title: The League of Extraordinary Packages
                     <p>Adhere to <a href="http://www.php-fig.org/psr/psr-2/">PSR-2</a> as the coding style guide.</p>
                 </li>
                 <li>
-                    <p>List on Packagist, we list with <code>league</code> as the vendor namespace.</p>
+                    <p>List on Packagist with <code>league</code> as the vendor namespace.</p>
                 </li>
                 <li>
                     <p>Shove code in a <code>src</code> folder.</p>
@@ -115,7 +152,7 @@ title: The League of Extraordinary Packages
     </div>
 </div>
 
-<div class="why">
+<div class="why" id="why">
     <div class="center">
         <h2>Why?</h2>
         <div class="column one">
@@ -129,9 +166,9 @@ title: The League of Extraordinary Packages
     </div>
 </div>
 
-<div class="invitation">
+<div class="invitation" id="contribute">
     <div class="center">
-        <img src="img/stars.png" alt="Stars" width="125" height="33">
+        <img src="img/heart.png" alt="Heart" width="100" height="100">
         <h2>New Packages Welcome</h2>
         <h3>Gain exposure. Meet new people. Work together.</h3>
         <div class="column one">
@@ -146,6 +183,13 @@ title: The League of Extraordinary Packages
             <h4>This is not the FIG</h4>
             <p>We are not here to tell you what to do or how to do it - and contrary to popular belief neither are they. This is an open-source project started by a few friends who wanted a fun vendor name and will continue to grow as we release more and more awesome packages.</p>
         </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="center">
+        <span>&copy; Copyright The League of Extraordinary Packages.</span>
+        <span>Site design by <a href="http://reinink.ca">Jonathan Reinink</a>.</span>
     </div>
 </div>
 

@@ -2,7 +2,7 @@
 {
     margin: 0 auto;
     max-width: 1000px;
-    overflow: hidden;
+    @include clearfix;
 
     @media (min-width: 0px) and (max-width: 1000px)
     {
@@ -12,7 +12,208 @@
 
 .introduction
 {
-    background: #19242f;
+    background: #19242f url(../img/banner_bg.png) no-repeat center top;
+    background-size: cover;
+    @include clearfix;
+
+    .toolbar
+    {
+        background: rgba(#151c22, .5);
+        -webkit-font-smoothing: antialiased;
+        font-family: "Museo Sans 900";
+        color: #8c8c8c;
+        font-size: 14px;
+        line-height: 1;
+        text-transform: uppercase;
+        @include clearfix;
+
+        .menu
+        {
+            list-style: none;
+            margin: 25px 0 0 0;
+            padding: 0;
+            @include clearfix;
+
+            li
+            {
+                float: left;
+                margin: 0 25px 0 0;
+
+                a
+                {
+                    color: #8c8c8c;
+                    text-decoration: none;
+
+                    &:hover
+                    {
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        .links_and_languages
+        {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            @include clearfix;
+
+            > li
+            {
+                float: left;
+
+                &.github,
+                &.twitter
+                {
+                    a
+                    {
+                        display: block;
+                        text-indent: -9999px;
+                        background-size: 100% auto;
+                        background-position: center top;
+                        height: 20px;
+
+                        &:hover
+                        {
+                            background-position: center bottom;
+                        }
+                    }
+                }
+
+                &.github
+                {
+                    margin: 22px 8px 0 0;
+
+                    a
+                    {
+                        width: 21px;
+                        background-image: url(../img/github.png);
+                    }
+                }
+
+                &.twitter
+                {
+                    margin: 22px 12px 0 0;
+
+                    a
+                    {
+                        width: 24px;
+                        background-image: url(../img/twitter.png);
+                    }
+                }
+
+                &.languages
+                {
+                    position: relative;
+                    margin: 25px 0 0 0;
+
+                    span
+                    {
+                        position: relative;
+                        z-index: 2000;
+
+                        strong
+                        {
+                            color: #c6c6c6;
+                            font-weight: normal;
+                        }
+                    }
+
+                    &:hover
+                    {
+                        span,
+                        strong
+                        {
+                            color: white;
+                        }
+
+                        ul
+                        {
+                            display: block;
+                        }
+                    }
+
+                    ul
+                    {
+                        display: none;
+                        position: absolute;
+                        top: -10px;
+                        left: -7px;
+                        z-index: 1000;
+                        list-style: none;
+                        margin: 0;
+                        padding: 35px 7px 15px 7px;
+                        width: 100%;
+                        background: #6abcdd;
+
+                        li
+                        {
+                            padding: 8px 15px;
+                            font-family: "Museo Sans 500";
+                            -webkit-font-smoothing: antialiased;
+                            font-size: 14px;
+                            line-height: 1;
+                            font-weight: normal;
+                            text-align: center;
+                            text-transform: none;
+                            border-top: solid 1px lighten(#6abcdd, 10%);
+
+                            &:last-child
+                            {
+                                border-bottom: solid 1px lighten(#6abcdd, 10%);
+                            }
+
+                            a
+                            {
+                                color: darken(#6abcdd, 35%);
+                                text-decoration: none;
+
+                                &:hover
+                                {
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        @media screen and (max-width: 699px)
+        {
+            padding: 25px 0;
+
+            .menu,
+            .links_and_languages
+            {
+                margin: 0;
+                text-align: center;
+
+                > li
+                {
+                    float: none;
+                    margin: 0 10px;
+                    display: inline-block;
+                }
+            }
+        }
+
+        @media screen and (min-width: 700px)
+        {
+            height: 60px;
+
+            .menu
+            {
+                float: left;
+            }
+
+            .links_and_languages
+            {
+                float: right;
+            }
+        }
+    }
 
     .logo
     {
@@ -32,19 +233,19 @@
 
         @media screen and (min-width: 500px)
         {
-            margin: 70px auto 0 auto;
+            margin: 85px auto 0 auto;
             width: 270px;
         }
     }
 
     h1
     {
-        margin: 30px auto 15px auto;
-        max-width: 850px;
+        margin: 30px auto 0 auto;
+        max-width: 1000px;
         color: #ff4043;
         -webkit-font-smoothing: antialiased;
         font-family: "Museo 300";
-        font-size: 30px;
+        font-size: 36px;
         line-height: 136%;
         font-weight: normal;
         text-align: center;
@@ -56,22 +257,32 @@
         }
     }
 
-    ul
+    .stars
+    {
+        display: block;
+        margin: 27px 0 0 0;
+        color: white;
+        font-size: 20px;
+        letter-spacing: .8em;
+        text-align: center;
+    }
+
+    .features
     {
         list-style: none;
-        margin: 0 0 70px 0;
+        margin: 22px 0 100px 0;
         padding: 0;
 
         @media screen and (max-width: 499px)
         {
-            margin: 0 0 35px 0;
+            margin: 22px 0 35px 0;
         }
 
         li
         {
             color: #d7dadb;
             font-family: "Museo 300";
-            font-size: 17px;
+            font-size: 18px;
             line-height: 150%;
             font-weight: normal;
             text-align: center;
@@ -79,6 +290,7 @@
             a
             {
                 color: #a5a5a5;
+                white-space: nowrap;
                 text-decoration: none;
 
                 &:hover
@@ -261,7 +473,7 @@
 
     @media screen and (min-width: 500px)
     {
-        padding: 75px 0 50px 0;
+        padding: 85px 0;
 
         @media screen and (max-width: 699px)
         {
@@ -465,7 +677,7 @@
 
     @media screen and (min-width: 700px)
     {
-        padding: 70px 0 45px 0;
+        padding: 85px 0 65px 0;
 
         .column.one
         {
@@ -535,7 +747,7 @@
 
     @media screen and (min-width: 700px)
     {
-        padding: 60px 0 50px 0;
+        padding: 85px 0;
 
         .column
         {
@@ -564,7 +776,8 @@
     {
         display: block;
         margin: 0 auto;
-        width: 125px;
+        width: 90px;
+        height: auto;
     }
 
     h2
@@ -642,7 +855,7 @@
 
     @media screen and (min-width: 700px)
     {
-        padding: 70px 0;
+        padding: 85px 0;
 
         .column
         {
@@ -660,6 +873,36 @@
             {
                 padding: 0 0 0 25px;
             }
+        }
+    }
+}
+
+.footer
+{
+    padding: 30px 0 35px 0;
+    font-family: "Museo Sans 500";
+    -webkit-font-smoothing: antialiased;
+    color: #ff7173;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: normal;
+    text-align: center;
+    background: darken(#b73234, 15%);
+
+    span
+    {
+        display: inline-block;
+        margin: 0 0 5px 0;
+    }
+
+    a
+    {
+        color: #ff7173;
+        text-decoration: underline;
+
+        &:hover
+        {
+            color: white;
         }
     }
 }
