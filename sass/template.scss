@@ -34,7 +34,7 @@
             padding: 0;
             @include clearfix;
 
-            li
+            > li
             {
                 float: left;
                 margin: 0 25px 0 0;
@@ -83,7 +83,7 @@
 
                 &.github
                 {
-                    margin: 22px 8px 0 0;
+                    margin: 22px 10px 0 0;
 
                     a
                     {
@@ -108,10 +108,19 @@
                     position: relative;
                     margin: 25px 0 0 0;
 
-                    span
+                    input
+                    {
+                        position: absolute;
+                        top: -9999px;
+                        left: -9999px;
+                    }
+
+                    label
                     {
                         position: relative;
                         z-index: 2000;
+                        user-select: none;
+                        cursor: pointer;
 
                         strong
                         {
@@ -120,9 +129,10 @@
                         }
                     }
 
-                    &:hover
+                    input:checked + .languages_menu
                     {
-                        span,
+
+                        label,
                         strong
                         {
                             color: white;
@@ -180,26 +190,64 @@
             }
         }
 
-        @media screen and (max-width: 699px)
+        @media screen and (max-width: 599px)
         {
             padding: 25px 0;
 
-            .menu,
-            .links_and_languages
+            .menu
             {
                 margin: 0;
+
+                > li
+                {
+                    box-sizing: border-box;
+                    width: 50%;
+                    margin: 0;
+                    padding: 4px 0;
+                    text-align: center;
+                    border-right: dotted 1px #8c8c8c;
+                    border-bottom: dotted 1px #8c8c8c;
+
+                    &:nth-child(2),
+                    &:nth-child(4)
+                    {
+                        border-right: 0;
+                    }
+
+                    &:nth-child(3),
+                    &:nth-child(4)
+                    {
+                        border-bottom: 0;
+                    }
+                }
+            }
+
+            .links_and_languages
+            {
+
                 text-align: center;
 
                 > li
                 {
                     float: none;
-                    margin: 0 10px;
+                    margin: 0 2px;
                     display: inline-block;
                 }
             }
         }
 
-        @media screen and (min-width: 700px)
+        @media screen and (min-width: 600px) and (max-width: 650px)
+        {
+            .menu
+            {
+                > li
+                {
+                    margin: 0 15px 0 0;
+                }
+            }
+        }
+
+        @media screen and (min-width: 600px)
         {
             height: 60px;
 

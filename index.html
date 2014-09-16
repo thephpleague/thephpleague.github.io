@@ -42,14 +42,17 @@ title: The League of Extraordinary Packages
                     <a href="https://twitter.com/thephpleague">Twitter</a>
                 </li>
                 <li class="languages">
-                    <span>Language: <strong>{{ site.data.languages.current }}</strong></span>
-                    <ul>
-                        {% for language in site.data.languages.available %}
-                            <li>
-                                <a href="{{ language.website }}">{{ language.name }}</a>
-                            </li>
-                        {% endfor %}
-                    </ul>
+                    <input id="languages_menu" type="checkbox">
+                    <div class="languages_menu">
+                        <label for="languages_menu">Language: <strong>{{ site.data.languages.current }}</strong></label>
+                        <ul>
+                            {% for language in site.data.languages.available %}
+                                <li>
+                                    <a href="{{ language.website }}">{{ language.name }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
                 </li>
             </ul>
         </div>
