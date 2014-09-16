@@ -1,3 +1,12 @@
+- name: CLImate
+  repo: climate
+  website: https://github.com/thephpleague/climate
+  complete: true
+  description: Terminal output made easy
+  author:
+    name: Joe Tannenbaum
+    username: joetannenbaum
+
 - name: Color Extractor
   repo: color-extractor
   website: https://github.com/thephpleague/color-extractor
@@ -11,16 +20,16 @@
   repo: csv
   website: http://csv.thephpleague.com
   complete: true
-  description: CSV data manipulation made easy in PHP
+  description: CSV data manipulation made easy
   author:
-    name: Nyamagana Butera Ignace
+    name: Ignace Nyamagana Butera
     username: nyamsprod
 
 - name: Event
   repo: event
   website: http://github.com/thephpleague/event
   complete: true
-  description: Event package
+  description: Register and listen for events in your app
   author:
     name: Frank de Jonge
     username: FrenkyNet
@@ -109,7 +118,7 @@
   repo: phpunit-coverage-listener
   website: https://github.com/thephpleague/phpunit-coverage-listener
   complete: true
-  description: Report code coverage statistics to third-party services
+  description: Report code coverage stats to third-party services
   author:
     name: Taufan Aditya
     username: toopay
@@ -145,7 +154,7 @@
   repo: statsd
   website: https://github.com/thephpleague/statsd
   complete: true
-  description: Library for working with StatsD in PHP
+  description: Library for working with StatsD
   author:
     name: Marc Qualie
     username: marcqualie
@@ -154,7 +163,7 @@
   repo: url
   website: http://url.thephpleague.com
   complete: true
-  description: URL manipulation made easy in PHP
+  description: URL manipulation made easy
   author:
-    name: Nyamagana Butera Ignace
+    name: Ignace Nyamagana Butera
     username: nyamsprod
