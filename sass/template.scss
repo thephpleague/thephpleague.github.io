@@ -22,7 +22,7 @@
         -webkit-font-smoothing: antialiased;
         font-family: "Museo Sans 900";
         color: #8c8c8c;
-        font-size: 14px;
+        font-size: 13px;
         line-height: 1;
         text-transform: uppercase;
         @include clearfix;
@@ -94,7 +94,7 @@
 
                 &.twitter
                 {
-                    margin: 22px 12px 0 0;
+                    margin: 22px 15px 0 0;
 
                     a
                     {
@@ -233,7 +233,7 @@
 
         @media screen and (min-width: 500px)
         {
-            margin: 85px auto 0 auto;
+            margin: 90px auto 0 auto;
             width: 270px;
         }
     }
@@ -270,7 +270,7 @@
     .features
     {
         list-style: none;
-        margin: 22px 0 100px 0;
+        margin: 22px 0 110px 0;
         padding: 0;
 
         @media screen and (max-width: 499px)
