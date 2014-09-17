@@ -1,6 +1,6 @@
 - name: CLImate
   repo: climate
-  website: https://github.com/thephpleague/climate
+  website: http://climate.thephpleague.com
   complete: true
   description: Terminal output made easy
   author:
