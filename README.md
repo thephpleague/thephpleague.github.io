@@ -34,7 +34,7 @@ git rm -rf .
 # Run the boilerplate setup script.
 # This will simply create some default files and folders
 # (required by Sculpin) in the current folder.
-curl -sS https://raw.github.com/thephpleague/thephpleague.github.com/project-website-theme/boilerplate.php | php
+php -r "readfile('https://raw.github.com/thephpleague/thephpleague.github.io/project-website-theme/boilerplate.php');" | php
 
 # Install the League's theme.
 # If you do not have Sculpin installed yet, do that now.
@@ -114,7 +114,7 @@ your-project.thephpleague.com
 
 Next, set your domain DNS settings as per the GitHub Pages [documentation](https://help.github.com/articles/setting-up-a-custom-domain-with-pages#setting-up-dns).
 
-Finally, if you haven't done so yet, be sure to update your [package's website address](https://github.com/thephpleague/thephpleague.github.com/blob/master/_data/packages.yml) on the main League website.
+Finally, if you haven't done so yet, be sure to update your [package's website address](https://github.com/thephpleague/thephpleague.github.io/blob/master/_data/packages.yml) on the main League website.
 
 ### Google Analytics
 

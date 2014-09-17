@@ -43,7 +43,7 @@ if (!is_file($dir . '/app/config/sculpin_kernel.yml')) {
              . "    exclude:\n"
              . "        - sass/\n"
              . "sculpin_theme:\n"
-             . "    theme: thephpleague/thephpleague.github.com";
+             . "    theme: thephpleague/thephpleague.github.io";
 
     file_put_contents($dir . '/app/config/sculpin_kernel.yml', $content);
 }
@@ -67,12 +67,12 @@ if (!is_file($dir . '/sculpin.json')) {
 
     $content = "{\n"
              . "    \"require\": {\n"
-             . "        \"thephpleague/thephpleague.github.com\": \"dev-project-website-theme\"\n"
+             . "        \"thephpleague/thephpleague.github.io\": \"dev-project-website-theme\"\n"
              . "    },\n"
              . "    \"repositories\": [\n"
              . "        {\n"
              . "            \"type\": \"vcs\",\n"
-             . "            \"url\": \"git@github.com:thephpleague/thephpleague.github.com.git\"\n"
+             . "            \"url\": \"git@github.com:thephpleague/thephpleague.github.io.git\"\n"
              . "        }\n"
              . "    ]\n"
              . "}";
