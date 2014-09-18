@@ -1,17 +1,16 @@
 ---
-title: The League of Extraordinary Packages
 ---
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ page.title }}</title>
-    <meta name="description" content="Our goal is to develop PHP packages of the highest quality possible, using modern tools, standards and practices to distribute, test and strengthen the code.">
-    <meta property="og:title" content="The League of Extraordinary Packages" />
+    <title>{{ site.data.locale.name }}</title>
+    <meta name="description" content="{{ site.data.locale.meta_description }}">
+    <meta property="og:title" content="{{ site.data.locale.name }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://thephpleague.com" />
-    <meta property="og:image" content="http://thephpleague.com/img/logo.png" />
+    <meta property="og:url" content="{{ site.data.locale.website }}" />
+    <meta property="og:image" content="{{ site.data.locale.website }}/img/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/all.css">
 </head>
@@ -22,33 +21,49 @@ title: The League of Extraordinary Packages
         <div class="center">
             <ul class="menu">
                 <li>
-                    <a href="#packages">Our Packages</a>
+                    <a href="#{{ site.data.locale.menu.packages.link }}">
+                        {{ site.data.locale.menu.packages.title }}
+                    </a>
                 </li>
                 <li>
-                    <a href="#quality">Quality</a>
+                    <a href="#{{ site.data.locale.menu.quality.link }}">
+                        {{ site.data.locale.menu.quality.title }}
+                    </a>
                 </li>
                 <li>
-                    <a href="#why">Why?</a>
+                    <a href="#{{ site.data.locale.menu.why.link }}">
+                        {{ site.data.locale.menu.why.title }}
+                    </a>
                 </li>
                 <li>
-                    <a href="#contribute">Contribute</a>
+                    <a href="#{{ site.data.locale.menu.contribute.link }}">
+                        {{ site.data.locale.menu.contribute.title }}
+                    </a>
                 </li>
             </ul>
             <ul class="links_and_languages">
                 <li class="github">
-                    <a href="https://github.com/thephpleague">GitHub</a>
+                    <a href="https://github.com/thephpleague">
+                        GitHub
+                    </a>
                 </li>
                 <li class="twitter">
-                    <a href="https://twitter.com/thephpleague">Twitter</a>
+                    <a href="https://twitter.com/thephpleague">
+                        Twitter
+                    </a>
                 </li>
                 <li class="languages">
                     <input id="languages_menu" type="checkbox">
                     <div class="languages_menu">
-                        <label for="languages_menu">Language: <strong>{{ site.data.languages.current }}</strong></label>
+                        <label for="languages_menu">
+                            {{ site.data.locale.languages.title }}: <strong>{{ site.data.locale.languages.current }}</strong>
+                        </label>
                         <ul>
-                            {% for language in site.data.languages.available %}
+                            {% for language in site.data.locale.languages.available %}
                                 <li>
-                                    <a href="{{ language.website }}">{{ language.name }}</a>
+                                    <a href="{{ language.website }}">
+                                        {{ language.name }}
+                                    </a>
                                 </li>
                             {% endfor %}
                         </ul>
@@ -59,152 +74,209 @@ title: The League of Extraordinary Packages
     </div>
     <div class="center">
         <a href="" class="logo">
-            <img src="img/logo.png" alt="The League of Extraordinary Packages" width="270" height="279">
+            <img src="img/logo.png" alt="{{ site.data.locale.name }}" width="270" height="279">
         </a>
-        <h1>The League of Extraordinary Packages is a group of developers who have banded together to build solid, well tested PHP packages using modern coding standards.</h1>
-        <span class="stars">&#9733;&#9733;&#9733;</span>
+        <h1>
+            {{ site.data.locale.intro.description }}
+        </h1>
+        <span class="stars">
+            &#9733;&#9733;&#9733;
+        </span>
         <ul class="features">
-            <li>We comply to the standards of the <a href="http://www.php-fig.org/">PHP-FIG</a>.</li>
-            <li>We adhere to the best-practices put forward by <a href="http://www.phptherightway.com/">PHP The "Right" Way</a>.</li>
-            <li>We distribute code via <a href="https://packagist.org/">Packagist</a> and <a href="http://getcomposer.org/">Composer</a>.</li>
+            <li>
+                {{ site.data.locale.intro.feature_1 }}
+            </li>
+            <li>
+                {{ site.data.locale.intro.feature_2 }}
+            </li>
+            <li>
+                {{ site.data.locale.intro.feature_3 }}
+            </li>
         </ul>
     </div>
 </div>
 
-<div class="packages" id="packages">
+<div class="packages" id="{{ site.data.locale.menu.packages.link }}">
     <div class="center">
-        <h2>Our Packages</h2>
+        <h2>
+            {{ site.data.locale.packages.title }}
+        </h2>
         <ul>
             <li class="headers">
                 <div class="name">
-                    <h3>Name</h3>
+                    <h3>
+                        {{ site.data.locale.packages.project.name }}
+                    </h3>
                 </div>
                 <div class="description">
-                    <h3>Description</h3>
+                    <h3>
+                        {{ site.data.locale.packages.project.description }}
+                    </h3>
                 </div>
                 <div class="project_lead">
-                    <h3><span>Project</span> Lead</h3>
+                    <h3>
+                        {{ site.data.locale.packages.project.lead }}
+                    </h3>
                 </div>
             </li>
             {% for package in site.data.packages %}
                 <li>
                     <div class="name">
-                        <a href="{{ package.website }}">{{ package.name }}</a>{% unless package.complete %}*{% endunless %}
+                        <a href="{{ package.website }}">
+                            {{ package.name }}
+                        </a>{% unless package.complete %}*{% endunless %}
                     </div>
                     <div class="description">
                         {{ package.description }}
                     </div>
                     {% if package.author.seeking %}
                         <div class="project_lead seeking">
-                            <a href="{{ package.author.seeking }}">Seeking Lead</a>
+                            <a href="{{ package.author.seeking }}">
+                                {{ site.data.locale.packages.project.seeking_lead }}
+                            </a>
                         </div>
                     {% else %}
                         <div class="project_lead">
-                            <a href="https://github.com/{{ package.author.username }}">{{ package.author.name }}</a>
+                            <a href="https://github.com/{{ package.author.username }}">
+                                {{ package.author.name }}
+                            </a>
                         </div>
                     {% endif %}
                 </li>
             {% endfor %}
         </ul>
-        <div class="work_in_progress">* a work-in-progress package</div>
+        <div class="work_in_progress">
+            * {{ site.data.locale.packages.footnote }}
+        </div>
     </div>
 </div>
 
-<div class="quality" id="quality">
+<div class="quality" id="{{ site.data.locale.menu.quality.link }}">
     <div class="center">
         <div class="column one">
-            <h2>Our Definition of Quality</h2>
+            <h2>
+                {{ site.data.locale.quailty.title }}
+            </h2>
             <div class="description">
-                Ask 100 developers what defines an awesome PHP package and you&rsquo;ll get a lot of different answers. That also sounds like a really long and boring task, so we&rsquo;ve come up with a list of rules that <em>we</em> think make a package awesome.
+                {{ site.data.locale.quailty.introduction }}
             </div>
             <div class="skeleton_project">
-                <a href="https://github.com/thephpleague/skeleton">View our skeleton project</a>
+                <a href="https://github.com/thephpleague/skeleton">
+                    {{ site.data.locale.quailty.button }}
+                </a>
             </div>
         </div>
         <div class="column two">
             <ol>
-                <li>
-                    <p>Follow <a href="http://www.php-fig.org/psr/psr-4/">PSR-4</a>, we use <code>League</code> as our <a href="http://www.php-fig.org/psr/psr-0/">PSR-0</a> namespace.</p>
-                </li>
-                <li>
-                    <p>Adhere to <a href="http://www.php-fig.org/psr/psr-2/">PSR-2</a> as the coding style guide.</p>
-                </li>
-                <li>
-                    <p>List on Packagist with <code>league</code> as the vendor namespace.</p>
-                </li>
-                <li>
-                    <p>Shove code in a <code>src</code> folder.</p>
-                </li>
-                <li>
-                    <p>Write unit tests. Aim for at least 80% coverage for v1.0.</p>
-                </li>
-                <li>
-                    <p><a href="http://www.phpdoc.org/docs/latest/references/phpdoc/index.html">DocBlock</a> all the things.</p>
-                </li>
-                <li>
-                    <p><a href="http://semver.org/">Semantic versioning</a> must be used to manage version numbers.</p>
-                </li>
-                <li>
-                    <p>Use <a href="https://travis-ci.org/">Travis-CI</a> to automatically check coding standards and run tests.</p>
-                </li>
-                <li>
-                    <p>Have an extensive <a href="https://github.com/thephpleague/skeleton/blob/master/README.md">README</a>.</p>
-                </li>
+                {% for rule in site.data.locale.quailty.rules %}
+                    <li>
+                        <p>
+                            {{ rule }}
+                        </p>
+                    </li>
+                {% endfor %}
             </ol>
         </div>
     </div>
 </div>
 
-<div class="why" id="why">
+<div class="why" id="{{ site.data.locale.menu.why.link }}">
     <div class="center">
-        <h2>Why?</h2>
+        <h2>
+            {{ site.data.locale.why.title }}
+        </h2>
         <div class="column one">
-            <p>We&rsquo;re doing this instead of releasing code under our personal accounts for a few reasons, but the main reason is this:</p>
-            <blockquote>A problem shared is a problem halved.</blockquote>
-            <p>Working together we take care of business quicker, can get more feedback and respond to issues and pull requests faster.</p>
+            <p>
+                {{ site.data.locale.why.paragraph_1 }}
+            </p>
+            <blockquote>
+                {{ site.data.locale.why.blockquote }}
+            </blockquote>
+            <p>
+                {{ site.data.locale.why.paragraph_2 }}
+            </p>
         </div>
         <div class="column two">
-            <p>There are no plans to reinvent any wheels, unless those wheels are old, broken, unsafe or horrible to use. If the code cannot be installed with Composer, has an API written with BizZaroCapS, doesn&rsquo;t have a single unit-test, is actually broken or the lead developer has abandoned the project, then that is a problem which can most likely be solved with a fresh start, and we&rsquo;ll be on the case to make it as awesome as possible.</p>
+            <p>
+                {{ site.data.locale.why.paragraph_3 }}
+            </p>
         </div>
     </div>
 </div>
 
-<div class="invitation" id="contribute">
+<div class="invitation" id="{{ site.data.locale.menu.contribute.link }}">
     <div class="center">
         <img src="img/heart.png" alt="Heart" width="100" height="100">
-        <h2>New Packages Welcome</h2>
-        <h3>Gain exposure. Meet new people. Work together.</h3>
+        <h2>
+            {{ site.data.locale.contribute.title }}
+        </h2>
+        <h3>
+            {{ site.data.locale.contribute.subtitle }}
+        </h3>
         <div class="column one">
-            <h4>Getting started</h4>
-            <p>If this sounds fun and you&rsquo;d like to join the group you can definitely do that. This is not some stuffy old-boys club where you have to be internet famous or an old friend, you just need to bring over (or start) at least one package that either complies with the rules, or intends to comply with the rules by the next major version.</p>
-            <h4>How to submit a package</h4>
-            <p>Have an awesome package you want to submit? Simply drop us a line on <a href="https://groups.google.com/forum/#!forum/thephpleague">our mailing list</a>. Be sure to include a link to your GitHub page as well as a clear description of the problem your package is trying to solve.</p>
+            <h4>
+                {{ site.data.locale.contribute.block_1_title }}
+            </h4>
+            <p>
+                {{ site.data.locale.contribute.block_1_paragraph }}
+            </p>
+            <h4>
+                {{ site.data.locale.contribute.block_2_title }}
+            </h4>
+            <p>
+                {{ site.data.locale.contribute.block_2_paragraph }}
+            </p>
         </div>
         <div class="column two">
-            <h4>We&rsquo;re all about packages</h4>
-            <p>This group is about packages, and not about the people. To keep that clear - and to make sure people are joining for the right reasons - no members list will be posted, but we&rsquo;ll let you know who is in charge of packages so you can poke them with feedback.</p>
-            <h4>This is not the FIG</h4>
-            <p>We are not here to tell you what to do or how to do it - and contrary to popular belief neither are they. This is an open-source project started by a few friends who wanted a fun vendor name and will continue to grow as we release more and more awesome packages.</p>
+            <h4>
+                {{ site.data.locale.contribute.block_3_title }}
+            </h4>
+            <p>
+                {{ site.data.locale.contribute.block_3_paragraph }}
+            </p>
+            <h4>
+                {{ site.data.locale.contribute.block_4_title }}
+            </h4>
+            <p>
+                {{ site.data.locale.contribute.block_4_paragraph }}
+            </p>
         </div>
     </div>
 </div>
 
 <div class="footer">
     <div class="center">
-        <span>&copy; Copyright The League of Extraordinary Packages.</span>
-        <span>Site design by <a href="http://reinink.ca">Jonathan Reinink</a>.</span>
+        <span>
+            &copy; {{ site.data.locale.copyright.notice }}
+        </span>
+        <span>
+            {{ site.data.locale.copyright.design_by }} <a href="http://reinink.ca">Jonathan Reinink</a>.
+        </span>
+        {% if site.data.locale.copyright.translation_by_name %}
+            {% if site.data.locale.copyright.translation_by_website %}
+                <span>
+                    {{ site.data.locale.copyright.translation_by }} <a href="{{ site.data.locale.copyright.translation_by_website }}">{{ site.data.locale.copyright.translation_by_name }}</a>.
+                </span>
+            {% else %}
+                <span>
+                    {{ site.data.locale.copyright.translation_by }} {{ site.data.locale.copyright.translation_by_name }}.
+                </span>
+            {% endif %}
+        {% endif %}
     </div>
 </div>
 
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+{% if site.data.locale.google_analytics_tracking_id %}
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-46050814-1', 'thephpleague.com');
-    ga('send', 'pageview');
-</script>
+        ga('create', '{{ site.data.locale.google_analytics_tracking_id }}');
+        ga('send', 'pageview');
+    </script>
+{% endif %}
 
 </body>
 </html>
