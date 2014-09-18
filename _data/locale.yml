@@ -41,13 +41,13 @@ quailty:
     introduction: 'Ask 100 developers what defines an awesome PHP package and you’ll get a lot of different answers. That also sounds like a really long and boring task, so we’ve come up with a list of rules that <em>we</em> think make a package awesome.'
     button: 'View our skeleton project'
     rules:
-        - 'Use <code>League</code> as the <a href="http://www.php-fig.org/psr/psr-4/">PSR-4</a> autoloader namespace.'
+        - 'Use <code>League</code> as the <a href="http://www.php-fig.org/psr/psr-4/">PSR-4</a> autoloader namespace. Shove code in a <code>src</code> folder.'
         - 'Adhere to <a href="http://www.php-fig.org/psr/psr-2/">PSR-2</a> as the coding style guide.'
-        - 'List on Packagist with <code>league</code> as the vendor namespace.'
-        - 'Shove code in a <code>src</code> folder.'
-        - 'Write unit tests. Aim for at least 80% coverage for v1.0.'
+        - 'List on <a href="https://packagist.org/">Packagist</a> with <code>league</code> as the vendor namespace.'
+        - 'Write unit tests. Aim for at least 80% coverage in version 1.'
         - '<a href="http://www.phpdoc.org/docs/latest/references/phpdoc/index.html">DocBlock</a> all the things.'
-        - '<a href="http://semver.org/">Semantic versioning</a> must be used to manage version numbers.'
+        - 'Use <a href="http://semver.org/">Semantic Versioning</a> to manage version numbers.'
+        - 'Keep a <a href="http://keepachangelog.com/">Changelog</a>.'
         - 'Use <a href="https://travis-ci.org/">Travis-CI</a> to automatically check coding standards and run tests.'
         - 'Have an extensive <a href="https://github.com/thephpleague/skeleton/blob/master/README.md">README</a>.'
 why:
