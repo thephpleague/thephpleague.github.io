@@ -105,6 +105,15 @@
     name: Alex Bilbie
     username: alexbilbie
 
+- name: Omnipay
+  repo: omnipay
+  website: https://github.com/thephpleague/omnipay
+  complete: true
+  description: A framework agnostic, multi-gateway payment processing library
+  author:
+    name: Kayla Daniels
+    username: kayladnls
+
 - name: Plates
   repo: plates
   website: http://platesphp.com
