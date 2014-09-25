@@ -109,7 +109,7 @@
   repo: omnipay
   website: https://github.com/thephpleague/omnipay
   complete: true
-  description: A framework agnostic, multi-gateway payment processing library
+  description: Multi-gateway payment processing library
   author:
     name: Kayla Daniels
     username: kayladnls
