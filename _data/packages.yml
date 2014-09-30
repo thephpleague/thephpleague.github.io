@@ -29,7 +29,7 @@
   repo: event
   website: http://event.thephpleague.com
   complete: true
-  description: Event package for your app and/or domain
+  description: Event package for your app and domain
   author:
     name: Frank de Jonge
     username: FrenkyNet
