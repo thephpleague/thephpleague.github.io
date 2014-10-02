@@ -25,6 +25,8 @@ languages:
         website: 'http://es.thephpleague.com'
       - name: 'Français'
         website: 'http://fr.thephpleague.com'
+      - name: 'Português'
+        website: 'http://pt-br.thephpleague.com'
 intro:
     description: 'The League of Extraordinary Packages is a group of developers who have banded together to build solid, well tested PHP packages using modern coding standards.'
     feature_1: 'We comply to the standards of the <a href="http://www.php-fig.org">PHP-FIG</a>.'
