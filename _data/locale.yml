@@ -28,7 +28,7 @@ languages:
 intro:
     description: 'The League of Extraordinary Packages is a group of developers who have banded together to build solid, well tested PHP packages using modern coding standards.'
     feature_1: 'We comply to the standards of the <a href="http://www.php-fig.org">PHP-FIG</a>.'
-    feature_2: 'We adhere to the best-practices put forward by <a href="http://eilgin.github.io/php-the-right-way/">PHP The "Right" Way</a>.'
+    feature_2: 'We adhere to the best-practices put forward by <a href="http://www.phptherightway.com/">PHP The "Right" Way</a>.'
     feature_3: 'We distribute code via <a href="https://packagist.org/">Packagist</a> and <a href="https://getcomposer.org/">Composer</a>.'
 packages:
     title: 'Our Packages'
