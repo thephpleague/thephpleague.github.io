@@ -1,18 +1,17 @@
----
----
+{% assign data = site.data.[page.language] %}
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ site.data.locale.name }}</title>
-    <meta name="description" content="{{ site.data.locale.meta_description }}">
-    <meta property="og:title" content="{{ site.data.locale.name }}" />
+    <title>{{ data.name }}</title>
+    <meta name="description" content="{{ data.meta_description }}">
+    <meta property="og:title" content="{{ data.name }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ site.data.locale.website }}" />
-    <meta property="og:image" content="{{ site.data.locale.website }}/img/logo.png" />
+    <meta property="og:url" content="http://thephpleague.com" />
+    <meta property="og:image" content="http://thephpleague.com/img/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="/css/all.css">
 </head>
 <body>
 
@@ -21,23 +20,23 @@
         <div class="center">
             <ul class="menu">
                 <li>
-                    <a href="#{{ site.data.locale.menu.packages.link }}">
-                        {{ site.data.locale.menu.packages.title }}
+                    <a href="#{{ data.menu.packages.link }}">
+                        {{ data.menu.packages.title }}
                     </a>
                 </li>
                 <li>
-                    <a href="#{{ site.data.locale.menu.quality.link }}">
-                        {{ site.data.locale.menu.quality.title }}
+                    <a href="#{{ data.menu.quality.link }}">
+                        {{ data.menu.quality.title }}
                     </a>
                 </li>
                 <li>
-                    <a href="#{{ site.data.locale.menu.why.link }}">
-                        {{ site.data.locale.menu.why.title }}
+                    <a href="#{{ data.menu.why.link }}">
+                        {{ data.menu.why.title }}
                     </a>
                 </li>
                 <li>
-                    <a href="#{{ site.data.locale.menu.contribute.link }}">
-                        {{ site.data.locale.menu.contribute.title }}
+                    <a href="#{{ data.menu.contribute.link }}">
+                        {{ data.menu.contribute.title }}
                     </a>
                 </li>
             </ul>
@@ -56,15 +55,18 @@
                     <input id="languages_menu" type="checkbox">
                     <div class="languages_menu">
                         <label for="languages_menu">
-                            {{ site.data.locale.languages.title }}: <strong>{{ site.data.locale.languages.current }}</strong>
+                            {{ data.languages.title }}: <strong>{{ data.languages.current }}</strong>
                         </label>
                         <ul>
-                            {% for language in site.data.locale.languages.available %}
-                                <li>
-                                    <a href="{{ language.website }}">
-                                        {{ language.name }}
-                                    </a>
-                                </li>
+                            {% assign pages = (site.pages | sort: 'language') %}
+                            {% for p in pages %}
+                                {% if p.language and p.url != page.url %}
+                                    <li>
+                                        <a href="{{ p.url }}">
+                                            {{ site.data.[p.language].languages.current }}
+                                        </a>
+                                    </li>
+                                {% endif %}
                             {% endfor %}
                         </ul>
                     </div>
@@ -74,52 +76,52 @@
     </div>
     <div class="center">
         <a href="" class="logo">
-            <img src="img/logo.png" alt="{{ site.data.locale.name }}" width="270" height="279">
+            <img src="/img/logo.png" alt="{{ data.name }}" width="270" height="279">
         </a>
         <h1>
-            {{ site.data.locale.intro.description }}
+            {{ data.intro.description }}
         </h1>
         <span class="stars">
             &#9733;&#9733;&#9733;
         </span>
         <ul class="features">
             <li>
-                {{ site.data.locale.intro.feature_1 }}
+                {{ data.intro.feature_1 }}
             </li>
             <li>
-                {{ site.data.locale.intro.feature_2 }}
+                {{ data.intro.feature_2 }}
             </li>
             <li>
-                {{ site.data.locale.intro.feature_3 }}
+                {{ data.intro.feature_3 }}
             </li>
         </ul>
     </div>
 </div>
 
-<div class="packages" id="{{ site.data.locale.menu.packages.link }}">
+<div class="packages" id="{{ data.menu.packages.link }}">
     <div class="center">
         <h2>
-            {{ site.data.locale.packages.title }}
+            {{ data.packages.title }}
         </h2>
         <ul>
             <li class="headers">
                 <div class="name">
                     <h3>
-                        {{ site.data.locale.packages.project.name }}
+                        {{ data.packages.project.name }}
                     </h3>
                 </div>
                 <div class="description">
                     <h3>
-                        {{ site.data.locale.packages.project.description }}
+                        {{ data.packages.project.description }}
                     </h3>
                 </div>
                 <div class="project_lead">
                     <h3>
-                        {{ site.data.locale.packages.project.lead }}
+                        {{ data.packages.project.lead }}
                     </h3>
                 </div>
             </li>
-            {% for package in site.data.packages %}
+            {% for package in data.packages.existing %}
                 <li>
                     <div class="name">
                         <a href="{{ package.website }}">
@@ -132,7 +134,7 @@
                     {% if package.author.seeking %}
                         <div class="project_lead seeking">
                             <a href="{{ package.author.seeking }}">
-                                {{ site.data.locale.packages.project.seeking_lead }}
+                                {{ data.packages.project.seeking_lead }}
                             </a>
                         </div>
                     {% else %}
@@ -146,29 +148,29 @@
             {% endfor %}
         </ul>
         <div class="work_in_progress">
-            * {{ site.data.locale.packages.footnote }}
+            * {{ data.packages.footnote }}
         </div>
     </div>
 </div>
 
-<div class="quality" id="{{ site.data.locale.menu.quality.link }}">
+<div class="quality" id="{{ data.menu.quality.link }}">
     <div class="center">
         <div class="column one">
             <h2>
-                {{ site.data.locale.quailty.title }}
+                {{ data.quailty.title }}
             </h2>
             <div class="description">
-                {{ site.data.locale.quailty.introduction }}
+                {{ data.quailty.introduction }}
             </div>
             <div class="skeleton_project">
                 <a href="https://github.com/thephpleague/skeleton">
-                    {{ site.data.locale.quailty.button }}
+                    {{ data.quailty.button }}
                 </a>
             </div>
         </div>
         <div class="column two">
             <ol>
-                {% for rule in site.data.locale.quailty.rules %}
+                {% for rule in data.quailty.rules %}
                     <li>
                         <p>
                             {{ rule }}
@@ -180,65 +182,65 @@
     </div>
 </div>
 
-<div class="why" id="{{ site.data.locale.menu.why.link }}">
+<div class="why" id="{{ data.menu.why.link }}">
     <div class="center">
         <h2>
-            {{ site.data.locale.why.title }}
+            {{ data.why.title }}
         </h2>
         <div class="column one">
             <p>
-                {{ site.data.locale.why.paragraph_1 }}
+                {{ data.why.paragraph_1 }}
             </p>
             <blockquote>
-                {{ site.data.locale.why.blockquote }}
+                {{ data.why.blockquote }}
             </blockquote>
             <p>
-                {{ site.data.locale.why.paragraph_2 }}
+                {{ data.why.paragraph_2 }}
             </p>
         </div>
         <div class="column two">
             <p>
-                {{ site.data.locale.why.paragraph_3 }}
+                {{ data.why.paragraph_3 }}
             </p>
         </div>
     </div>
 </div>
 
-<div class="invitation" id="{{ site.data.locale.menu.contribute.link }}">
+<div class="invitation" id="{{ data.menu.contribute.link }}">
     <div class="center">
-        <img src="img/heart.png" alt="Heart" width="100" height="100">
+        <img src="/img/heart.png" alt="Heart" width="100" height="100">
         <h2>
-            {{ site.data.locale.contribute.title }}
+            {{ data.contribute.title }}
         </h2>
         <h3>
-            {{ site.data.locale.contribute.subtitle }}
+            {{ data.contribute.subtitle }}
         </h3>
         <div class="column one">
             <h4>
-                {{ site.data.locale.contribute.block_1_title }}
+                {{ data.contribute.block_1_title }}
             </h4>
             <p>
-                {{ site.data.locale.contribute.block_1_paragraph }}
+                {{ data.contribute.block_1_paragraph }}
             </p>
             <h4>
-                {{ site.data.locale.contribute.block_2_title }}
+                {{ data.contribute.block_2_title }}
             </h4>
             <p>
-                {{ site.data.locale.contribute.block_2_paragraph }}
+                {{ data.contribute.block_2_paragraph }}
             </p>
         </div>
         <div class="column two">
             <h4>
-                {{ site.data.locale.contribute.block_3_title }}
+                {{ data.contribute.block_3_title }}
             </h4>
             <p>
-                {{ site.data.locale.contribute.block_3_paragraph }}
+                {{ data.contribute.block_3_paragraph }}
             </p>
             <h4>
-                {{ site.data.locale.contribute.block_4_title }}
+                {{ data.contribute.block_4_title }}
             </h4>
             <p>
-                {{ site.data.locale.contribute.block_4_paragraph }}
+                {{ data.contribute.block_4_paragraph }}
             </p>
         </div>
     </div>
@@ -247,33 +249,33 @@
 <div class="footer">
     <div class="center">
         <span>
-            &copy; {{ site.data.locale.copyright.notice }}
+            &copy; {{ data.copyright.notice }}
         </span>
         <span>
-            {{ site.data.locale.copyright.design_by }} <a href="http://reinink.ca">Jonathan Reinink</a>.
+            {{ data.copyright.design_by }} <a href="http://reinink.ca">Jonathan Reinink</a>.
         </span>
-        {% if site.data.locale.copyright.translation_by_name %}
-            {% if site.data.locale.copyright.translation_by_website %}
+        {% if data.copyright.translation_by_name %}
+            {% if data.copyright.translation_by_website %}
                 <span>
-                    {{ site.data.locale.copyright.translation_by }} <a href="{{ site.data.locale.copyright.translation_by_website }}">{{ site.data.locale.copyright.translation_by_name }}</a>.
+                    {{ data.copyright.translation_by }} <a href="{{ data.copyright.translation_by_website }}">{{ data.copyright.translation_by_name }}</a>.
                 </span>
             {% else %}
                 <span>
-                    {{ site.data.locale.copyright.translation_by }} {{ site.data.locale.copyright.translation_by_name }}.
+                    {{ data.copyright.translation_by }} {{ data.copyright.translation_by_name }}.
                 </span>
             {% endif %}
         {% endif %}
     </div>
 </div>
 
-{% if site.data.locale.google_analytics_tracking_id %}
+{% if data.google_analytics_tracking_id %}
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        ga('create', '{{ site.data.locale.google_analytics_tracking_id }}');
+        ga('create', 'UA-46050814-1');
         ga('send', 'pageview');
     </script>
 {% endif %}

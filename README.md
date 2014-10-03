@@ -1,1 +1,1 @@
-[thephpleague.com](http://thephpleague.com)
+Visit our website at [thephpleague.com](http://thephpleague.com).

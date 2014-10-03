@@ -1,7 +1,7 @@
 ---
 ---
 phploep_jsonp_callback([
-{% for package in site.data.packages -%}  {
+{% for package in site.data.en.packages.existing -%}  {
     "name": "{{ package.name }}",
     "repo": "{{ package.repo }}",
     "website": "{{ package.website }}",
