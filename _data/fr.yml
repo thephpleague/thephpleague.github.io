@@ -125,6 +125,14 @@ packages:
             author:
                 name: 'Alex Bilbie'
                 username: 'alexbilbie'
+        -   name: 'Period'
+            repo: 'period'
+            website: 'http://period.thephpleague.com'
+            complete:'true'
+            description: 'API pour la gestion des intervalles de temps'
+            author:
+                name: 'Ignace Nyamagana Butera'
+                username: 'nyamsprod'
         -   name: 'Plates'
             repo: 'plates'
             website: 'http://platesphp.com'
@@ -177,7 +185,7 @@ packages:
             repo: 'url'
             website: 'http://url.thephpleague.com'
             complete: 'true'
-            description: 'Manipulation facile et simple des URLs en PHP'
+            description: 'Manipulation des URLs en PHP'
             author:
                 name: 'Nyamagana Butera Ignace'
                 username: 'nyamsprod'
@@ -192,7 +200,7 @@ quailty:
         - 'Contenir des tests unitaires. Le but étant d’avoir une bibliothèque testée à plus de 80% pour la version 1.0 ;'
         - 'Documenter tous les élements du code source avec des <a href="http://www.phpdoc.org/docs/latest/references/phpdoc/index.html" target="_blank">DocBlock</a> ;'
         - 'Utiliser <a href="http://semver.org/lang/fr/" target="_blank">la gestion sémantique de version</a> pour gérer les mises à jour ;'
-        - 'Avoir un fichier <a href="https://keepchangelog.com" target="_blank">CHANGELOG</a>'
+        - 'Maintenir un fichier <a href="https://keepchangelog.com" target="_blank">CHANGELOG</a>'
         - 'Utiliser <a href="https://travis-ci.org/" target="_blank">Travis-CI</a> pour continuellement vérifier les normes d’écriture et lancer ses tests unitaires ;'
         - 'Contenir un fichier <a href="https://github.com/thephpleague/skeleton/blob/master/README.md" target="_blank">README</a> complet.'
 why:
