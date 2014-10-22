@@ -100,7 +100,8 @@ packages:
             complete: 'true'
             description: 'Abstracción de MongoDB sencilla y liviana'
             author:
-                seeking: 'https://groups.google.com/forum/#!forum/thephpleague'
+                name: 'Bryan Crowe'
+                username: 'bcrowe'
         -   name: 'OAuth 1 Client'
             repo: 'oauth1-client'
             website: 'https://github.com/thephpleague/oauth1-client'
