@@ -124,8 +124,7 @@ packages:
             complete: 'false'
             description: 'Integration von OAuth 2.0 Providern'
             author:
-                name: 'Alex Bilbie'
-                username: 'alexbilbie'
+                seeking: 'https://groups.google.com/forum/#!forum/thephpleague'
         -   name: 'Plates'
             repo: 'plates'
             website: 'http://platesphp.com'
