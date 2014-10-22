@@ -116,15 +116,15 @@ packages:
             complete: 'true'
             description: 'Build an OAuth 2.0 server'
             author:
-                seeking: 'https://groups.google.com/forum/#!forum/thephpleague'
+                name: 'Alex Bilbie'
+                username: 'alexbilbie'
         -   name: 'OAuth 2 Client'
             repo: 'oauth2-client'
             website: 'https://github.com/thephpleague/oauth2-client'
             complete: 'false'
             description: 'Integrate with OAuth 2.0 providers'
             author:
-                name: 'Alex Bilbie'
-                username: 'alexbilbie'
+                seeking: 'https://groups.google.com/forum/#!forum/thephpleague'
         -   name: 'Omnipay'
             repo: 'omnipay'
             website: 'https://github.com/thephpleague/omnipay'
