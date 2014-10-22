@@ -116,8 +116,7 @@ packages:
             complete: 'true'
             description: 'Build an OAuth 2.0 server'
             author:
-                name: 'Alex Bilbie'
-                username: 'alexbilbie'
+                seeking: 'https://groups.google.com/forum/#!forum/thephpleague'
         -   name: 'OAuth 2 Client'
             repo: 'oauth2-client'
             website: 'https://github.com/thephpleague/oauth2-client'
