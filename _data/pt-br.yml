@@ -124,8 +124,7 @@ packages:
             complete: 'false'
             description: 'Integre com provedores OAuth 2.0'
             author:
-                name: 'Alex Bilbie'
-                username: 'alexbilbie'
+                seeking: 'https://groups.google.com/forum/#!forum/thephpleague'
         -   name: 'Omnipay'
             repo: 'omnipay'
             website: 'https://github.com/thephpleague/omnipay'
