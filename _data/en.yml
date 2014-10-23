@@ -211,6 +211,7 @@ quailty:
         - 'Keep a <a href="http://keepachangelog.com/">Changelog</a>.'
         - 'Use <a href="https://travis-ci.org/">Travis-CI</a> to automatically check coding standards and run tests.'
         - 'Have an extensive <a href="https://github.com/thephpleague/skeleton/blob/master/README.md">README</a>.'
+        - '<a href="https://www.reddit.com/r/PHP/comments/2jzp6k/i_dont_need_your_tests_in_my_production">Exclude non-essential files in .gitattributes</a>.'
 why:
     title: 'Why?'
     paragraph_1: 'We’re doing this instead of releasing code under our personal accounts for a few reasons, but the main reason is this:'
