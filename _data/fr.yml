@@ -203,6 +203,7 @@ quailty:
         - 'Maintenir un fichier <a href="https://keepchangelog.com" target="_blank">CHANGELOG</a>'
         - 'Utiliser <a href="https://travis-ci.org/" target="_blank">Travis-CI</a> pour continuellement vérifier les normes d’écriture et lancer ses tests unitaires ;'
         - 'Contenir un fichier <a href="https://github.com/thephpleague/skeleton/blob/master/README.md" target="_blank">README</a> complet.'
+        - 'Exclure les fichiers optionnels <a href="https://www.reddit.com/r/PHP/comments/2jzp6k/i_dont_need_your_tests_in_my_production" target="_blank">à l’aide d’un un fichier .getattributes</a>'
 why:
     title: 'Pourquoi ?'
     paragraph_1: 'Au lieu de publier nos bibliothèques via nos comptes personnels nous le faisons ici pour plusieurs raisons dont la plus importante est :'
