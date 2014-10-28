@@ -124,7 +124,8 @@ packages:
             complete: 'false'
             description: 'Integración con OAuth 2.0 providers'
             author:
-                seeking: 'https://groups.google.com/forum/#!forum/thephpleague'
+                name: 'Ben Ramsey'
+                username: 'ramsey'
         -   name: 'Plates'
             repo: 'plates'
             website: 'http://platesphp.com'

@@ -124,7 +124,8 @@ packages:
             complete: 'false'
             description: 'Integrate with OAuth 2.0 providers'
             author:
-                seeking: 'https://groups.google.com/forum/#!forum/thephpleague'
+                name: 'Ben Ramsey'
+                username: 'ramsey'
         -   name: 'Omnipay'
             repo: 'omnipay'
             website: 'https://github.com/thephpleague/omnipay'
