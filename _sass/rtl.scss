@@ -1,0 +1,138 @@
+body {
+    direction: rtl;
+}
+
+.introduction
+{
+    .toolbar
+    {
+        font-size: 15px;
+        .menu
+        {
+            float: right;
+            > li
+            {
+                float: right;
+                margin: 0 0 0 25px;
+            }
+        }
+
+        .links_and_languages
+        {
+            float: left;
+            > li
+            {
+                float: left;
+
+                &.github { margin: 22px 0 0 10px; }
+
+                &.twitter { margin: 22px 0 0 15px; }
+
+                &.languages
+                {
+                    margin: 25px 0 0 0;
+
+                    input { right: -9999px; }
+                }
+            }
+        }
+
+        @media screen and (min-width: 600px) and (max-width: 650px)
+        {
+            .menu
+            {
+                > li { margin: 0 0 0 15px; }
+            }
+        }
+
+        @media screen and (min-width: 600px)
+        {
+            .menu { float: right; }
+            .links_and_languages { float: left; }
+        }
+    }
+}
+
+.packages
+{
+    ul
+    {
+        li
+        {
+            .name, .description, .project_lead
+            {
+                float: right;
+            }
+        }
+    }
+}
+
+.quality
+{
+    .column.two
+    {
+        ol
+        {
+            li
+            {
+                p
+                {
+                    code
+                    {
+                        padding: 0 3px;
+                        color: #c33637;
+                        background: white;
+                        border-radius: 2px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 700px)
+    {
+        .column.one
+        {
+            float: right;
+            width: 45%;
+            margin: 0 0 0 10%;
+        }
+
+        .column.two
+        {
+            float: right;
+            width: 45%;
+        }
+    }
+}
+
+.why
+{
+    .column
+    {
+        blockquote { margin-right: 0; }
+    }
+
+    @media screen and (min-width: 700px)
+    {
+        .column
+        {
+            float: right;
+            &.one { padding: 0 0 0 25px; }
+            &.two { padding: 0 25px 0 0; }
+        }
+    }
+}
+
+.invitation
+{
+    @media screen and (min-width: 700px)
+    {
+        .column
+        {
+            float: right;
+            &.one { padding: 0 0 0 25px; }
+            &.two { padding: 0 25px 0 0; }
+        }
+    }
+}
