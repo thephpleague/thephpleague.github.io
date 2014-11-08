@@ -69,26 +69,6 @@ body {
 
 .quality
 {
-    .column.two
-    {
-        ol
-        {
-            li
-            {
-                p
-                {
-                    code
-                    {
-                        padding: 0 3px;
-                        color: #c33637;
-                        background: white;
-                        border-radius: 2px;
-                    }
-                }
-            }
-        }
-    }
-
     @media screen and (min-width: 700px)
     {
         .column.one
