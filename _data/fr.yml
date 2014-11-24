@@ -52,7 +52,7 @@ packages:
             complete: 'true'
             description: 'Manipulation des CSV en PHP'
             author:
-                name: 'Nyamagana Butera Ignace'
+                name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'
         -   name: 'Event'
             repo: 'event'
@@ -158,6 +158,14 @@ packages:
             author:
                 name: 'Taufan Aditya'
                 username: 'toopay'
+        -   name: 'Squery'
+            repo: 'squery'
+            website: 'http://squery.thephpleague.com'
+            complete: 'true'
+            description: 'Bibliothèque PHP pour osquery'
+            author:
+                name: 'Christopher Pitt'
+                username: 'assertchris'
         -   name: 'StackAttack'
             repo: 'stack-attack'
             website: 'https://github.com/thephpleague/stack-attack'
@@ -188,7 +196,7 @@ packages:
             complete: 'true'
             description: 'Manipulation des URLs en PHP'
             author:
-                name: 'Nyamagana Butera Ignace'
+                name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'
 quailty:
     title: 'Notre définition de la qualité'
