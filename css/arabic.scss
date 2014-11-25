@@ -1,0 +1,15 @@
+---
+---
+
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+@import "rtl";
+
+body, a, p, div {
+    font-family: 'Droid Arabic Naskh', "Museo 300", tahoma, arial, serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, li, li > a, label {
+    font-family: 'Droid Arabic Kufi', "Museo 300", arial, serif !important;
+}
