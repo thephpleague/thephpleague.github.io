@@ -184,7 +184,7 @@ packages:
                 username: 'nyamsprod'
 quailty:
     title: 'Unsere Definition von Qualität'
-    introduction: 'Wenn man 100 Entwickler fragt wie ein großartiges Package aussieht, wird man wohl dutzende verschiedene Antworten bekommen. Das klingt nach einer verdammt langweiligen Angelegenheit, weshalb haben wir eine Liste mit Dingen zusammengestellt haben die <em>unserer Meinung nach</em> so ein Package ausmachen.'
+    introduction: 'Wenn man 100 Entwickler fragt wie ein großartiges Package aussieht, wird man wohl dutzende verschiedene Antworten bekommen. Das klingt nach einer verdammt langweiligen Angelegenheit, weshalb wir eine Liste mit Dingen zusammengestellt haben die <em>unserer Meinung nach</em> so ein Package ausmachen.'
     button: 'Schaut euch unser Projekt-Grundgerüst an'
     rules:
         - 'Verwendet <code>League</code> als <a href="http://www.php-fig.org/psr/psr-4/">PSR-4</a> autoloader namespace. Der Code kommt in den <code>src</code> Ordner.'
@@ -198,7 +198,7 @@ quailty:
         - 'Benutzt eine <a href="https://github.com/thephpleague/skeleton/blob/master/README.md">README</a> Datei.'
 why:
     title: 'Warum?'
-    paragraph_1: 'Aus folgenden Gründen stellen wir hier unsere Code zur Verfügung, anstatt ihn nur für uns zu behalten:'
+    paragraph_1: 'Aus folgenden Gründen stellen wir hier unseren Code zur Verfügung, anstatt ihn nur für uns zu behalten:'
     blockquote: 'Geteiltes Leid ist halbes Leid.'
     paragraph_2: 'Zusammen können wir schneller arbeiten, mehr Feedback geben und schneller auf Pull Requests oder Issues eingehen.'
     paragraph_3: 'Wir wollen das Rad nicht neu erfinden, so lange es dafür auch keinen wirklich Bedarf gibt. Wenn der Code nicht mit Composer installiert werden kann, eine API mit BizZaroCapS geschrieben wurde, es keinen einzigen Test gibt, nicht funktioniert oder der Projektleiter verbannt wurde, dann ist das wahrscheinlich ein Grund das Projekt neu zu starten und wir werden alles daran setzen es so großartig wie möglich zu machen.'
