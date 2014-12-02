@@ -126,6 +126,14 @@ packages:
             author:
                 name: 'Ben Ramsey'
                 username: 'ramsey'
+        -   name: 'Omnipay'
+            repo: 'omnipay'
+            website: 'https://github.com/thephpleague/omnipay'
+            complete: 'true'
+            description: 'bibliothèque de traitement de paiement multi-plateformes'
+            author:
+                name: 'Kayla Daniels'
+                username: 'kayladnls'
         -   name: 'Period'
             repo: 'period'
             website: 'http://period.thephpleague.com'
