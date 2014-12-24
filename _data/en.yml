@@ -48,7 +48,7 @@ packages:
                 username: 'MatTheCat'
         -   name: 'CommonMark'
             repo: 'commonmark'
-            website: 'https://github.com/thephpleague/commonmark'
+            website: 'http://commonmark.thephpleague.com/'
             complete: 'false'
             description: 'Markdown parser for PHP based on the CommonMark spec'
             author:
