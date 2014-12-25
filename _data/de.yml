@@ -214,7 +214,7 @@ packages:
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'
-quailty:
+quality:
     title: 'Unsere Definition von Qualität'
     introduction: 'Wenn man 100 Entwickler fragt wie ein großartiges Package aussieht, wird man wohl dutzende verschiedene Antworten bekommen. Das klingt nach einer verdammt langweiligen Angelegenheit, weshalb wir eine Liste mit Dingen zusammengestellt haben die <em>unserer Meinung nach</em> so ein Package ausmachen.'
     button: 'Schaut euch unser Projekt-Grundgerüst an'
