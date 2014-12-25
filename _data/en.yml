@@ -214,7 +214,7 @@ packages:
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'
-quailty:
+quality:
     title: 'Our Definition Of Quality'
     introduction: 'Ask 100 developers what defines an awesome PHP package and you’ll get a lot of different answers. That also sounds like a really long and boring task, so we’ve come up with a list of rules that <em>we</em> think make a package awesome.'
     button: 'View our skeleton project'
