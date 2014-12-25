@@ -42,7 +42,7 @@ packages:
             repo: 'color-extractor'
             website: 'https://github.com/thephpleague/color-extractor'
             complete: 'true'
-            description: 'Extrae los colores de una imágen'
+            description: 'Extrae los colores de una imagen'
             author:
                 name: 'Mathieu Lechat'
                 username: 'MatTheCat'
@@ -66,7 +66,7 @@ packages:
             repo: 'event'
             website: 'http://event.thephpleague.com'
             complete: 'true'
-            description: 'Regístra y escucha eventos en tu aplicación'
+            description: 'Registra y escucha eventos en tu aplicación'
             author:
                 name: 'Frank de Jonge'
                 username: 'FrenkyNet'
@@ -74,7 +74,7 @@ packages:
             repo: 'factory-muffin'
             website: 'http://factory-muffin.thephpleague.com'
             complete: 'true'
-            description: 'Permite la creación rápida de objetos para las pruebas unitarias'
+            description: 'Permite la creación rápida de objetos para pruebas unitarias'
             author:
                 name: 'Scott Robertson'
                 username: 'scottrobertson'
@@ -130,7 +130,7 @@ packages:
             repo: 'oauth2-client'
             website: 'https://github.com/thephpleague/oauth2-client'
             complete: 'false'
-            description: 'Integración con OAuth 2.0 providers'
+            description: 'Integración con proveedores OAuth 2.0'
             author:
                 name: 'Ben Ramsey'
                 username: 'ramsey'
@@ -138,7 +138,7 @@ packages:
             repo: 'omnipay'
             website: 'http://omnipay.thephpleague.com/'
             complete: 'true'
-            description: 'Multi-gateway payment processing library'
+            description: 'Librería para procesar pagos multipasarela'
             author:
                 name: 'Kayla Daniels'
                 username: 'kayladnls'
@@ -154,7 +154,7 @@ packages:
             repo: 'period'
             website: 'http://period.thephpleague.com'
             complete: 'true'
-            description: 'Time range API for PHP'
+            description: 'API para rangos de tiempo en PHP'
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'
@@ -162,7 +162,7 @@ packages:
             repo: 'phpunit-coverage-listener'
             website: 'https://github.com/thephpleague/phpunit-coverage-listener'
             complete: 'true'
-            description: 'Reporta estadísticas de "cobertura de código" a servicios de terceros'
+            description: 'Reporta estadísticas de cobertura de código a servicios de terceros'
             author:
                 name: 'Taufan Aditya'
                 username: 'toopay'
@@ -170,7 +170,7 @@ packages:
             repo: 'shunt'
             website: 'https://github.com/thephpleague/shunt'
             complete: 'true'
-            description: 'Ejecuta comandos SSH en máquinas remotas'
+            description: 'Ejecución de comandos SSH en máquinas remotas'
             author:
                 name: 'Taufan Aditya'
                 username: 'toopay'
@@ -178,7 +178,7 @@ packages:
             repo: 'squery'
             website: 'http://squery.thephpleague.com'
             complete: 'true'
-            description: 'PHP wrapper for osquery'
+            description: 'Contenedor PHP para Osquery'
             author:
                 name: 'Christopher Pitt'
                 username: 'assertchris'
@@ -214,7 +214,7 @@ packages:
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'
-quailty:
+quality:
     title: 'Nuestra Definición De Calidad'
     introduction: 'Si preguntas a 100 desarrolladores lo que hace que un paquete PHP sea impresionante, te darán un montón de respuestas diferentes. Además, suena como una tarea larga y aburrida. Así que hemos creado una lista de las reglas que <em>nosotros</em> pensamos que hacen a un paquete impresionante.'
     button: 'Ver nuestro esqueleto de proyecto'
