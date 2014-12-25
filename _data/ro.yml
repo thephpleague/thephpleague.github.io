@@ -214,7 +214,7 @@ packages:
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'
-quailty:
+quality:
     title: 'Definiţia noastră de calitate'
     introduction: 'Întreabă 100 de developeri ce defineşte un pachet incredibil şi vei primi multe răspunsuri diferite. Ar fi de asemenea o provocare lungă şi plictisitoare, aşa că ne-am gândit la un set de reguli care <em>noi</em> credem că stau la baza unui pachet fantastic.'
     button: 'Vizualizează proiectul schelet'

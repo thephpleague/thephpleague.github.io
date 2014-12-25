@@ -206,7 +206,7 @@ packages:
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'
-quailty:
+quality:
     title: 'Nossa Definição de Qualidade'
     introduction: 'Pergunte a 100 desenvolvedores o que define um pacote incrível em PHP e você vai ter um monte de respostas diferentes. Isso também soa como uma tarefa muito longa e chata, então nós criamos uma lista de regras que <em> nós </em> achamos que torna um pacote incrível.'
     button: 'Veja a nossa estrutura padrão para um projeto'

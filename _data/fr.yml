@@ -214,7 +214,7 @@ packages:
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'
-quailty:
+quality:
     title: 'Notre définition de la qualité'
     introduction: 'Demandez à 100 développeurs ce qui fait une bonne bibliothèque et vous obtiendrez bon nombre de réponses différentes. Comme cela est long et fastidieux, <em>nous</em> avons érigé une liste de règles simples à suivre qui vous permettront de coder une bibliothèque de qualité. Celle-ci doit :'
     button: 'Voir l’architecture d’un projet'

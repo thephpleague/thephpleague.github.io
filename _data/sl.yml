@@ -214,7 +214,7 @@ packages:
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'
-quailty:
+quality:
     title: 'Naša definicija kvalitete'
     introduction: 'Vprašajte 100 razvijalcev, kaj definira odličen PHP paket in dobili boste veliko različnih odgovorov. To se sliši tudi kot res zelo dolgo in dolgočasno opravilo, tako da smo sestavili seznam pravil, ki <em>jih</em> smatramo za odličen paket.'
     button: 'Oglejte si naš skeletni projekt'
