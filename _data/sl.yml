@@ -136,7 +136,7 @@ packages:
                 username: 'ramsey'
         -   name: 'Omnipay'
             repo: 'omnipay'
-            website: 'https://github.com/thephpleague/omnipay'
+            website: 'http://omnipay.thephpleague.com/'
             complete: 'true'
             description: 'Več-usmerjevalna plačilna procesna knjižnica'
             author:

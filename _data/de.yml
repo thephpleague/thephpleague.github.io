@@ -136,7 +136,7 @@ packages:
                 username: 'ramsey'
         -   name: 'Omnipay'
             repo: 'omnipay'
-            website: 'https://github.com/thephpleague/omnipay'
+            website: 'http://omnipay.thephpleague.com/'
             complete: 'true'
             description: 'Multi-gateway payment processing library'
             author:
