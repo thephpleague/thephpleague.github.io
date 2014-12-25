@@ -34,7 +34,7 @@ packages:
             repo: 'climate'
             website: 'http://climate.thephpleague.com'
             complete: 'true'
-            description: 'Terminal output made easy'
+            description: 'Output-ul terminalului facut ușor'
             author:
                 name: 'Joe Tannenbaum'
                 username: 'joetannenbaum'
@@ -42,7 +42,7 @@ packages:
             repo: 'color-extractor'
             website: 'https://github.com/thephpleague/color-extractor'
             complete: 'true'
-            description: 'Extract colors from an image'
+            description: 'Extrage culori dintr-o imagine'
             author:
                 name: 'Mathieu Lechat'
                 username: 'MatTheCat'
@@ -50,7 +50,7 @@ packages:
             repo: 'commonmark'
             website: 'http://commonmark.thephpleague.com/'
             complete: 'false'
-            description: 'Markdown parser for PHP based on the CommonMark spec'
+            description: 'Parser Markdown pentru PHP bazat pe specificatia CommonMark'
             author:
                 name: 'Colin O''Dell'
                 username: 'colinodell'
@@ -58,7 +58,7 @@ packages:
             repo: 'csv'
             website: 'http://csv.thephpleague.com'
             complete: 'true'
-            description: 'CSV data manipulation made easy'
+            description: 'Manipularea simpla a datelor CSV'
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'
@@ -66,7 +66,7 @@ packages:
             repo: 'event'
             website: 'http://event.thephpleague.com'
             complete: 'true'
-            description: 'Event package for your app and domain'
+            description: 'Librarie de event-uri pentru aplicatia si domeniul tau'
             author:
                 name: 'Frank de Jonge'
                 username: 'FrenkyNet'
@@ -74,7 +74,7 @@ packages:
             repo: 'factory-muffin'
             website: 'http://factory-muffin.thephpleague.com'
             complete: 'true'
-            description: 'Enables the rapid creation of objects for testing'
+            description: 'Permite crearea rapidă a obiectelor pentru testare'
             author:
                 name: 'Scott Robertson'
                 username: 'scottrobertson'
@@ -82,7 +82,7 @@ packages:
             repo: 'flysystem'
             website: 'http://flysystem.thephpleague.com'
             complete: 'true'
-            description: 'Abstraction for local and remote filesystems'
+            description: 'Abstacție pentru filesystem-uri locale si remote'
             author:
                 name: 'Frank de Jonge'
                 username: 'FrenkyNet'
@@ -90,7 +90,7 @@ packages:
             repo: 'fractal'
             website: 'http://fractal.thephpleague.com'
             complete: 'true'
-            description: 'Output complex, flexible, RESTful data structures'
+            description: 'Lucru cu structuri de date REST complexe și flexibile'
             author:
                 name: 'Phil Sturgeon'
                 username: 'philsturgeon'
@@ -98,7 +98,7 @@ packages:
             repo: 'geotools'
             website: 'https://github.com/thephpleague/geotools'
             complete: 'true'
-            description: 'Perform geo-related tasks'
+            description: 'Efectueaza task-uri legate de geo-locatie'
             author:
                 name: 'Antoine Corcy'
                 username: 'toin0u'
@@ -106,7 +106,7 @@ packages:
             repo: 'monga'
             website: 'https://github.com/thephpleague/monga'
             complete: 'true'
-            description: 'Simple and swift MongoDB abstraction'
+            description: 'Abstractie pentru MongoDB simplă și legeră'
             author:
                 name: 'Bryan Crowe'
                 username: 'bcrowe'
@@ -114,7 +114,7 @@ packages:
             repo: 'oauth1-client'
             website: 'https://github.com/thephpleague/oauth1-client'
             complete: 'true'
-            description: 'Integrate with OAuth 1.0 providers'
+            description: 'Integrare cu provideri OAuth 1.0'
             author:
                 name: 'Ben Corlett'
                 username: 'bencorlett'
@@ -122,7 +122,7 @@ packages:
             repo: 'oauth2-server'
             website: 'http://oauth2.thephpleague.com'
             complete: 'true'
-            description: 'Build an OAuth 2.0 server'
+            description: 'Crearea serverelor OAuth 2.0'
             author:
                 name: 'Alex Bilbie'
                 username: 'alexbilbie'
@@ -130,7 +130,7 @@ packages:
             repo: 'oauth2-client'
             website: 'https://github.com/thephpleague/oauth2-client'
             complete: 'false'
-            description: 'Integrate with OAuth 2.0 providers'
+            description: 'Integrare cu provideri OAuth 2.0'
             author:
                 name: 'Ben Ramsey'
                 username: 'ramsey'
@@ -138,7 +138,7 @@ packages:
             repo: 'omnipay'
             website: 'http://omnipay.thephpleague.com/'
             complete: 'true'
-            description: 'Multi-gateway payment processing library'
+            description: 'Librarie pentru procesarea plaților cu mai multe sisteme de plată'
             author:
                 name: 'Kayla Daniels'
                 username: 'kayladnls'
@@ -146,7 +146,7 @@ packages:
             repo: 'period'
             website: 'http://period.thephpleague.com'
             complete: 'true'
-            description: 'Time range API for PHP'
+            description: 'API pentru interale de timp în PHP'
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'
@@ -154,7 +154,7 @@ packages:
             repo: 'phpunit-coverage-listener'
             website: 'https://github.com/thephpleague/phpunit-coverage-listener'
             complete: 'true'
-            description: 'Report code coverage stats to third-party services'
+            description: 'Raportează statistici despre acoperirea codul-ui serviciilor externe'
             author:
                 name: 'Taufan Aditya'
                 username: 'toopay'
@@ -162,7 +162,7 @@ packages:
             repo: 'plates'
             website: 'http://platesphp.com'
             complete: 'true'
-            description: 'Native PHP template system'
+            description: 'Template system în PHP nativ'
             author:
                 name: 'Jonathan Reinink'
                 username: 'reinink'
@@ -170,7 +170,7 @@ packages:
             repo: 'shunt'
             website: 'https://github.com/thephpleague/shunt'
             complete: 'true'
-            description: 'Execute SSH commands on remote machines'
+            description: 'Execută comenzi SSH pe mașini în regim remote'
             author:
                 name: 'Taufan Aditya'
                 username: 'toopay'
@@ -178,7 +178,7 @@ packages:
             repo: 'squery'
             website: 'http://squery.thephpleague.com'
             complete: 'true'
-            description: 'PHP wrapper for osquery'
+            description: 'Wrapper PHP pentru osquery'
             author:
                 name: 'Christopher Pitt'
                 username: 'assertchris'
@@ -186,7 +186,7 @@ packages:
             repo: 'stack-attack'
             website: 'https://github.com/thephpleague/stack-attack'
             complete: 'false'
-            description: 'StackPHP Middleware based on Rack::Attack'
+            description: 'Middleware StackPHP bazat pe Rack::Attack'
             author:
                 name: 'Don Gilbert'
                 username: 'dongilbert'
@@ -194,7 +194,7 @@ packages:
             repo: 'stack-robots'
             website: 'https://github.com/thephpleague/stack-robots'
             complete: 'true'
-            description: 'A robots.txt StackPHP Middleware'
+            description: 'Middleware StackPHP pentru robots.txt'
             author:
                 name: 'Don Gilbert'
                 username: 'dongilbert'
@@ -202,7 +202,7 @@ packages:
             repo: 'statsd'
             website: 'https://github.com/thephpleague/statsd'
             complete: 'true'
-            description: 'Library for working with StatsD'
+            description: 'Librărie pentru a lucra cu StatsD'
             author:
                 name: 'Marc Qualie'
                 username: 'marcqualie'
@@ -210,7 +210,7 @@ packages:
             repo: 'url'
             website: 'http://url.thephpleague.com'
             complete: 'true'
-            description: 'URL manipulation made easy'
+            description: 'Manipularea URL-urilor facută ușor'
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'
