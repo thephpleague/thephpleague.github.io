@@ -46,6 +46,14 @@ packages:
             author:
                 name: 'Mathieu Lechat'
                 username: 'MatTheCat'
+        -   name: 'CommonMark'
+            repo: 'commonmark'
+            website: 'http://commonmark.thephpleague.com/'
+            complete: 'false'
+            description: 'Markdown parser for PHP based on the CommonMark spec'
+            author:
+                name: 'Colin O''Dell'
+                username: 'colinodell'
         -   name: 'CSV'
             repo: 'csv'
             website: 'http://csv.thephpleague.com'
@@ -126,6 +134,14 @@ packages:
             author:
                 name: 'Ben Ramsey'
                 username: 'ramsey'
+        -   name: 'Omnipay'
+            repo: 'omnipay'
+            website: 'https://github.com/thephpleague/omnipay'
+            complete: 'true'
+            description: 'Multi-gateway payment processing library'
+            author:
+                name: 'Kayla Daniels'
+                username: 'kayladnls'
         -   name: 'Period'
             repo: 'period'
             website: 'http://period.thephpleague.com'
@@ -158,6 +174,14 @@ packages:
             author:
                 name: 'Taufan Aditya'
                 username: 'toopay'
+        -   name: 'Squery'
+            repo: 'squery'
+            website: 'http://squery.thephpleague.com'
+            complete: 'true'
+            description: 'PHP wrapper for osquery'
+            author:
+                name: 'Christopher Pitt'
+                username: 'assertchris'
         -   name: 'StackAttack'
             repo: 'stack-attack'
             website: 'https://github.com/thephpleague/stack-attack'
