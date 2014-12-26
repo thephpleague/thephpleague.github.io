@@ -69,7 +69,7 @@ packages:
             description: 'Bibliothèque de gestion d’Evènements'
             author:
                 name: 'Frank de Jonge'
-                username: 'FrenkyNet'
+                username: 'frankdejonge'
         -   name: 'Factory Muffin'
             repo: 'factory-muffin'
             website: 'http://factory-muffin.thephpleague.com'
@@ -85,7 +85,7 @@ packages:
             description: 'Abstraction local et distante de système de fichiers'
             author:
                 name: 'Frank de Jonge'
-                username: 'FrenkyNet'
+                username: 'frankdejonge'
         -   name: 'Fractal'
             repo: 'fractal'
             website: 'http://fractal.thephpleague.com'

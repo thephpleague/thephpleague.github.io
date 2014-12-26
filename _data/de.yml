@@ -69,7 +69,7 @@ packages:
             description: 'Eventlistener und Eventregistrierung für deine App'
             author:
                 name: 'Frank de Jonge'
-                username: 'FrenkyNet'
+                username: 'frankdejonge'
         -   name: 'Factory Muffin'
             repo: 'factory-muffin'
             website: 'http://factory-muffin.thephpleague.com'
@@ -85,7 +85,7 @@ packages:
             description: 'Abstraktion für lokale und Remote-Dateisysteme'
             author:
                 name: 'Frank de Jonge'
-                username: 'FrenkyNet'
+                username: 'frankdejonge'
         -   name: 'Fractal'
             repo: 'fractal'
             website: 'http://fractal.thephpleague.com'
