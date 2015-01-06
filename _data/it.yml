@@ -90,7 +90,7 @@ packages:
             repo: 'fractal'
             website: 'http://fractal.thephpleague.com'
             complete: 'true'
-            description: 'Fare l'output di strutture dati RESTful complesse e flessibili'
+            description: 'Fare l’output di strutture dati RESTful complesse e flessibili'
             author:
                 name: 'Phil Sturgeon'
                 username: 'philsturgeon'
@@ -219,7 +219,7 @@ quality:
     introduction: 'Chiedete a 100 sviluppatori che cosa rende un pacchetto PHP impressionante ed otterrete un sacco di risposte diverse. Sembra un compito molto lungo e noioso, quindi abbiamo creato un elenco di regole che lo rendano un pacchetto impressionante.'
     button: 'Guarda il nostro progetto scheletro'
     rules:
-        - 'Usate <code>League</code> come namespace per l'autoloader <a href="http://www.php-fig.org/psr/psr-4/">PSR-4</a>. Salvate il codice in una cartella <code>src</code>.'
+        - 'Usate <code>League</code> come namespace per l’autoloader <a href="http://www.php-fig.org/psr/psr-4/">PSR-4</a>. Salvate il codice in una cartella <code>src</code>.'
         - 'Aderite allo stile <a href="http://www.php-fig.org/psr/psr-2/">PSR-2</a> come stile di scrittura del codice.'
         - 'Immettetelo su <a href="https://packagist.org/">Packagist</a> con <code>league</code> come namespace per il vendor.'
         - 'Scrivere unit tests. Puntate ad almeno 80% di copertura nella versione 1.'
