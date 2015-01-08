@@ -50,7 +50,7 @@ packages:
             repo: 'commonmark'
             website: 'http://commonmark.thephpleague.com/'
             complete: 'false'
-            description: 'Markdown parser en PHP basé sur la specification CommonMark'
+            description: 'Markdown parser conforme à la specification CommonMark'
             author:
                 name: 'Colin O''Dell'
                 username: 'colinodell'
@@ -102,6 +102,14 @@ packages:
             author:
                 name: 'Antoine Corcy'
                 username: 'toin0u'
+        -   name: 'Glide'
+            repo: 'glide'
+            website: 'http://glide.thephpleague.com'
+            complete: 'true'
+            description: 'Manipulation d’images via le protocol HTTP'
+            author:
+                name: 'Jonathan Reinink'
+                username: 'reinink'
         -   name: 'Monga'
             repo: 'monga'
             website: 'https://github.com/thephpleague/monga'
