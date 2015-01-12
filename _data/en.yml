@@ -110,6 +110,22 @@ packages:
             author:
                 name: 'Jonathan Reinink'
                 username: 'reinink'
+        -   name: 'Route'
+            repo: 'route'
+            website: 'http://route.thephpleague.com'
+            complete: 'true'
+            description: 'Router and Dispatcher built on FastRoute'
+            author:
+                name: 'Phil Bennett'
+                username: 'philipobenito'
+        -   name: 'Container'
+            repo: 'container'
+            website: 'http://container.thephpleague.com'
+            complete: 'true'
+            description: 'Fast and intuitive dependency injection container'
+            author:
+                name: 'Phil Bennett'
+                username: 'philipobenito'
         -   name: 'Monga'
             repo: 'monga'
             website: 'https://github.com/thephpleague/monga'
