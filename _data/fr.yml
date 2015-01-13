@@ -54,6 +54,14 @@ packages:
             author:
                 name: 'Colin O''Dell'
                 username: 'colinodell'
+        -   name: 'Container'
+            repo: 'container'
+            website: 'http://container.thephpleague.com'
+            complete: 'true'
+            description: 'Conteneur d’injection de dépendances intuitif est rapide'
+            author:
+                name: 'Phil Bennett'
+                username: 'philipobenito'
         -   name: 'CSV'
             repo: 'csv'
             website: 'http://csv.thephpleague.com'
@@ -174,6 +182,14 @@ packages:
             author:
                 name: 'Jonathan Reinink'
                 username: 'reinink'
+        -   name: 'Route'
+            repo: 'route'
+            website: 'http://route.thephpleague.com'
+            complete: 'true'
+            description: 'Routeur et Répartiteur basé sur FastRoute'
+            author:
+                name: 'Phil Bennett'
+                username: 'philipobenito'
         -   name: 'Shunt'
             repo: 'shunt'
             website: 'https://github.com/thephpleague/shunt'
