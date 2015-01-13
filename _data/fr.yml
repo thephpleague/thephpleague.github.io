@@ -58,7 +58,7 @@ packages:
             repo: 'container'
             website: 'http://container.thephpleague.com'
             complete: 'true'
-            description: 'Conteneur d’injection de dépendances intuitif est rapide'
+            description: 'Conteneur d’injection de dépendances intuitif et rapide'
             author:
                 name: 'Phil Bennett'
                 username: 'philipobenito'
