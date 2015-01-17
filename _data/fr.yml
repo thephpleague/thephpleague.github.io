@@ -90,7 +90,7 @@ packages:
             repo: 'flysystem'
             website: 'http://flysystem.thephpleague.com'
             complete: 'true'
-            description: 'Abstraction local et distante de système de fichiers'
+            description: 'Abstraction locale et distante de système de fichiers'
             author:
                 name: 'Frank de Jonge'
                 username: 'frankdejonge'
@@ -106,7 +106,7 @@ packages:
             repo: 'geotools'
             website: 'https://github.com/thephpleague/geotools'
             complete: 'true'
-            description: 'Réalise des tâches en relation avec la geolocalisation'
+            description: 'Réalise des tâches en relation avec la géolocalisation'
             author:
                 name: 'Antoine Corcy'
                 username: 'toin0u'
@@ -114,7 +114,7 @@ packages:
             repo: 'glide'
             website: 'http://glide.thephpleague.com'
             complete: 'true'
-            description: 'Manipulation d’images via le protocol HTTP'
+            description: 'Manipulation d’images via le protocole HTTP'
             author:
                 name: 'Jonathan Reinink'
                 username: 'reinink'
@@ -130,7 +130,7 @@ packages:
             repo: 'oauth1-client'
             website: 'https://github.com/thephpleague/oauth1-client'
             complete: 'true'
-            description: 'Permet l’integration des fournisseurs OAuth 1.0'
+            description: 'Permet l’intégration des fournisseurs OAuth 1.0'
             author:
                 name: 'Ben Corlett'
                 username: 'bencorlett'
@@ -146,7 +146,7 @@ packages:
             repo: 'oauth2-client'
             website: 'https://github.com/thephpleague/oauth2-client'
             complete: 'false'
-            description: 'Permet l’integration des fournisseurs OAuth 2.0'
+            description: 'Permet l’intégration des fournisseurs OAuth 2.0'
             author:
                 name: 'Ben Ramsey'
                 username: 'ramsey'
@@ -154,7 +154,7 @@ packages:
             repo: 'omnipay'
             website: 'http://omnipay.thephpleague.com/'
             complete: 'true'
-            description: 'bibliothèque de traitement de paiement multi-plateformes'
+            description: 'Bibliothèque de traitement de paiement multi-plateformes'
             author:
                 name: 'Kayla Daniels'
                 username: 'kayladnls'
@@ -267,7 +267,7 @@ contribute:
     block_2_title: 'Comment soumettre une bibliothèque'
     block_2_paragraph: 'Vous possédez une bibliothèque géniale que vous voulez soumettre ? Il vous suffit de nous le faire savoir dans notre <a href="https://groups.google.com/forum/#!forum/thephpleague">groupe de discussion</a>. N’oubliez pas d’inclure le lien Github vers votre bibliothèque et d’indiquer le problème qu’elle résoud.'
     block_3_title: 'Priorité aux bibliothèques'
-    block_3_paragraph: 'Ce groupe est organisé autour des bibliothèques et non des personnes. Pour être clair — et pour être sur que les personnes qui nous rejoignent le font pour de bonnes raisons —, il n’y aura pas de publication de listes de membres, mais nous indiquerons le chef de projet de chaque bibliothèque pour que vous puissiez les contacter directement avec vos remarques.'
+    block_3_paragraph: 'Ce groupe est organisé autour des bibliothèques et non des personnes. Pour être clair — et pour être sûr que les personnes qui nous rejoignent le font pour de bonnes raisons —, il n’y aura pas de publication de listes de membres, mais nous indiquerons le chef de projet de chaque bibliothèque pour que vous puissiez les contacter directement avec vos remarques.'
     block_4_title: 'Ceci n’est pas le FIG'
     block_4_paragraph: 'Nous ne sommes pas là pour vous dire ce que vous devez faire et comment vous devez le faire — et contrairement à la légende urbaine, eux non plus. Ceci est un projet open-source, créé par quelques amis qui voulaient un espace de nom sympa, et qui continuera de grandir à chaque publication de bibliothèques plus géniales les unes que les autres.'
 copyright:
