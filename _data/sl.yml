@@ -206,6 +206,14 @@ packages:
             author:
                 name: 'Marc Qualie'
                 username: 'marcqualie'
+        -   name: 'Tactician'
+            repo: 'tactician'
+            website: 'http://tactician.thephpleague.com/'
+            complete: 'false'
+            description: 'A simple, flexible command bus'
+            author:
+                name: 'Ross Tuck'
+                username: 'rosstuck'
         -   name: 'URL'
             repo: 'url'
             website: 'http://url.thephpleague.com'
