@@ -30,6 +30,14 @@ packages:
         seeking_lead: 'Seeking Lead'
     footnote: 'a work-in-progress package'
     existing:
+        -   name: 'BooBoo'
+            repo: 'booboo'
+            website: 'http://booboo.thephpleague.com'
+            complete: 'true'
+            description: 'Because everybody makes mistakes'
+            author:
+                name: 'Brandon Savage'
+                username: 'brandonsavage'
         -   name: 'CLImate'
             repo: 'climate'
             website: 'http://climate.thephpleague.com'
