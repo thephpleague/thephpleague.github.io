@@ -30,6 +30,14 @@ packages:
         seeking_lead: 'À la recherche d’un repreneur'
     footnote: 'bibliothèque en cours de réalisation'
     existing:
+        -   name: 'BooBoo'
+            repo: 'booboo'
+            website: 'http://booboo.thephpleague.com'
+            complete: 'true'
+            description: 'Parce que tout le monde fait des erreurs'
+            author:
+                name: 'Brandon Savage'
+                username: 'brandonsavage'
         -   name: 'CLImate'
             repo: 'climate'
             website: 'http://climate.thephpleague.com'
@@ -234,7 +242,7 @@ packages:
             repo: 'tactician'
             website: 'http://tactician.thephpleague.com/'
             complete: 'false'
-            description: 'A simple, flexible command bus'
+            description: 'une bibliothèque simple et flexible pour utiliser le patron de conception Commande'
             author:
                 name: 'Ross Tuck'
                 username: 'rosstuck'
