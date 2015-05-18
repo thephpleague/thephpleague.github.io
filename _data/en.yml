@@ -34,7 +34,7 @@ packages:
             repo: 'booboo'
             website: 'http://booboo.thephpleague.com'
             complete: 'true'
-            description: 'A modern error handler capable of logging and formatting errors in a variety of ways'
+            description: 'A modern error handler capable of logging and formatting errors'
             author:
                 name: 'Brandon Savage'
                 username: 'brandonsavage'
