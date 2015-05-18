@@ -34,7 +34,7 @@ packages:
             repo: 'booboo'
             website: 'http://booboo.thephpleague.com'
             complete: 'true'
-            description: 'Because everybody makes mistakes'
+            description: 'A modern error handler capable of logging and formatting errors in a variety of ways'
             author:
                 name: 'Brandon Savage'
                 username: 'brandonsavage'
