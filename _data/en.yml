@@ -182,6 +182,14 @@ packages:
             author:
                 name: 'Taufan Aditya'
                 username: 'toopay'
+        -   name: 'Pipeline'
+            repo: 'pipeline'
+            website: 'https://pipeline.thephpleague.com'
+            complete: 'true'
+            description: 'Compose sequential tasks with Pipeline.'
+            author:
+                name: 'Frank de Jonge'
+                username: 'frankdejonge'
         -   name: 'Plates'
             repo: 'plates'
             website: 'http://platesphp.com'
