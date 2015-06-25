@@ -184,7 +184,7 @@ packages:
                 username: 'toopay'
         -   name: 'Pipeline'
             repo: 'pipeline'
-            website: 'https://pipeline.thephpleague.com'
+            website: 'http://pipeline.thephpleague.com'
             complete: 'true'
             description: 'Compose sequential tasks with Pipeline.'
             author:
