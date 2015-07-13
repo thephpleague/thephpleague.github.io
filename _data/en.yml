@@ -214,14 +214,6 @@ packages:
             author:
                 name: 'Taufan Aditya'
                 username: 'toopay'
-        -   name: 'Squery'
-            repo: 'squery'
-            website: 'http://squery.thephpleague.com'
-            complete: 'true'
-            description: 'PHP wrapper for osquery'
-            author:
-                name: 'Christopher Pitt'
-                username: 'assertchris'
         -   name: 'StackAttack'
             repo: 'stack-attack'
             website: 'https://github.com/thephpleague/stack-attack'
