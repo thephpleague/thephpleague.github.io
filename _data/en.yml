@@ -126,6 +126,14 @@ packages:
             author:
                 name: 'Jonathan Reinink'
                 username: 'reinink'
+        -   name: 'HTML To Markdown'
+            repo: 'html-to-markdown'
+            website: 'https://github.com/thephpleague/html-to-markdown'
+            complete: 'true'
+            description: 'Converts HTML to Markdown for your sanity and convenience'
+            author:
+                name: 'Colin O''Dell'
+                username: 'colinodell'
         -   name: 'Monga'
             repo: 'monga'
             website: 'https://github.com/thephpleague/monga'
