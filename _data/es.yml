@@ -102,6 +102,14 @@ packages:
             author:
                 name: 'Antoine Corcy'
                 username: 'toin0u'
+        -   name: 'HTML To Markdown'
+            repo: 'html-to-markdown'
+            website: 'https://github.com/thephpleague/html-to-markdown'
+            complete: 'true'
+            description: 'Convierte del HTML al Markdown para su cordura y conveniencia'
+            author:
+                name: 'Colin O''Dell'
+                username: 'colinodell'
         -   name: 'Monga'
             repo: 'monga'
             website: 'https://github.com/thephpleague/monga'
