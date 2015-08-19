@@ -108,8 +108,8 @@ packages:
             complete: 'true'
             description: 'Structure, formatte et envoie des données complexes. Flexible et RESTful'
             author:
-                name: 'Phil Sturgeon'
-                username: 'philsturgeon'
+                name: 'Andrew Willis'
+                username: 'ilovefluffy'
         -   name: 'Geotools'
             repo: 'geotools'
             website: 'https://github.com/thephpleague/geotools'

@@ -92,8 +92,8 @@ packages:
             complete: 'true'
             description: 'Ausgabe von komplexen, flexiblen, RESTful Datenstrukturen'
             author:
-                name: 'Phil Sturgeon'
-                username: 'philsturgeon'
+                name: 'Andrew Willis'
+                username: 'ilovefluffy'
         -   name: 'Geotools'
             repo: 'geotools'
             website: 'https://github.com/thephpleague/geotools'
