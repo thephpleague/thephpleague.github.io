@@ -92,8 +92,8 @@ packages:
             complete: 'true'
             description: 'Lucru cu structuri de date REST complexe și flexibile'
             author:
-                name: 'Phil Sturgeon'
-                username: 'philsturgeon'
+                name: 'Andrew Willis'
+                username: 'ilovefluffy'
         -   name: 'Geotools'
             repo: 'geotools'
             website: 'https://github.com/thephpleague/geotools'
