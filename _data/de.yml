@@ -1,5 +1,5 @@
 name: 'The League of Extraordinary Packages'
-meta_description: 'Wir haben uns das Ziel gesetzt, unter der Verwendung von modernen Tools und Standards, PHP Packages höchster Qualität zu entwickeln.'
+meta_description: 'Unser Ziel ist die Entwicklung von PHP Packages mit der bestmöglichen Qualität. Dazu setzen wir auf moderne Tools, Standards und Praktiken, um unseren Code bereitzustellen, zu testen und immer weiter zu verbessern.'
 menu:
     packages:
         title: 'Unsere Packages'
@@ -17,8 +17,8 @@ languages:
     title: 'Sprache'
     current: 'Deutsch'
 intro:
-    description: 'The League of Extraordinary Packages ist ein Gruppe aus Entwicklern die sich zusammengetan haben um stabile und reichlich getestete Packages mit modernen Programmierstandards zu entwickeln.'
-    feature_1: 'Wir richten uns nach den Standards von <a href="http://www.php-fig.org">PHP-FIG</a>.'
+    description: 'The League of Extraordinary Packages ist ein Gruppe aus Entwicklern, die sich zusammengetan haben, um stabile und reichlich getestete Packages nach modernen Programmierstandards zu entwickeln.'
+    feature_1: 'Wir richten uns nach den Standards der <a href="http://www.php-fig.org">PHP-FIG</a>.'
     feature_2: 'Wir richten uns nach den Best-Practices von <a href="http://eilgin.github.io/php-the-right-way/">PHP The "Right" Way</a>.'
     feature_3: 'Wir stellen unseren Code via <a href="https://packagist.org/">Packagist</a> und <a href="https://getcomposer.org/">Composer</a> bereit.'
 packages:
@@ -27,7 +27,7 @@ packages:
         name: 'Name'
         description: 'Beschreibung'
         lead: 'Projektleiter'
-        seeking_lead: 'Leitung gesucht'
+        seeking_lead: 'Projektleiter gesucht'
     footnote: 'Package ist noch in Arbeit'
     existing:
         -   name: 'BooBoo'
