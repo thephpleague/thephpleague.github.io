@@ -93,7 +93,7 @@ packages:
             description: 'Fare l’output di strutture dati RESTful complesse e flessibili'
             author:
                 name: 'Andrew Willis'
-                username: 'ilovefluffy'
+                username: 'willishq'
         -   name: 'Geotools'
             repo: 'geotools'
             website: 'https://github.com/thephpleague/geotools'

@@ -93,7 +93,7 @@ packages:
             description: 'Вывод сложных, гибких структур данных для REST сервисов'
             author:
                 name: 'Andrew Willis'
-                username: 'ilovefluffy'
+                username: 'willishq'
         -   name: 'Geotools'
             repo: 'geotools'
             website: 'https://github.com/thephpleague/geotools'
