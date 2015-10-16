@@ -109,7 +109,7 @@ packages:
             description: 'Output complex, flexible, RESTful data structures'
             author:
                 name: 'Andrew Willis'
-                username: 'ilovefluffy'
+                username: 'willishq'
         -   name: 'Geotools'
             repo: 'geotools'
             website: 'https://github.com/thephpleague/geotools'

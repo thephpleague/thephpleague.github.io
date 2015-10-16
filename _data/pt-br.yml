@@ -93,7 +93,7 @@ packages:
             description: 'Represente estrutura de dados RESTFul complexas e flexíveis'
             author:
                 name: 'Andrew Willis'
-                username: 'ilovefluffy'
+                username: 'willishq'
         -   name: 'Geotools'
             repo: 'geotools'
             website: 'https://github.com/thephpleague/geotools'
