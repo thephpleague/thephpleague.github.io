@@ -215,10 +215,10 @@ packages:
                 name: 'Ross Tuck'
                 username: 'rosstuck'
         -   name: 'URL'
-            repo: 'url'
+            repo: 'uri'
             website: 'http://url.thephpleague.com'
             complete: 'true'
-            description: 'التعامل مع الروابط URL باستخدام PHP'
+            description: 'التعامل مع الروابط URI باستخدام PHP'
             author:
                 name: 'Nyamagana Butera Ignace'
                 username: 'nyamsprod'
