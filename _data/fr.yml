@@ -190,6 +190,14 @@ packages:
             author:
                 name: 'Taufan Aditya'
                 username: 'toopay'
+        -   name: 'Pipeline'
+            repo: 'pipeline'
+            website: 'http://pipeline.thephpleague.com'
+            complete: 'true'
+            description: 'Composer des tâches séquentielles en utilisant Pipeline'
+            author:
+                name: 'Frank de Jonge'
+                username: 'frankdejonge'
         -   name: 'Plates'
             repo: 'plates'
             website: 'http://platesphp.com'
@@ -247,10 +255,10 @@ packages:
                 name: 'Ross Tuck'
                 username: 'rosstuck'
         -   name: 'URL'
-            repo: 'url'
+            repo: 'uri'
             website: 'http://url.thephpleague.com'
             complete: 'true'
-            description: 'Manipulation des URLs en PHP'
+            description: 'Manipulation des URIs en PHP'
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'

@@ -215,10 +215,10 @@ packages:
                 name: 'Ross Tuck'
                 username: 'rosstuck'
         -   name: 'URL'
-            repo: 'url'
+            repo: 'uri'
             website: 'http://url.thephpleague.com'
             complete: 'true'
-            description: 'Простое манипулирование URL'
+            description: 'Простое манипулирование URI'
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'
