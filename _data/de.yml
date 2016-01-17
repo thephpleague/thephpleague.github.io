@@ -254,7 +254,7 @@ packages:
             author:
                 name: 'Ross Tuck'
                 username: 'rosstuck'
-        -   name: 'URL'
+        -   name: 'URI'
             repo: 'uri'
             website: 'http://url.thephpleague.com'
             complete: 'true'
