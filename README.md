@@ -19,7 +19,7 @@ Contributing
 
  3. If you'd like to test things out locally, you'll need to install Jekyll and
     a markdown engine:
-     
+
     ```bash
     gem install bundler
     bundle install

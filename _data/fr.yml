@@ -254,11 +254,19 @@ packages:
             author:
                 name: 'Ross Tuck'
                 username: 'rosstuck'
-        -   name: 'URL'
+        -   name: 'URI'
             repo: 'uri'
+            website: 'http://uri.thephpleague.com'
+            complete: 'true'
+            description: 'API modernes pour manipuler les URIs en PHP'
+            author:
+                name: 'Ignace Nyamagana Butera'
+                username: 'nyamsprod'
+        -   name: 'URL'
+            repo: 'url'
             website: 'http://url.thephpleague.com'
             complete: 'true'
-            description: 'Manipulation des URIs en PHP'
+            description: 'Manipulation des URLs en PHP'
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'
