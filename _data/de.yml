@@ -255,10 +255,10 @@ packages:
                 name: 'Ross Tuck'
                 username: 'rosstuck'
         -   name: 'URL'
-            repo: 'uri'
+            repo: 'url'
             website: 'http://url.thephpleague.com'
             complete: 'true'
-            description: 'URI Manipulation einfach gemacht'
+            description: 'URL Manipulation einfach gemacht'
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'

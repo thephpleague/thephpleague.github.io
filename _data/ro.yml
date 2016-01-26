@@ -215,7 +215,7 @@ packages:
                 name: 'Ross Tuck'
                 username: 'rosstuck'
         -   name: 'URL'
-            repo: 'uri'
+            repo: 'url'
             website: 'http://url.thephpleague.com'
             complete: 'true'
             description: 'Manipularea URL-urilor facută ușor'
