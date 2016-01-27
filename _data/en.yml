@@ -256,7 +256,7 @@ packages:
                 username: 'rosstuck'
         -   name: 'URI'
             repo: 'uri'
-            website: 'http://url.thephpleague.com'
+            website: 'http://uri.thephpleague.com'
             complete: 'true'
             description: 'Modern API to process URI in PHP'
             author:
