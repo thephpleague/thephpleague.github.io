@@ -8,7 +8,7 @@ menu:
         title: 'Qualidade'
         link: 'qualidade'
     why:
-        title: 'Por que?'
+        title: 'Por quê?'
         link: 'por-que'
     contribute:
         title: 'Contribua'
@@ -17,9 +17,9 @@ languages:
     title: 'Idioma'
     current: 'Português'
 intro:
-    description: 'A Liga dos Pacotes Extraordinários é um grupo de desenvolvedores que se uniu para construir, pacotes PHP sólidos e bem testados, utilizando modernos padrões de codificação.'
+    description: 'A Liga dos Pacotes Extraordinários é um grupo de desenvolvedores que se uniu para construir pacotes PHP sólidos e bem testados, utilizando modernos padrões de codificação.'
     feature_1: 'Seguimos as normas do <a href="http://www.php-fig.org"> PHP-FIG </a>.'
-    feature_2: 'Nós aderimos aos melhores práticas apresentadas pelo <a href="http://br.phptherightway.com">PHP: Do Jeito Certo"</a>.'
+    feature_2: 'Nós aderimos às melhores práticas apresentadas pelo <a href="http://br.phptherightway.com">PHP: Do Jeito Certo"</a>.'
     feature_3: 'Nós distribuímos código através do <a href="https://packagist.org/">Packagist</a> e do  <a href="https://getcomposer.org/">Composer</a>.'
 packages:
     title: 'Nossos Pacotes'
@@ -229,7 +229,7 @@ quality:
         - 'Use o <a href="https://travis-ci.org/">Travis-CI</a> para checar padrões de código automaticamente e rodar testes.'
         - 'Tenha um <a href="https://github.com/thephpleague/skeleton/blob/master/README.md">README</a> extensivo.'
 why:
-    title: 'Por que?'
+    title: 'Por quê?'
     paragraph_1: 'Estamos fazendo isso ao invés de liberar código sob nossas contas pessoais por algumas razões, mas a principal razão é a seguinte:'
     blockquote: 'Um problema compartilhado é um problema dividido.'
     paragraph_2: 'Trabalhando juntos nós tomamos conta dos dos negócios mais rápido, temos mais feedback e respondemos a issues e pull requests mais rápido.'
