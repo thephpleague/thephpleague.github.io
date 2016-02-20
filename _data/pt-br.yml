@@ -76,8 +76,8 @@ packages:
             complete: 'true'
             description: 'Habilite a criação rápida de objetos para testes'
             author:
-                name: 'Scott Robertson'
-                username: 'scottrobertson'
+                name: 'Graham Campbell'
+                username: 'GrahamCampbell'
         -   name: 'Flysystem'
             repo: 'flysystem'
             website: 'http://flysystem.thephpleague.com'
