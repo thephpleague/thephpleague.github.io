@@ -206,11 +206,11 @@ packages:
             author:
                 name: 'Ross Tuck'
                 username: 'rosstuck'
-        -   name: 'URL'
-            repo: 'url'
-            website: 'http://url.thephpleague.com'
+        -   name: 'URI'
+            repo: 'uri'
+            website: 'http://uri.thephpleague.com'
             complete: 'true'
-            description: 'Manipulação de URL manipulation de forma fácil'
+            description: 'Manipulação de URI manipulation de forma fácil'
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'
