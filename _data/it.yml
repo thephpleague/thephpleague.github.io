@@ -214,11 +214,11 @@ packages:
             author:
                 name: 'Ross Tuck'
                 username: 'rosstuck'
-        -   name: 'URL'
-            repo: 'url'
-            website: 'http://url.thephpleague.com'
+        -   name: 'URI'
+            repo: 'uri'
+            website: 'http://uri.thephpleague.com'
             complete: 'true'
-            description: 'Manipolazione degli URL facile'
+            description: 'Manipolazione degli URI facile'
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'

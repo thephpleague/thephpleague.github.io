@@ -258,14 +258,6 @@ packages:
             repo: 'uri'
             website: 'http://uri.thephpleague.com'
             complete: 'true'
-            description: 'Modern API to process URI in PHP'
-            author:
-                name: 'Ignace Nyamagana Butera'
-                username: 'nyamsprod'
-        -   name: 'URL'
-            repo: 'url'
-            website: 'http://url.thephpleague.com'
-            complete: 'true'
             description: 'URI manipulation made easy'
             author:
                 name: 'Ignace Nyamagana Butera'
