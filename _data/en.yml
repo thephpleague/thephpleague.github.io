@@ -135,7 +135,7 @@ packages:
                 name: 'Colin O''Dell'
                 username: 'colinodell'
         -   name: 'JSON Guard'
-            repo: 'html-to-markdown'
+            repo: 'json-guard'
             website: 'http://json-guard.thephpleague.com'
             complete: 'true'
             description: 'JSON schema validation'
