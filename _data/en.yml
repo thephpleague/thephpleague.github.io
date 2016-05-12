@@ -138,7 +138,7 @@ packages:
             repo: 'html-to-markdown'
             website: 'http://json-guard.thephpleague.com'
             complete: 'true'
-            description: 'This package lets you validate JSON data using json schema'
+            description: 'JSON schema validation'
             author:
                 name: 'Matt Allan'
                 username: 'yuloh'
