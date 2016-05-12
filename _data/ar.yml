@@ -110,7 +110,7 @@ packages:
             author:
                 name: 'Colin O''Dell'
                 username: 'colinodell'
-         -  name: 'JSON Guard'
+        -   name: 'JSON Guard'
             repo: 'json-guard'
             website: 'http://json-guard.thephpleague.com'
             complete: 'true'
