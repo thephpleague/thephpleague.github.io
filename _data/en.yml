@@ -134,6 +134,14 @@ packages:
             author:
                 name: 'Colin O''Dell'
                 username: 'colinodell'
+        -   name: 'JSON Guard'
+            repo: 'html-to-markdown'
+            website: 'http://json-guard.thephpleague.com'
+            complete: 'true'
+            description: 'This package lets you validate JSON data using json schema'
+            author:
+                name: 'Matt Allan'
+                username: 'yuloh'
         -   name: 'Monga'
             repo: 'monga'
             website: 'https://github.com/thephpleague/monga'
