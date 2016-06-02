@@ -156,8 +156,8 @@ packages:
             complete: 'true'
             description: 'Biblioteca de processamento de pagamentos Multi-gateway'
             author:
-                name: 'Kayla Daniels'
-                username: 'kayladnls'
+                name: 'Graham Daniels'
+                username: 'greydnls'
         -   name: 'Plates'
             repo: 'plates'
             website: 'http://platesphp.com'

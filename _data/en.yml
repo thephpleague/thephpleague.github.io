@@ -180,8 +180,8 @@ packages:
             complete: 'true'
             description: 'Multi-gateway payment processing library'
             author:
-                name: 'Kayla Daniels'
-                username: 'kayladnls'
+                name: 'Graham Daniels'
+                username: 'greydnls'
         -   name: 'Period'
             repo: 'period'
             website: 'http://period.thephpleague.com'

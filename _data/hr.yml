@@ -180,8 +180,8 @@ packages:
             complete: 'true'
             description: 'Ujedinjen API za više payment gatewaya'
             author:
-                name: 'Kayla Daniels'
-                username: 'kayladnls'
+                name: 'Graham Daniels'
+                username: 'greydnls'
         -   name: 'Period'
             repo: 'period'
             website: 'http://period.thephpleague.com'

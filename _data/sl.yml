@@ -148,8 +148,8 @@ packages:
             complete: 'true'
             description: 'Več-usmerjevalna plačilna procesna knjižnica'
             author:
-                name: 'Kayla Daniels'
-                username: 'kayladnls'
+                name: 'Graham Daniels'
+                username: 'greydnls'
         -   name: 'Period'
             repo: 'period'
             website: 'http://period.thephpleague.com'
