@@ -134,6 +134,14 @@ packages:
             author:
                 name: 'Colin O''Dell'
                 username: 'colinodell'
+        -   name: 'ISO3166'
+            repo: 'iso3166'
+            website: 'https://github.com/thephpleague/iso3166'
+            complete: 'true'
+            description: 'A PHP library providing ISO 3166-1 data.'
+            author:
+                name: 'Rob Bast'
+                username: 'alcohol'
         -   name: 'JSON Guard'
             repo: 'json-guard'
             website: 'http://json-guard.thephpleague.com'
