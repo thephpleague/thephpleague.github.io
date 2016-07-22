@@ -134,6 +134,14 @@ packages:
             author:
                 name: 'Colin O''Dell'
                 username: 'colinodell'
+        -   name: 'ISO3166'
+            repo: 'iso3166'
+            website: 'https://github.com/thephpleague/iso3166'
+            complete: 'true'
+            description: 'Бібліотека, що містить дані стандарту ISO 3166-1 (коди назв країн і їх володінь)'
+            author:
+                name: 'Rob Bast'
+                username: 'alcohol'
         -   name: 'JSON Guard'
             repo: 'json-guard'
             website: 'http://json-guard.thephpleague.com'
