@@ -17,7 +17,7 @@ languages:
     title: 'Sprache'
     current: 'Deutsch'
 intro:
-    description: 'The League of Extraordinary Packages ist ein Gruppe aus Entwicklern, die sich zusammengetan haben, um stabile und reichlich getestete Packages nach modernen Programmierstandards zu entwickeln.'
+    description: 'The League of Extraordinary Packages ist eine Gruppe aus Entwicklern, die sich zusammengetan haben, um stabile und reichlich getestete Packages nach modernen Programmierstandards zu entwickeln.'
     feature_1: 'Wir richten uns nach den Standards der <a href="http://www.php-fig.org">PHP-FIG</a>.'
     feature_2: 'Wir richten uns nach den Best-Practices von <a href="http://eilgin.github.io/php-the-right-way/">PHP The "Right" Way</a>.'
     feature_3: 'Wir stellen unseren Code via <a href="https://packagist.org/">Packagist</a> und <a href="https://getcomposer.org/">Composer</a> bereit.'
