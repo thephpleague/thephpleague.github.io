@@ -158,14 +158,6 @@ packages:
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'
-        -   name: 'PHPUnit Coverage Listener'
-            repo: 'phpunit-coverage-listener'
-            website: 'https://github.com/thephpleague/phpunit-coverage-listener'
-            complete: 'true'
-            description: 'Poročanje statistike pokritosti kode za tretje-osebne storitve'
-            author:
-                name: 'Taufan Aditya'
-                username: 'toopay'
         -   name: 'Plates'
             repo: 'plates'
             website: 'http://platesphp.com'

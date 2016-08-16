@@ -166,14 +166,6 @@ packages:
             author:
                 name: 'Jonathan Reinink'
                 username: 'reinink'
-        -   name: 'PHPUnit Coverage Listener'
-            repo: 'phpunit-coverage-listener'
-            website: 'https://github.com/thephpleague/phpunit-coverage-listener'
-            complete: 'true'
-            description: 'Relatório de estatísticas de cobertura de código para serviços de terceiros'
-            author:
-                name: 'Taufan Aditya'
-                username: 'toopay'
         -   name: 'Shunt'
             repo: 'shunt'
             website: 'https://github.com/thephpleague/shunt'

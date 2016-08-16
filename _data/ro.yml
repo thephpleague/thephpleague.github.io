@@ -166,14 +166,6 @@ packages:
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'
-        -   name: 'PHPUnit Coverage Listener'
-            repo: 'phpunit-coverage-listener'
-            website: 'https://github.com/thephpleague/phpunit-coverage-listener'
-            complete: 'true'
-            description: 'Raportează statistici despre acoperirea codul-ui serviciilor externe'
-            author:
-                name: 'Taufan Aditya'
-                username: 'toopay'
         -   name: 'Plates'
             repo: 'plates'
             website: 'http://platesphp.com'
