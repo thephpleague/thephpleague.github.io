@@ -198,14 +198,6 @@ packages:
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'
-        -   name: 'PHPUnit Coverage Listener'
-            repo: 'phpunit-coverage-listener'
-            website: 'https://github.com/thephpleague/phpunit-coverage-listener'
-            complete: 'true'
-            description: 'Report code coverage stats to third-party services'
-            author:
-                name: 'Taufan Aditya'
-                username: 'toopay'
         -   name: 'Pipeline'
             repo: 'pipeline'
             website: 'http://pipeline.thephpleague.com'

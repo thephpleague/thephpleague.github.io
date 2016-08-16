@@ -174,14 +174,6 @@ packages:
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'
-        -   name: 'PHPUnit Coverage Listener'
-            repo: 'phpunit-coverage-listener'
-            website: 'https://github.com/thephpleague/phpunit-coverage-listener'
-            complete: 'true'
-            description: 'Reporta estadísticas de cobertura de código a servicios de terceros'
-            author:
-                name: 'Taufan Aditya'
-                username: 'toopay'
         -   name: 'Shunt'
             repo: 'shunt'
             website: 'https://github.com/thephpleague/shunt'
