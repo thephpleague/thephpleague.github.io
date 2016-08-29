@@ -180,8 +180,8 @@ packages:
             complete: 'true'
             description: 'Ein API zur Zahlungsabwicklung für die verschiedensten Zahlungsmöglichkeiten'
             author:
-                name: 'Graham Daniels'
-                username: 'greydnls'
+                name: 'Barry vd. Heuvel'
+                username: 'barryvdh'
         -   name: 'Period'
             repo: 'period'
             website: 'http://period.thephpleague.com'

@@ -188,8 +188,8 @@ packages:
             complete: 'true'
             description: 'Multi-gateway payment processing library'
             author:
-                name: 'Graham Daniels'
-                username: 'greydnls'
+                name: 'Barry vd. Heuvel'
+                username: 'barryvdh'
         -   name: 'Period'
             repo: 'period'
             website: 'http://period.thephpleague.com'

@@ -188,8 +188,8 @@ packages:
             complete: 'true'
             description: 'Бібліотека для обробки платежів багатьох платіжних шлюзів'
             author:
-                name: 'Graham Daniels'
-                username: 'greydnls'
+                name: 'Barry vd. Heuvel'
+                username: 'barryvdh'
         -   name: 'Period'
             repo: 'period'
             website: 'http://period.thephpleague.com'

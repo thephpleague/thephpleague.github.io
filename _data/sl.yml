@@ -148,8 +148,8 @@ packages:
             complete: 'true'
             description: 'Več-usmerjevalna plačilna procesna knjižnica'
             author:
-                name: 'Graham Daniels'
-                username: 'greydnls'
+                name: 'Barry vd. Heuvel'
+                username: 'barryvdh'
         -   name: 'Period'
             repo: 'period'
             website: 'http://period.thephpleague.com'

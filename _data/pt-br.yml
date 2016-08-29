@@ -156,8 +156,8 @@ packages:
             complete: 'true'
             description: 'Biblioteca de processamento de pagamentos Multi-gateway'
             author:
-                name: 'Graham Daniels'
-                username: 'greydnls'
+                name: 'Barry vd. Heuvel'
+                username: 'barryvdh'
         -   name: 'Plates'
             repo: 'plates'
             website: 'http://platesphp.com'

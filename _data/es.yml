@@ -156,8 +156,8 @@ packages:
             complete: 'true'
             description: 'Librería para procesar pagos multipasarela'
             author:
-                name: 'Graham Daniels'
-                username: 'greydnls'
+                name: 'Barry vd. Heuvel'
+                username: 'barryvdh'
         -   name: 'Plates'
             repo: 'plates'
             website: 'http://platesphp.com'

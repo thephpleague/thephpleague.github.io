@@ -188,8 +188,8 @@ packages:
             complete: 'true'
             description: 'Bibliothèque de traitement de paiement multi-plateformes'
             author:
-                name: 'Graham Daniels'
-                username: 'greydnls'
+                name: 'Barry vd. Heuvel'
+                username: 'barryvdh'
         -   name: 'Period'
             repo: 'period'
             website: 'http://period.thephpleague.com'

@@ -156,8 +156,8 @@ packages:
             complete: 'true'
             description: 'Librarie pentru procesarea plaților cu mai multe sisteme de plată'
             author:
-                name: 'Graham Daniels'
-                username: 'greydnls'
+                name: 'Barry vd. Heuvel'
+                username: 'barryvdh'
         -   name: 'Period'
             repo: 'period'
             website: 'http://period.thephpleague.com'
