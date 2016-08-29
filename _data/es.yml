@@ -92,8 +92,8 @@ packages:
             complete: 'true'
             description: 'Devuelve estructuras de datos RESTful en forma sencilla y flexible'
             author:
-                name: 'Andrew Willis'
-                username: 'willishq'
+                name: 'Graham Daniels'
+                username: 'greydnls'
         -   name: 'Geotools'
             repo: 'geotools'
             website: 'https://github.com/thephpleague/geotools'

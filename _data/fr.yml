@@ -108,8 +108,8 @@ packages:
             complete: 'true'
             description: 'Structure, formatte et envoie des données complexes. Flexible et RESTful'
             author:
-                name: 'Andrew Willis'
-                username: 'willishq'
+                name: 'Graham Daniels'
+                username: 'greydnls'
         -   name: 'Geotools'
             repo: 'geotools'
             website: 'https://github.com/thephpleague/geotools'

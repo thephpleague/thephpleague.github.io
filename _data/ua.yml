@@ -108,8 +108,8 @@ packages:
             complete: 'true'
             description: 'Виведення складних, гнучких структур даних REST-сервісів'
             author:
-                name: 'Andrew Willis'
-                username: 'willishq'
+                name: 'Graham Daniels'
+                username: 'greydnls'
         -   name: 'Geotools'
             repo: 'geotools'
             website: 'https://github.com/thephpleague/geotools'

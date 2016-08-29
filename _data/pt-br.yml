@@ -92,8 +92,8 @@ packages:
             complete: 'true'
             description: 'Represente estrutura de dados RESTFul complexas e flexíveis'
             author:
-                name: 'Andrew Willis'
-                username: 'willishq'
+                name: 'Graham Daniels'
+                username: 'greydnls'
         -   name: 'Geotools'
             repo: 'geotools'
             website: 'https://github.com/thephpleague/geotools'
