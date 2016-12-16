@@ -30,6 +30,14 @@ packages:
         seeking_lead: 'Procurando lider'
     footnote: 'pacote em desenvolvimento'
     existing:
+        -   name: 'BooBoo'
+            repo: 'booboo'
+            website: 'http://booboo.thephpleague.com'
+            complete: 'true'
+            description: 'Um manipulador de erros capaz de registrar log e formatar erros'
+            author:
+                name: 'Brandon Savage'
+                username: 'brandonsavage'
         -   name: 'CLImate'
             repo: 'climate'
             website: 'http://climate.thephpleague.com'
@@ -50,10 +58,18 @@ packages:
             repo: 'commonmark'
             website: 'http://commonmark.thephpleague.com/'
             complete: 'false'
-            description: 'Markdown parser for PHP based on the CommonMark spec'
+            description: 'Parser Markdown para PHP basedo na especificação CommonMark'
             author:
                 name: 'Colin O''Dell'
                 username: 'colinodell'
+        -   name: 'Container'
+            repo: 'container'
+            website: 'http://container.thephpleague.com'
+            complete: 'true'
+            description: 'Container de injeção de dependências, rápido e intuitvo'
+            author:
+                name: 'Phil Bennett'
+                username: 'philipobenito'
         -   name: 'CSV'
             repo: 'csv'
             website: 'http://csv.thephpleague.com'
@@ -102,19 +118,35 @@ packages:
             author:
                 name: 'Antoine Corcy'
                 username: 'toin0u'
+        -   name: 'Glide'
+            repo: 'glide'
+            website: 'http://glide.thephpleague.com'
+            complete: 'true'
+            description: 'Manipulação de images basedo em HTTP'
+            author:
+                name: 'Jonathan Reinink'
+                username: 'reinink'
         -   name: 'HTML To Markdown'
             repo: 'html-to-markdown'
             website: 'https://github.com/thephpleague/html-to-markdown'
             complete: 'true'
-            description: 'Converts HTML to Markdown for your sanity and convenience'
+            description: 'Converte HTML para Markdown para sua sanidade e conveniência'
             author:
                 name: 'Colin O''Dell'
                 username: 'colinodell'
+        -   name: 'ISO3166'
+            repo: 'iso3166'
+            website: 'https://github.com/thephpleague/iso3166'
+            complete: 'true'
+            description: 'Uma biblioteca PHP library que fornece dados ISO 3166-1.'
+            author:
+                name: 'Rob Bast'
+                username: 'alcohol'
         -   name: 'JSON Guard'
             repo: 'json-guard'
             website: 'http://json-guard.thephpleague.com'
             complete: 'true'
-            description: 'JSON schema validation'
+            description: 'Validação de esquema JSON'
             author:
                 name: 'Matt Allan'
                 username: 'yuloh'
@@ -122,7 +154,7 @@ packages:
             repo: 'monga'
             website: 'https://github.com/thephpleague/monga'
             complete: 'true'
-            description: 'Abastração simples e rápida para o MongoDB'
+            description: 'Abstração simples e rápida para o MongoDB'
             author:
                 name: 'Bryan Crowe'
                 username: 'bcrowe'
@@ -158,6 +190,22 @@ packages:
             author:
                 name: 'Barry vd. Heuvel'
                 username: 'barryvdh'
+        -   name: 'Period'
+            repo: 'period'
+            website: 'http://period.thephpleague.com'
+            complete: 'true'
+            description: 'API de período de tempo para PHP'
+            author:
+                name: 'Ignace Nyamagana Butera'
+                username: 'nyamsprod'
+        -   name: 'Pipeline'
+            repo: 'pipeline'
+            website: 'http://pipeline.thephpleague.com'
+            complete: 'true'
+            description: 'Integre tarefas sequenciais com Pipeline.'
+            author:
+                name: 'Frank de Jonge'
+                username: 'frankdejonge'
         -   name: 'Plates'
             repo: 'plates'
             website: 'http://platesphp.com'
@@ -166,6 +214,14 @@ packages:
             author:
                 name: 'Jonathan Reinink'
                 username: 'reinink'
+        -   name: 'Route'
+            repo: 'route'
+            website: 'http://route.thephpleague.com'
+            complete: 'true'
+            description: 'Router e Dispatcher feitos no FastRoute'
+            author:
+                name: 'Phil Bennett'
+                username: 'philipobenito'
         -   name: 'Shunt'
             repo: 'shunt'
             website: 'https://github.com/thephpleague/shunt'
@@ -202,7 +258,7 @@ packages:
             repo: 'tactician'
             website: 'http://tactician.thephpleague.com/'
             complete: 'false'
-            description: 'A simple, flexible command bus'
+            description: 'Um Command Bus simples e flexível'
             author:
                 name: 'Ross Tuck'
                 username: 'rosstuck'
@@ -210,7 +266,7 @@ packages:
             repo: 'uri'
             website: 'http://uri.thephpleague.com'
             complete: 'true'
-            description: 'Manipulação de URI manipulation de forma fácil'
+            description: 'Manipulação de URI de forma fácil'
             author:
                 name: 'Ignace Nyamagana Butera'
                 username: 'nyamsprod'
@@ -250,4 +306,4 @@ copyright:
     design_by: 'Design do site por '
     translation_by: 'Tradução do site por '
     translation_by_name: Eduardo Cruz
-    translation_by_website: http://www.twitter.com/eduardocruz
+    translation_by_website: http://www.eduardocruz.com
