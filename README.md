@@ -4,6 +4,8 @@ thephpleague.com
 This is the source for [thephpleague.com]. It is automatically compiled by
 [Jekyll] every time a pull request is merged.
 
+(The source code for individual League projects can be found in their respective repositories in the `gh-pages` branch.)
+
  [thephpleague.com]: http://thephpleague.com
  [Jekyll]: https://github.com/jekyll/jekyll
 
