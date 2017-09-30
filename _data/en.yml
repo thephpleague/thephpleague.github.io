@@ -267,17 +267,6 @@ why:
     blockquote: 'A problem shared is a problem halved.'
     paragraph_2: 'Working together we take care of business quicker, can get more feedback and respond to issues and pull requests faster.'
     paragraph_3: 'There are no plans to reinvent any wheels, unless those wheels are old, broken, unsafe or horrible to use. If the code cannot be installed with Composer, has an API written with BizZaroCapS, doesn’t have a single unit-test, is actually broken or the lead developer has abandoned the project, then that is a problem which can most likely be solved with a fresh start, and we’ll be on the case to make it as awesome as possible.'
-contribute:
-    title: 'New Packages Welcome'
-    subtitle: 'Gain exposure. Meet new people. Work together.'
-    block_1_title: 'Getting started'
-    block_1_paragraph: 'If this sounds fun and you’d like to join the group you can definitely do that. This is not some stuffy old-boys club where you have to be internet famous or an old friend, you just need to bring over (or start) at least one package that either complies with the rules, or intends to comply with the rules by the next major version.'
-    block_2_title: 'How to submit a package'
-    block_2_paragraph: 'Have an awesome package you want to submit? Simply drop us a line on <a href="https://groups.google.com/forum/#!forum/thephpleague">our mailing list</a>. Be sure to include a link to your GitHub page as well as a clear description of the problem your package is trying to solve.'
-    block_3_title: 'We’re all about packages'
-    block_3_paragraph: 'This group is about packages, and not about the people. To keep that clear - and to make sure people are joining for the right reasons - no members list will be posted, but we’ll let you know who is in charge of packages so you can poke them with feedback.'
-    block_4_title: 'This is not the FIG'
-    block_4_paragraph: 'We are not here to tell you what to do or how to do it - and contrary to popular belief neither are they. This is an open-source project started by a few friends who wanted a fun vendor name and will continue to grow as we release more and more awesome packages.'
 copyright:
     notice: 'Copyright The League of Extraordinary Packages.'
     design_by: 'Site design by'
