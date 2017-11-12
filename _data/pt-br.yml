@@ -212,8 +212,8 @@ packages:
             complete: 'true'
             description: 'Sistema de templates nativo em PHP'
             author:
-                name: 'Jonathan Reinink'
-                username: 'reinink'
+                name: 'RJ Garcia'
+                username: 'ragboyjr'
         -   name: 'Route'
             repo: 'route'
             website: 'http://route.thephpleague.com'

@@ -172,8 +172,8 @@ packages:
             complete: 'true'
             description: 'Нативная система шаблонов на PHP'
             author:
-                name: 'Jonathan Reinink'
-                username: 'reinink'
+                name: 'RJ Garcia'
+                username: 'ragboyjr'
         -   name: 'Statsd'
             repo: 'statsd'
             website: 'https://github.com/thephpleague/statsd'
