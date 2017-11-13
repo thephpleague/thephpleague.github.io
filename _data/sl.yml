@@ -164,8 +164,8 @@ packages:
             complete: 'true'
             description: 'Avtohtoni PHP sistem predlog'
             author:
-                name: 'Jonathan Reinink'
-                username: 'reinink'
+                name: 'RJ Garcia'
+                username: 'ragboyjr'
         -   name: 'Shunt'
             repo: 'shunt'
             website: 'https://github.com/thephpleague/shunt'

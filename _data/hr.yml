@@ -204,8 +204,8 @@ packages:
             complete: 'true'
             description: 'Nativni PHP sustav za predloške (template)'
             author:
-                name: 'Jonathan Reinink'
-                username: 'reinink'
+                name: 'RJ Garcia'
+                username: 'ragboyjr'
         -   name: 'Route'
             repo: 'route'
             website: 'http://route.thephpleague.com'
