@@ -106,7 +106,7 @@ packages:
             repo: 'html-to-markdown'
             website: 'https://github.com/thephpleague/html-to-markdown'
             complete: 'true'
-            description: 'Converts HTML to Markdown for your sanity and convenience'
+            description: 'Удобно конвертирует HTML в Markdown, сохраняя вашу психику'
             author:
                 name: 'Colin O''Dell'
                 username: 'colinodell'
@@ -178,7 +178,7 @@ packages:
             repo: 'tactician'
             website: 'http://tactician.thephpleague.com/'
             complete: 'false'
-            description: 'A simple, flexible command bus'
+            description: 'Простая и гибкая командная шина'
             author:
                 name: 'Ross Tuck'
                 username: 'rosstuck'
