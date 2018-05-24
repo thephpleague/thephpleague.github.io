@@ -243,7 +243,7 @@ quality:
     introduction: 'Ask 100 developers what defines an awesome PHP package and you’ll get a lot of different answers. That also sounds like a really long and boring task, so we’ve come up with a list of rules that <em>we</em> think make a package awesome.'
     button: 'View our skeleton project'
     rules:
-        - 'Use a vendor namespace (`League` in our case) for <a href="http://www.php-fig.org/psr/psr-4/">PSR-4</a> autoloading. Shove code in a <code>src</code> folder.'
+        - 'Use a vendor namespace (<code>League</code> in our case) for <a href="http://www.php-fig.org/psr/psr-4/">PSR-4</a> autoloading. Shove code in a <code>src</code> folder.'
         - 'Adhere to <a href="http://www.php-fig.org/psr/psr-2/">PSR-2</a> as the coding style guide.'
         - 'Distribute code using <a href="https://packagist.org/">Packagist</a>.'
         - 'Write unit tests. Aim for at least 80% coverage in version 1.'
