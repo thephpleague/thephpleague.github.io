@@ -142,14 +142,6 @@ packages:
             author:
                 name: 'Rob Bast'
                 username: 'alcohol'
-        -   name: 'JSON Guard'
-            repo: 'json-guard'
-            website: 'http://json-guard.thephpleague.com'
-            complete: 'true'
-            description: 'Validation de la norme JSON schema'
-            author:
-                name: 'Matt Allan'
-                username: 'yuloh'
         -   name: 'Monga'
             repo: 'monga'
             website: 'https://github.com/thephpleague/monga'
@@ -212,8 +204,8 @@ packages:
             complete: 'true'
             description: 'Système de templating natif en PHP'
             author:
-                name: 'Jonathan Reinink'
-                username: 'reinink'
+                name: 'RJ Garcia'
+                username: 'ragboyjr'
         -   name: 'Route'
             repo: 'route'
             website: 'http://route.thephpleague.com'

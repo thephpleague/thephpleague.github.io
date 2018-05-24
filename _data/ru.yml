@@ -110,14 +110,6 @@ packages:
             author:
                 name: 'Colin O''Dell'
                 username: 'colinodell'
-        -   name: 'JSON Guard'
-            repo: 'json-guard'
-            website: 'http://json-guard.thephpleague.com'
-            complete: 'true'
-            description: 'Валидатор формата JSON'
-            author:
-                name: 'Matt Allan'
-                username: 'yuloh'
         -   name: 'Monga'
             repo: 'monga'
             website: 'https://github.com/thephpleague/monga'
@@ -172,8 +164,8 @@ packages:
             complete: 'true'
             description: 'Нативная система шаблонов на PHP'
             author:
-                name: 'Jonathan Reinink'
-                username: 'reinink'
+                name: 'RJ Garcia'
+                username: 'ragboyjr'
         -   name: 'Statsd'
             repo: 'statsd'
             website: 'https://github.com/thephpleague/statsd'
