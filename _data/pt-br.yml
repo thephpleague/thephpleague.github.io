@@ -27,7 +27,7 @@ packages:
         name: 'Nome'
         description: 'Descrição'
         lead: 'Líder do Projeto'
-        seeking_lead: 'Procurando lider'
+        seeking_lead: 'Procurando líder'
     footnote: 'pacote em desenvolvimento'
     existing:
         -   name: 'BooBoo'
@@ -58,7 +58,7 @@ packages:
             repo: 'commonmark'
             website: 'http://commonmark.thephpleague.com/'
             complete: 'false'
-            description: 'Parser Markdown para PHP basedo na especificação CommonMark'
+            description: 'Parser Markdown para PHP baseado na especificação CommonMark'
             author:
                 name: 'Colin O''Dell'
                 username: 'colinodell'
@@ -66,7 +66,7 @@ packages:
             repo: 'container'
             website: 'http://container.thephpleague.com'
             complete: 'true'
-            description: 'Container de injeção de dependências, rápido e intuitvo'
+            description: 'Container de injeção de dependências, rápido e intuitivo'
             author:
                 name: 'Phil Bennett'
                 username: 'philipobenito'
@@ -122,7 +122,7 @@ packages:
             repo: 'glide'
             website: 'http://glide.thephpleague.com'
             complete: 'true'
-            description: 'Manipulação de images basedo em HTTP'
+            description: 'Manipulação de images baseado em HTTP'
             author:
                 name: 'Jonathan Reinink'
                 username: 'reinink'
@@ -256,7 +256,7 @@ why:
     title: 'Por quê?'
     paragraph_1: 'Estamos fazendo isso ao invés de liberar código sob nossas contas pessoais por algumas razões, mas a principal razão é a seguinte:'
     blockquote: 'Um problema compartilhado é um problema dividido.'
-    paragraph_2: 'Trabalhando juntos nós tomamos conta dos dos negócios mais rápido, temos mais feedback e respondemos a issues e pull requests mais rápido.'
+    paragraph_2: 'Trabalhando juntos nós tomamos conta dos negócios mais rápido, temos mais feedback e respondemos a issues e pull requests mais rápido.'
     paragraph_3: 'Não há planos para reinventar quaisquer rodas, a menos que essas rodas sejam velhas, estragadas, inseguras ou horríveis de usar. Se o código não pode ser instalado com o Composer, tem uma API escrita com BizZaroCapS, não tem um único teste unitário, está realmente quebrado ou o desenvolvedor principal abandonou o projeto, então isso é um problema que provavelmente pode ser resolvido com um novo começo, e nós estaremos lá para torná-lo tão incrível quanto possível'
 contribute:
     title: 'Boas vindas aos novos pacotes'
