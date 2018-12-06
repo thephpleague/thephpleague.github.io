@@ -249,7 +249,7 @@ quality:
         - 'Contenir des tests unitaires. Le but étant d’avoir une bibliothèque testée à plus de 80% pour la version 1.0.'
         - 'Documenter tous les élements du code source avec des <a href="http://www.phpdoc.org/docs/latest/references/phpdoc/index.html" target="_blank">DocBlock</a>.'
         - 'Utiliser <a href="http://semver.org/lang/fr/" target="_blank">la gestion sémantique de version</a> pour gérer les mises à jour.'
-        - 'Maintenir un fichier <a href="https://keepchangelog.com" target="_blank">CHANGELOG</a>.'
+        - 'Maintenir un fichier <a href="https://keepachangelog.com" target="_blank">CHANGELOG</a>.'
         - 'Utiliser <a href="https://travis-ci.org/" target="_blank">Travis-CI</a> pour continuellement vérifier les normes d’écriture et lancer ses tests unitaires.'
         - 'Contenir un fichier <a href="https://github.com/thephpleague/skeleton/blob/master/README.md" target="_blank">README</a> complet.'
         - 'Exclure les fichiers optionnels <a href="https://www.reddit.com/r/PHP/comments/2jzp6k/i_dont_need_your_tests_in_my_production" target="_blank">à l’aide d’un un fichier .getattributes</a>.'
