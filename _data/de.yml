@@ -241,7 +241,7 @@ quality:
         - 'Schreibt Unit Tests. Eine 80% Abdeckung sollte euer Ziel sein.'
         - 'Verwendet überall <a href="http://www.phpdoc.org/docs/latest/references/phpdoc/index.html">DocBlock</a>.'
         - 'Benutzt <a href="http://semver.org/">Semantic Versioning</a> für die Unterteilung des Packages in Versionen.'
-        - 'Behaltet ein <a href="http://keepachangelog.com/">Änderungsprotokoll. (Changelog)</a>.'
+        - 'Haltet Änderungen in <a href="http://keepachangelog.com/de/">Changelogs</a> fest.'
         - 'Verwendet <a href="https://travis-ci.org/">Travis-CI</a> für die automatische Kontrolle eures Codes und für die Ausführung der Tests.'
         - 'Benutzt eine <a href="https://github.com/thephpleague/skeleton/blob/master/README.md">README</a> Datei.'
         - '<a href="https://www.reddit.com/r/PHP/comments/2jzp6k/i_dont_need_your_tests_in_my_production">Schließe nicht notwendige Dateien mithilfe von <code>.gitattributes</code> aus</a>.'
