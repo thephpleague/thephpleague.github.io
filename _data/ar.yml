@@ -204,7 +204,7 @@ quality:
         - 'تحتفظ  <a href="https://keepchangelog.com" target="_blank">بسجل للتغييرات</a>؛'
         - 'تستخدم <a href="https://travis-ci.org/" target="_blank">Travis-CI</a> للتحقّق الآلي من معايير كتابة الشفرات البرمجية ولإجراء الإختبارات؛'
         - 'تحتوي على ملف <a href="https://github.com/thephpleague/skeleton/blob/master/README.md" target="_blank">README</a> مُفصّل؛'
-        - 'تستبعد الملفات الاختيارية <a href="https://www.reddit.com/r/PHP/comments/2jzp6k/i_dont_need_your_tests_in_my_production" target="_blank"> باستخدام ملف .getattributes</a>'
+        - 'تستبعد الملفات الاختيارية <a href="https://www.reddit.com/r/PHP/comments/2jzp6k/i_dont_need_your_tests_in_my_production" target="_blank"> باستخدام ملف .gitattributes</a>'
 why:
     title: 'لماذا؟'
     paragraph_1: 'بدل أن ننشر حِزمنا على حساباتنا الخاصة فإننا ننشرها هنا لأسباب عديدة قد يكون أهمها :'
