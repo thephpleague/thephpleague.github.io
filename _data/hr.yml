@@ -192,7 +192,7 @@ packages:
                 username: 'frankdejonge'
         -   name: 'Plates'
             repo: 'plates'
-            website: 'http://platesphp.com'
+            website: 'https://platesphp.com'
             complete: 'true'
             description: 'Nativni PHP sustav za predloške (template)'
             author:
