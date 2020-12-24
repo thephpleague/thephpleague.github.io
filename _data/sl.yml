@@ -160,7 +160,7 @@ packages:
                 username: 'nyamsprod'
         -   name: 'Plates'
             repo: 'plates'
-            website: 'http://platesphp.com'
+            website: 'https://platesphp.com'
             complete: 'true'
             description: 'Avtohtoni PHP sistem predlog'
             author:

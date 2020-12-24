@@ -152,7 +152,7 @@ packages:
                 username: 'barryvdh'
         -   name: 'Plates'
             repo: 'plates'
-            website: 'http://platesphp.com'
+            website: 'https://platesphp.com'
             complete: 'true'
             description: 'Sistema de plantillas nativo en PHP'
             author:

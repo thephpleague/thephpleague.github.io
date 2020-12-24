@@ -200,7 +200,7 @@ packages:
                 username: 'frankdejonge'
         -   name: 'Plates'
             repo: 'plates'
-            website: 'http://platesphp.com'
+            website: 'https://platesphp.com'
             complete: 'true'
             description: 'Système de templating natif en PHP'
             author:
