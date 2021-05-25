@@ -69,7 +69,7 @@ packages:
             description: 'Registra y escucha eventos en tu aplicación'
             author:
                 name: 'Frank de Jonge'
-                username: 'frankdejonge'
+                twitter: 'frankdejonge'
         -   name: 'Factory Muffin'
             repo: 'factory-muffin'
             website: 'http://factory-muffin.thephpleague.com'
@@ -85,7 +85,7 @@ packages:
             description: 'Abstracción de sistemas de archivos locales y remotos'
             author:
                 name: 'Frank de Jonge'
-                username: 'frankdejonge'
+                twitter: 'frankdejonge'
         -   name: 'Fractal'
             repo: 'fractal'
             website: 'http://fractal.thephpleague.com'

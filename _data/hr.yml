@@ -85,7 +85,7 @@ packages:
             description: 'Paket za lagano korištenje evenata i listenera'
             author:
                 name: 'Frank de Jonge'
-                username: 'frankdejonge'
+                twitter: 'frankdejonge'
         -   name: 'Factory Muffin'
             repo: 'factory-muffin'
             website: 'http://factory-muffin.thephpleague.com'
@@ -101,7 +101,7 @@ packages:
             description: 'Abstrakcija lokalnih i udaljenih filesystema'
             author:
                 name: 'Frank de Jonge'
-                username: 'frankdejonge'
+                twitter: 'frankdejonge'
         -   name: 'Fractal'
             repo: 'fractal'
             website: 'http://fractal.thephpleague.com'
@@ -189,7 +189,7 @@ packages:
             description: 'Pipeline-anje zadataka.'
             author:
                 name: 'Frank de Jonge'
-                username: 'frankdejonge'
+                twitter: 'frankdejonge'
         -   name: 'Plates'
             repo: 'plates'
             website: 'https://platesphp.com'

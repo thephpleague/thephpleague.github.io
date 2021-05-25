@@ -85,7 +85,7 @@ packages:
             description: 'Керування подіями для вашого застосунка'
             author:
                 name: 'Frank de Jonge'
-                username: 'frankdejonge'
+                twitter: 'frankdejonge'
         -   name: 'Factory Muffin'
             repo: 'factory-muffin'
             website: 'http://factory-muffin.thephpleague.com'
@@ -101,7 +101,7 @@ packages:
             description: 'Абстрація над локальною та віддаленими файловими системами'
             author:
                 name: 'Frank de Jonge'
-                username: 'frankdejonge'
+                twitter: 'frankdejonge'
         -   name: 'Fractal'
             repo: 'fractal'
             website: 'http://fractal.thephpleague.com'
@@ -197,7 +197,7 @@ packages:
             description: 'Складання послідовних завдань із Pipeline.'
             author:
                 name: 'Frank de Jonge'
-                username: 'frankdejonge'
+                twitter: 'frankdejonge'
         -   name: 'Plates'
             repo: 'plates'
             website: 'https://platesphp.com'

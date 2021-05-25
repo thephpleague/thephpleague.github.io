@@ -85,7 +85,7 @@ packages:
             description: 'Event package for your app and domain'
             author:
                 name: 'Frank de Jonge'
-                username: 'frankdejonge'
+                twitter: 'frankdejonge'
         -   name: 'Factory Muffin'
             repo: 'factory-muffin'
             website: 'http://factory-muffin.thephpleague.com'
@@ -101,7 +101,7 @@ packages:
             description: 'Abstraction for local and remote filesystems'
             author:
                 name: 'Frank de Jonge'
-                username: 'frankdejonge'
+                twitter: 'frankdejonge'
         -   name: 'Fractal'
             repo: 'fractal'
             website: 'http://fractal.thephpleague.com'
@@ -197,7 +197,7 @@ packages:
             description: 'Compose sequential tasks with Pipeline.'
             author:
                 name: 'Frank de Jonge'
-                username: 'frankdejonge'
+                twitter: 'frankdejonge'
         -   name: 'Plates'
             repo: 'plates'
             website: 'https://platesphp.com'

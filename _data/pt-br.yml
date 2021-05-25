@@ -85,7 +85,7 @@ packages:
             description: 'Registre e escute eventos na sua aplicação'
             author:
                 name: 'Frank de Jonge'
-                username: 'frankdejonge'
+                twitter: 'frankdejonge'
         -   name: 'Factory Muffin'
             repo: 'factory-muffin'
             website: 'http://factory-muffin.thephpleague.com'
@@ -101,7 +101,7 @@ packages:
             description: 'Abstração para sistemas de arquivos locais e remotos'
             author:
                 name: 'Frank de Jonge'
-                username: 'frankdejonge'
+                twitter: 'frankdejonge'
         -   name: 'Fractal'
             repo: 'fractal'
             website: 'http://fractal.thephpleague.com'
@@ -197,7 +197,7 @@ packages:
             description: 'Integre tarefas sequenciais com Pipeline.'
             author:
                 name: 'Frank de Jonge'
-                username: 'frankdejonge'
+                twitter: 'frankdejonge'
         -   name: 'Plates'
             repo: 'plates'
             website: 'https://platesphp.com'

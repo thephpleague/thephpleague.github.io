@@ -85,7 +85,7 @@ packages:
             description: '一个PHP的事件管理'
             author:
                 name: 'Frank de Jonge'
-                username: 'frankdejonge'
+                twitter: 'frankdejonge'
         -   name: 'Factory Muffin'
             repo: 'factory-muffin'
             website: 'http://factory-muffin.thephpleague.com'
@@ -101,7 +101,7 @@ packages:
             description: '抽象本地和远程文件系统'
             author:
                 name: 'Frank de Jonge'
-                username: 'frankdejonge'
+                twitter: 'frankdejonge'
         -   name: 'Fractal'
             repo: 'fractal'
             website: 'http://fractal.thephpleague.com'
@@ -197,7 +197,7 @@ packages:
             description: '以管道顺序的方式撰写任务.'
             author:
                 name: 'Frank de Jonge'
-                username: 'frankdejonge'
+                twitter: 'frankdejonge'
         -   name: 'Plates'
             repo: 'plates'
             website: 'https://platesphp.com'
