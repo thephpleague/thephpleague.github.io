@@ -136,11 +136,11 @@
                     {% else %}
                         <div class="project_lead">
                             {% if package.author.twitter %}
-                            <a href="https://github.com/{{ package.author.username }}">
+                            <a href="https://twitter.com/{{ package.author.twitter }}">
                                 {{ package.author.name }}
                             </a>
                             {% else %}
-                            <a href="https://twitter.com/{{ package.author.twitter }}">
+                            <a href="https://github.com/{{ package.author.username }}">
                                 {{ package.author.name }}
                             </a>
                             {% endif %}
