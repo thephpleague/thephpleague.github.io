@@ -258,7 +258,7 @@ why:
     paragraph_1: 'Au lieu de publier nos bibliothèques via nos comptes personnels nous le faisons ici pour plusieurs raisons dont la plus importante est :'
     blockquote: 'Un problème partagé est un problème à moitié résolu.'
     paragraph_2: 'Ensemble, nous travaillons plus efficacement, nous obtenons des remarques, répondons aux demandes et aux <i lang="en">pull requests</i> plus rapidement.'
-    paragraph_3: 'Nous n’avons pas l’intention de réinventer la roue sauf si elle est vielle, mal entretenue ou inutilisable. Si le code ne peut pas être installé via Composer, possède une API écrite en utilisant BizZaroCapS, ne contient aucun test unitaire, est buggé et que son chef de projet l’a abandonné, alors ce problème peut très probablement être résolu avec un nouveau départ, et nous nous chargerons de le rendre aussi excellent que possible.'
+    paragraph_3: 'Nous n’avons pas l’intention de réinventer la roue sauf si elle est vieille, mal entretenue ou inutilisable. Si le code ne peut pas être installé via Composer, possède une API écrite en utilisant BizZaroCapS, ne contient aucun test unitaire, est buggé et que son chef de projet l’a abandonné, alors ce problème peut très probablement être résolu avec un nouveau départ, et nous nous chargerons de le rendre aussi excellent que possible.'
 contribute:
     title: 'Bienvenue aux nouvelles bibliothèques'
     subtitle: 'Gagnez en exposition. Rencontrez de nouvelles personnes. Travaillez ensemble.'
