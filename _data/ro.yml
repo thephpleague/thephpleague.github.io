@@ -48,8 +48,8 @@ packages:
                 username: 'MatTheCat'
         -   name: 'CommonMark'
             repo: 'commonmark'
-            website: 'http://commonmark.thephpleague.com/'
-            complete: 'false'
+            website: 'https://commonmark.thephpleague.com/'
+            complete: 'true'
             description: 'Parser Markdown pentru PHP bazat pe specificatia CommonMark'
             author:
                 name: 'Colin O''Dell'
