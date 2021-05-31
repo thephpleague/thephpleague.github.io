@@ -54,6 +54,14 @@ packages:
             author:
                 name: 'Colin O''Dell'
                 username: 'colinodell'
+        -   name: 'Config'
+            repo: 'config'
+            website: 'https://config.thephpleague.com/'
+            complete: 'true'
+            description: 'Simple yet expressive schema-based configuration library'
+            author:
+                name: 'Colin O''Dell'
+                username: 'colinodell'
         -   name: 'CSV'
             repo: 'csv'
             website: 'http://csv.thephpleague.com'

@@ -62,6 +62,14 @@ packages:
             author:
                 name: 'Colin O''Dell'
                 username: 'colinodell'
+        -   name: 'Config'
+            repo: 'config'
+            website: 'https://config.thephpleague.com/'
+            complete: 'true'
+            description: 'Configurations simples et expressives basées sur des schémas'
+            author:
+                name: 'Colin O''Dell'
+                username: 'colinodell'
         -   name: 'Container'
             repo: 'container'
             website: 'http://container.thephpleague.com'
