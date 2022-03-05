@@ -1,4 +1,4 @@
-{% assign data = site.data.[page.language] %}
+{% assign data = site.data[page.language] %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,12 +44,12 @@
                             {{ data.languages.title }}: <strong>{{ data.languages.current }}</strong>
                         </label>
                         <ul>
-                            {% assign pages = (site.pages | sort: 'language') %}
+                            {% assign pages = site.pages | sort: 'language' %}
                             {% for p in pages %}
                                 {% if p.language and p.url != page.url %}
                                     <li>
                                         <a href="{{ p.url }}">
-                                            {{ site.data.[p.language].languages.current }}
+                                            {{ site.data[p.language].languages.current }}
                                         </a>
                                     </li>
                                 {% endif %}
