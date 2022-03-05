@@ -348,6 +348,21 @@
             }
         }
     }
+    .features.ukraine
+    {
+      margin: 22px 0 22px 0;
+      li
+      {
+        background-color: #ff4043;;
+        border-radius: 5px;
+        font-size: 24px;
+        a {
+          padding: 5px;
+          display: inline-block;
+          color: #fff;
+        }
+      }
+    }
 }
 
 .packages
