@@ -36,8 +36,8 @@ packages:
             complete: 'true'
             description: '可以记录和格式化错误的现代化错误处理程序'
             author:
-                name: 'Brandon Savage'
-                username: 'brandonsavage'
+                name: 'Sarah Savage'
+                username: 'sarah-savage'
         -   name: 'CLImate'
             repo: 'climate'
             website: 'http://climate.thephpleague.com'

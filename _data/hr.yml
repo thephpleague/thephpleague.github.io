@@ -36,8 +36,8 @@ packages:
             complete: 'true'
             description: 'Error handler za logiranje i oblikovanje prikaza grešaka'
             author:
-                name: 'Brandon Savage'
-                username: 'brandonsavage'
+                name: 'Sarah Savage'
+                username: 'sarah-savage'
         -   name: 'CLImate'
             repo: 'climate'
             website: 'http://climate.thephpleague.com'

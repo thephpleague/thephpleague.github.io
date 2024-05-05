@@ -36,8 +36,8 @@ packages:
             complete: 'true'
             description: 'Um manipulador de erros capaz de registrar log e formatar erros'
             author:
-                name: 'Brandon Savage'
-                username: 'brandonsavage'
+                name: 'Sarah Savage'
+                username: 'sarah-savage'
         -   name: 'CLImate'
             repo: 'climate'
             website: 'http://climate.thephpleague.com'

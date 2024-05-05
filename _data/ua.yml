@@ -36,8 +36,8 @@ packages:
             complete: 'true'
             description: 'Сучасний обробник помилок здатний логувати та форматувати помилки'
             author:
-                name: 'Brandon Savage'
-                username: 'brandonsavage'
+                name: 'Sarah Savage'
+                username: 'sarah-savage'
         -   name: 'CLImate'
             repo: 'climate'
             website: 'http://climate.thephpleague.com'

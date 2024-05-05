@@ -36,8 +36,8 @@ packages:
             complete: 'true'
             description: 'A modern error handler capable of logging and formatting errors'
             author:
-                name: 'Brandon Savage'
-                username: 'brandonsavage'
+                name: 'Sarah Savage'
+                username: 'sarah-savage'
         -   name: 'CLImate'
             repo: 'climate'
             website: 'http://climate.thephpleague.com'

@@ -36,8 +36,8 @@ packages:
             complete: 'true'
             description: 'Ein Package zur Fehlerbehandlung zum Loggen und Formatieren von Fehlern'
             author:
-                name: 'Brandon Savage'
-                username: 'brandonsavage'
+                name: 'Sarah Savage'
+                username: 'sarah-savage'
         -   name: 'CLImate'
             repo: 'climate'
             website: 'http://climate.thephpleague.com'
