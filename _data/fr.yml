@@ -30,14 +30,6 @@ packages:
         seeking_lead: 'À la recherche d’un repreneur'
     footnote: 'bibliothèque en cours de réalisation'
     existing:
-        -   name: 'BooBoo'
-            repo: 'booboo'
-            website: 'http://booboo.thephpleague.com'
-            complete: 'true'
-            description: 'Parce que tout le monde fait des erreurs'
-            author:
-                name: 'Sarah Savage'
-                username: 'sarah-savage'
         -   name: 'CLImate'
             repo: 'climate'
             website: 'http://climate.thephpleague.com'

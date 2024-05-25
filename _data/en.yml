@@ -30,14 +30,6 @@ packages:
         seeking_lead: 'Seeking Lead'
     footnote: 'a work-in-progress package'
     existing:
-        -   name: 'BooBoo'
-            repo: 'booboo'
-            website: 'http://booboo.thephpleague.com'
-            complete: 'true'
-            description: 'A modern error handler capable of logging and formatting errors'
-            author:
-                name: 'Sarah Savage'
-                username: 'sarah-savage'
         -   name: 'CLImate'
             repo: 'climate'
             website: 'http://climate.thephpleague.com'

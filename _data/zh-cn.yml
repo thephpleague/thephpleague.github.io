@@ -30,14 +30,6 @@ packages:
         seeking_lead: '寻找负责人'
     footnote: '正在进行中的软件包'
     existing:
-        -   name: 'BooBoo'
-            repo: 'booboo'
-            website: 'http://booboo.thephpleague.com'
-            complete: 'true'
-            description: '可以记录和格式化错误的现代化错误处理程序'
-            author:
-                name: 'Sarah Savage'
-                username: 'sarah-savage'
         -   name: 'CLImate'
             repo: 'climate'
             website: 'http://climate.thephpleague.com'

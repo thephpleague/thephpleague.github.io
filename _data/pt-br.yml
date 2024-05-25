@@ -30,14 +30,6 @@ packages:
         seeking_lead: 'Procurando líder'
     footnote: 'pacote em desenvolvimento'
     existing:
-        -   name: 'BooBoo'
-            repo: 'booboo'
-            website: 'http://booboo.thephpleague.com'
-            complete: 'true'
-            description: 'Um manipulador de erros capaz de registrar log e formatar erros'
-            author:
-                name: 'Sarah Savage'
-                username: 'sarah-savage'
         -   name: 'CLImate'
             repo: 'climate'
             website: 'http://climate.thephpleague.com'

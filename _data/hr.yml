@@ -30,14 +30,6 @@ packages:
         seeking_lead: 'Traži se voditelj'
     footnote: 'radovi u tijeku'
     existing:
-        -   name: 'BooBoo'
-            repo: 'booboo'
-            website: 'http://booboo.thephpleague.com'
-            complete: 'true'
-            description: 'Error handler za logiranje i oblikovanje prikaza grešaka'
-            author:
-                name: 'Sarah Savage'
-                username: 'sarah-savage'
         -   name: 'CLImate'
             repo: 'climate'
             website: 'http://climate.thephpleague.com'

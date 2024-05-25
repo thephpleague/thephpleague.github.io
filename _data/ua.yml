@@ -30,14 +30,6 @@ packages:
         seeking_lead: 'Потрібен керівник'
     footnote: 'у стадії розробки'
     existing:
-        -   name: 'BooBoo'
-            repo: 'booboo'
-            website: 'http://booboo.thephpleague.com'
-            complete: 'true'
-            description: 'Сучасний обробник помилок здатний логувати та форматувати помилки'
-            author:
-                name: 'Sarah Savage'
-                username: 'sarah-savage'
         -   name: 'CLImate'
             repo: 'climate'
             website: 'http://climate.thephpleague.com'

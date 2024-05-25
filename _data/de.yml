@@ -30,14 +30,6 @@ packages:
         seeking_lead: 'Projektleiter gesucht'
     footnote: 'Package ist noch in Arbeit'
     existing:
-        -   name: 'BooBoo'
-            repo: 'booboo'
-            website: 'http://booboo.thephpleague.com'
-            complete: 'true'
-            description: 'Ein Package zur Fehlerbehandlung zum Loggen und Formatieren von Fehlern'
-            author:
-                name: 'Sarah Savage'
-                username: 'sarah-savage'
         -   name: 'CLImate'
             repo: 'climate'
             website: 'http://climate.thephpleague.com'
