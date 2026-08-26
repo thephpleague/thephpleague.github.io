@@ -36,8 +36,8 @@ packages:
             complete: 'true'
             description: 'Output facile nel terminale'
             author:
-                name: 'Joe Tannenbaum'
-                username: 'joetannenbaum'
+                name: 'Craig Duncan-Courcey'
+                username: 'duncan3dc'
         -   name: 'Estrattore di colori'
             repo: 'color-extractor'
             website: 'https://github.com/thephpleague/color-extractor'

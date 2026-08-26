@@ -36,8 +36,8 @@ packages:
             complete: 'true'
             description: '便捷式终端输出'
             author:
-                name: 'Joe Tannenbaum'
-                username: 'joetannenbaum'
+                name: 'Craig Duncan-Courcey'
+                username: 'duncan3dc'
         -   name: 'Color Extractor'
             repo: 'color-extractor'
             website: 'https://github.com/thephpleague/color-extractor'
